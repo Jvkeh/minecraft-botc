@@ -145,7 +145,7 @@ execute as @a if score player_count game_data matches 15 run function ct:start_g
 execute as @e[type=minecraft:item_display,tag=house_head] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=house_head] if score @s house_id <= player_count game_data run data modify entity @s view_range set value 1
 
-function ct:phase/night
+schedule function ct:phase/night 1t
 
 clear @a[tag=!storyteller] minecraft:carrot_on_a_stick
 item replace entity @a[tag=!storyteller] hotbar.0 with minecraft:writable_book[minecraft:custom_model_data={strings:["script"]},custom_name=[{text:"Notebook",color:"yellow",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]

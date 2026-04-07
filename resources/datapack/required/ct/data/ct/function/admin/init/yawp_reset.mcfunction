@@ -1,6 +1,10 @@
-yawp delete bakery
-yawp delete church
+yawp delete apothecary
+yawp delete cave
+yawp delete teapot
 yawp delete inn
+yawp delete hideoutentry
+yawp delete hideoutexit
+
 yawp delete housered
 yawp delete houseorange
 yawp delete houseyellow

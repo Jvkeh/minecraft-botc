@@ -1,25 +1,33 @@
-yawp create bakery Cuboid 110 72 54 110 73 54
-yawp create church Cuboid 117 79 103 116 80 103
+yawp create apothecary Cuboid 83 80 78 84 81 78
+yawp create cave Cuboid 107 72 60 107 73 59
+yawp create teapot Cuboid 144 73 41 144 74 41
 yawp create inn Cuboid 144 72 72 144 73 72
-yawp create housered Cuboid 80 77 108 80 78 109
-yawp create houseorange Cuboid 68 76 124 68 77 124
-yawp create houseyellow Cuboid 55 76 111 55 77 111
-yawp create houselime Cuboid 97 84 27 98 85 27
-yawp create housegreen Cuboid 110 81 15 111 82 15
-yawp create housemint Cuboid 110 81 15 124 81 12
-yawp create housecyan Cuboid 141 79 16 141 80 16
-yawp create houseblue Cuboid 165 72 37 165 73 37
-yawp create housenavy Cuboid 179 73 47 179 74 47
-yawp create housepurple Cuboid 182 71 63 182 72 63
-yawp create houselavender Cuboid 152 71 85 152 72 85
-yawp create housemagenta Cuboid 169 71 89 170 72 89
-yawp create housewhite Cuboid 179 72 97 179 73 97
-yawp create housegray Cuboid 170 72 106 170 73 106
-yawp create houseblack Cuboid 151 73 112 151 74 112
+yawp create hideoutentry Cuboid 103 63 -6 103 63 -6
+yawp create hideoutexit Cuboid 106 64 -4 106 64 -4
 
-yawp local minecraft:overworld bakery add flag use-blocks Allowed
-yawp local minecraft:overworld church add flag use-blocks Allowed
+yawp create housered Cuboid 77 76 107 77 77 108
+yawp create houseorange Cuboid 70 76 122 69 77 122
+yawp create houseyellow Cuboid 55 76 112 55 77 111
+yawp create houselime Cuboid 100 73 34 100 74 34
+yawp create housegreen Cuboid 102 81 15 102 82 14
+yawp create housemint Cuboid 131 87 1 131 88 1
+yawp create housecyan Cuboid 142 82 6 143 83 6
+yawp create houseblue Cuboid 178 73 23 178 74 23
+yawp create housenavy Cuboid 194 77 42 194 78 42
+yawp create housepurple Cuboid 200 79 61 200 80 61
+yawp create houselavender Cuboid 197 79 83 197 80 83
+yawp create housemagenta Cuboid 178 73 73 176 74 73
+yawp create housewhite Cuboid 178 73 110 178 74 110
+yawp create housegray Cuboid 181 79 137 181 80 137
+yawp create houseblack Cuboid 156 76 140 156 77 140
+
+yawp local minecraft:overworld apothecary add flag use-blocks Allowed
+yawp local minecraft:overworld cave add flag use-blocks Allowed 
+yawp local minecraft:overworld teapot add flag use-blocks Allowed 
 yawp local minecraft:overworld inn add flag use-blocks Allowed
+yawp local minecraft:overworld hideoutentry add flag use-blocks Allowed
+yawp local minecraft:overworld hideoutexit add flag use-blocks Allowed
+
 yawp local minecraft:overworld housered add flag use-blocks Allowed
 yawp local minecraft:overworld houseorange add flag use-blocks Allowed
 yawp local minecraft:overworld houseyellow add flag use-blocks Allowed

@@ -69,3 +69,5 @@ config/yawp-region-defaults.toml
 config/voicechat-client
 config/simplemacro
 /saves/seed1
+resources/datapack/required/ct/commands.json
+resources/datapack/required/ct/spyglass.json

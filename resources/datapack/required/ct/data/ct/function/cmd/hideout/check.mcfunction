@@ -1,0 +1,1 @@
+execute positioned 105 63 -6 if entity @p[tag=hideout,distance=..2] run function ct:cmd/hideout/open
