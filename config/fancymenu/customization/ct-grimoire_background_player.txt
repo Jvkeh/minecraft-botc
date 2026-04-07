@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-player_grim
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1774806090248
+  last_edited_time = 1775261262471
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:4cfd5165-bd39-44e2-a677-dcc9b7a7cc61-1774805555939] = [groups:][instances:]
+  [loading_requirement_container_meta:dd7e95a8-c1ef-4f51-9cd8-958b66595f37-1775261250903] = [groups:][instances:]
 }
 
 customization {
@@ -1872,7 +1872,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_12"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_12"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -1945,7 +1945,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_1"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_1"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2018,7 +2018,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_2"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_2"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2091,7 +2091,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_3"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_3"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2164,7 +2164,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_11"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_11"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2237,7 +2237,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_10"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_10"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2310,7 +2310,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_4"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_4"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2383,7 +2383,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_5"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_5"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2456,7 +2456,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_9"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_9"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2529,7 +2529,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_7"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_7"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2602,7 +2602,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_8"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_8"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2675,7 +2675,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_6"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_6"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -9445,7 +9445,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_14"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_14"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -9518,7 +9518,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_13"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_13"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -9591,7 +9591,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_15"}}%n%|||
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_15"}};;%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0

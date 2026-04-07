@@ -2,9 +2,6 @@ execute as @e[type=minecraft:item_display,tag=exclamation_yellow] run data modif
 execute as @e[type=minecraft:item_display,tag=exclamation_red] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=vc] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=house] run data modify entity @s view_range set value 0
-execute as @a run fmvariable set role false none
-fmvariable set game_active false false
-execute as @a run fmvariable set phase false 0
 
 scoreboard players set start vote 0
 scoreboard players set current_majority vote 0
@@ -15,42 +12,11 @@ scoreboard players set ghost_votes game_data 0
 scoreboard players set alive_players game_data 0
 scoreboard players set current_day game_data 0
 scoreboard players set phase game_data 0
-scoreboard players reset @a id
-scoreboard players reset @a role
-scoreboard players reset @a game_id
-scoreboard players reset @a pointing_at
-scoreboard players reset @a pointing
-scoreboard players reset @a use_carrot
-scoreboard players reset @a vote
-scoreboard players reset @a rps
-scoreboard players reset @a vc
-team leave @a
-team join 99_storyteller @a[tag=storyteller]
-team modify 99_storyteller nametagVisibility always
-tag @a remove has_role
-tag @a remove nominee
-tag @a remove voting_no
-tag @a remove voting_yes
-tag @a remove expended_ghost
-tag @a remove will_die
-tag @a remove dead
-tag @a remove marked_for_execution
-tag @a remove playing_rps
-tag @a remove requesting_chat
-tag @a remove raising_hand
-tag @a remove active_banshee
-tag @a remove demon
-tag @a remove minion
-tag @a remove outsider
-tag @a remove townsfolk
-tag @a remove spectator
 
-clear @a minecraft:player_head
-clear @a minecraft:writable_book
-clear @a minecraft:compass
-tp @a[team=00_spectator] 122 72 70 -145 0
-gamemode adventure @a[tag=!storyteller]
-team leave @a[team=00_spectator]
+function ct:util/reset_player
+
+team modify 99_storyteller nametagVisibility always
+
 gamerule doDaylightCycle false
 time set 12000
 
@@ -69,38 +35,6 @@ team modify 12_lavender suffix {"text":""}
 team modify 13_white suffix {"text":""}
 team modify 14_gray suffix {"text":""}
 team modify 15_black suffix {"text":""}
-
-execute as @a run fmvariable set p1_role false none
-execute as @a run fmvariable set p2_role false none
-execute as @a run fmvariable set p3_role false none
-execute as @a run fmvariable set p4_role false none
-execute as @a run fmvariable set p5_role false none
-execute as @a run fmvariable set p6_role false none
-execute as @a run fmvariable set p7_role false none
-execute as @a run fmvariable set p8_role false none
-execute as @a run fmvariable set p9_role false none
-execute as @a run fmvariable set p10_role false none
-execute as @a run fmvariable set p11_role false none
-execute as @a run fmvariable set p12_role false none
-execute as @a run fmvariable set p13_role false none
-execute as @a run fmvariable set p14_role false none
-execute as @a run fmvariable set p15_role false none
-
-execute as @a run fmvariable set player_1 false Nobody!
-execute as @a run fmvariable set player_2 false Nobody!
-execute as @a run fmvariable set player_3 false Nobody!
-execute as @a run fmvariable set player_4 false Nobody!
-execute as @a run fmvariable set player_5 false Nobody!
-execute as @a run fmvariable set player_6 false Nobody!
-execute as @a run fmvariable set player_7 false Nobody!
-execute as @a run fmvariable set player_8 false Nobody!
-execute as @a run fmvariable set player_9 false Nobody!
-execute as @a run fmvariable set player_10 false Nobody!
-execute as @a run fmvariable set player_11 false Nobody!
-execute as @a run fmvariable set player_12 false Nobody!
-execute as @a run fmvariable set player_13 false Nobody!
-execute as @a run fmvariable set player_14 false Nobody!
-execute as @a run fmvariable set player_15 false Nobody!
 
 function ct:util/color_prefixes
 
@@ -123,4 +57,4 @@ execute as @e[type=minecraft:item_display,tag=house_head] run data modify entity
 execute as @e[type=minecraft:text_display,tag=home_label] run data modify entity @s view_range set value 0
 
 execute as @a[tag=storyteller] run function ct:admin/give_script
-execute as @a[tag=storyteller] run schedule function ct:admin/reset_st_variables 1s
+schedule function ct:admin/reset_st_variables 1s

@@ -1,5 +1,5 @@
 execute if entity @a[tag=!storyteller,tag=!in_house,tag=!spectator] run title @a[tag=storyteller] actionbar [{"selector": "@a[tag=!storyteller,tag=!in_house,tag=!spectator]"},{"text":" are not in a house.","color":"red"}]
-execute unless entity @a[tag=!storyteller,tag=!in_house] unless entity @a[tag=requesting_chat] run title @a[tag=storyteller] actionbar [{"text":"All players are in a house.","color":"green"}]
+execute unless entity @a[tag=!storyteller,tag=!in_house,tag=!spectator] unless entity @a[tag=requesting_chat] run title @a[tag=storyteller] actionbar [{"text":"All players are in a house.","color":"green"}]
 execute store result score growl game_data run random value 0..3000
 execute if score growl game_data matches 1 if score current_day game_data matches 2.. as @r[tag=!storyteller,tag=!spectator] at @s run playsound ct:clocktower.night.ambient voice @a ~ ~ ~10
 

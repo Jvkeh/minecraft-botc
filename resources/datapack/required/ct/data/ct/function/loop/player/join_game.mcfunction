@@ -23,10 +23,9 @@ fmvariable set jinx_3_b false none
 execute as @s[tag=!storyteller] run fmvariable set storyteller false false
 execute as @s[tag=storyteller] run fmvariable set storyteller false true
 
-execute if score phase game_data matches 0 run team leave @s
-execute if score phase game_data matches 0 run scoreboard players set @s id 0
+execute if score phase game_data matches 0 run function ct:util/reset_player
 
-execute unless score phase game_data matches 1.. run scoreboard players set player_count game_data 0
+execute if score @s[tag=!storyteller] game_id = active_game game_id unless score phase game_data matches 1.. run scoreboard players set player_count game_data 0
 
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["script"]}]
 function ct:admin/give_script

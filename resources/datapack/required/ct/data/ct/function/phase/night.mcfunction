@@ -4,7 +4,7 @@ time set 20000
 execute as @e[type=minecraft:item_display,tag=house] run data modify entity @s view_range set value 1
 execute as @e[type=minecraft:item_display,tag=exclamation_red] run data modify entity @s view_range set value 0
 scoreboard players add current_day game_data 1
-execute as @a[tag=!storyteller] run loot give @s loot ct:compass
+execute as @a[tag=!storyteller,tag=!spectator] run loot give @s loot ct:compass
 
 execute as @a run playsound ct:clocktower.bell voice @s ~ ~ ~ 1 0.7
 

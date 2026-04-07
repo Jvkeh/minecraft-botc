@@ -19,18 +19,4 @@ execute as @s[team=13_white] run team modify 13_white suffix {"text":" ☠","col
 execute as @s[team=14_gray] run team modify 14_gray suffix {"text":" ☠","color":"dark_gray"}
 execute as @s[team=15_black] run team modify 15_black suffix {"text":" ☠","color":"dark_gray"}
 
-execute as @s[team=01_red] as @a run fmvariable set p1_alive false false
-execute as @s[team=02_orange] as @a run fmvariable set p2_alive false false
-execute as @s[team=03_yellow] as @a run fmvariable set p3_alive false false
-execute as @s[team=04_lime] as @a run fmvariable set p4_alive false false
-execute as @s[team=05_green] as @a run fmvariable set p5_alive false false
-execute as @s[team=06_mint] as @a run fmvariable set p6_alive false false
-execute as @s[team=07_cyan] as @a run fmvariable set p7_alive false false
-execute as @s[team=08_blue] as @a run fmvariable set p8_alive false false
-execute as @s[team=09_navy] as @a run fmvariable set p9_alive false false
-execute as @s[team=10_purple] as @a run fmvariable set p10_alive false false
-execute as @s[team=11_magenta] as @a run fmvariable set p11_alive false false
-execute as @s[team=12_lavender] as @a run fmvariable set p12_alive false false
-execute as @s[team=13_white] as @a run fmvariable set p13_alive false false
-execute as @s[team=14_gray] as @a run fmvariable set p14_alive false false
-execute as @s[team=15_black] as @a run fmvariable set p15_alive false false
+execute as @a run function ct:util/update_shrouds

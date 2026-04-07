@@ -4,6 +4,8 @@ scoreboard players set @a[tag=!storyteller] role 0
 execute as @a run fmvariable set role false none
 title @a times 1s 2s 1s
 
+gamemode spectator @a[tag=spectator]
+
 team join 01_red @r[team=,tag=!storyteller,tag=!spectator]
 team join 02_orange @r[team=,tag=!storyteller,tag=!spectator]
 team join 03_yellow @r[team=,tag=!storyteller,tag=!spectator]
@@ -128,7 +130,7 @@ scoreboard players set @a[team=15_black] id 15
 # execute as @a run scoreboard players operation @s game_data = @s id
 
 scoreboard players set player_count game_data 0
-execute as @a[tag=!storyteller] run scoreboard players add player_count game_data 1
+execute as @a[tag=!storyteller,tag=!spectator] run scoreboard players add player_count game_data 1
 execute if score player_count game_data matches ..4 run tellraw @a[tag=storyteller] [{"text":"You need at least 5 players to play."}]
 execute as @a if score player_count game_data matches 5 run function ct:start_game/roles/pcount {player:5,town:3,outsider:0,minion:1,demon:1}
 execute as @a if score player_count game_data matches 6 run function ct:start_game/roles/pcount {player:6,town:3,outsider:1,minion:1,demon:1}
@@ -148,12 +150,12 @@ execute as @e[type=minecraft:item_display,tag=house_head] if score @s house_id <
 schedule function ct:phase/night 1t
 
 clear @a[tag=!storyteller] minecraft:carrot_on_a_stick
-item replace entity @a[tag=!storyteller] hotbar.0 with minecraft:writable_book[minecraft:custom_model_data={strings:["script"]},custom_name=[{text:"Notebook",color:"yellow",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
+item replace entity @a[tag=!storyteller,tag=!spectator] hotbar.0 with minecraft:writable_book[minecraft:custom_model_data={strings:["script"]},custom_name=[{text:"Notebook",color:"yellow",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 execute as @a run function ct:admin/give_script
 
 execute as @a run function ct:start_game/roles/set_grim_variables with storage ct:players players
 
-execute as @a[tag=!has_role,tag=!storyteller,sort=random,limit=1] run function ct:start_game/give_role
-execute as @a[tag=!has_role,tag=!storyteller,sort=random,limit=1] run function ct:start_game/random_roles
+execute as @a[tag=!has_role,tag=!storyteller,tag=!spectator,sort=random,limit=1] run function ct:start_game/give_role
+execute as @a[tag=!has_role,tag=!storyteller,tag=!spectator,sort=random,limit=1] run function ct:start_game/random_roles
 schedule function ct:start_game/roles/reveal_to_st 1t
 schedule function ct:start_game/apply_labels 2t
