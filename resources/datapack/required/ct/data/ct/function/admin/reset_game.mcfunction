@@ -13,7 +13,7 @@ scoreboard players set alive_players game_data 0
 scoreboard players set current_day game_data 0
 scoreboard players set phase game_data 0
 
-function ct:util/reset_player
+execute as @a run function ct:util/reset_player
 
 team modify 99_storyteller nametagVisibility always
 

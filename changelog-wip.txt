@@ -1,4 +1,4 @@
-BotC v1.5.4 - April XX, 2026
+BotC v1.5.4 - April 04, 2026
 
 Changes and features:
 - Added pixel icons for all remaining characters.
@@ -8,6 +8,8 @@ Changes and features:
 - Updated credits to contain all current pixel art contributors. Thanks everyone!
 - Instead of spectators appearing in the actionbar list of players in a private room, an eye icon will appear if there are any spectators present.
 - A few sets of of commands that targeted @a over and over were optimized into their own function targeting @s.
+- Added a button to clear characters from the Player Grimoire and clear bluffs from either Grimoire.
+- Added the ability to add spectators before the game starts using /spectator (NOT /spectate).
 
 Fixed bugs:
 - #63: Spectators affect the displayed player count needed to execute a player.

@@ -1,6 +1,23 @@
 team leave @s
 scoreboard players set @s id 0
 item replace entity @s[tag=dead] armor.head with minecraft:air
+scoreboard players reset @s id
+scoreboard players reset @s role
+scoreboard players reset @s game_id
+scoreboard players reset @s pointing_at
+scoreboard players reset @s pointing
+scoreboard players reset @s use_carrot
+scoreboard players reset @s vote
+scoreboard players reset @s rps
+scoreboard players reset @s vc
+team leave @s
+clear @s minecraft:player_head
+clear @s minecraft:writable_book
+clear @s minecraft:compass
+tp @s[tag=spectator] 122 72 70 -145 0
+gamemode adventure @s[tag=!storyteller]
+team leave @s[team=00_spectator]
+
 tag @s remove dead
 tag @s remove has_role
 tag @s remove nominee
@@ -20,22 +37,6 @@ tag @s remove minion
 tag @s remove outsider
 tag @s remove townsfolk
 tag @s remove spectator
-scoreboard players reset @s id
-scoreboard players reset @s role
-scoreboard players reset @s game_id
-scoreboard players reset @s pointing_at
-scoreboard players reset @s pointing
-scoreboard players reset @s use_carrot
-scoreboard players reset @s vote
-scoreboard players reset @s rps
-scoreboard players reset @s vc
-team leave @s
-clear @s minecraft:player_head
-clear @s minecraft:writable_book
-clear @s minecraft:compass
-tp @s[team=00_spectator] 122 72 70 -145 0
-gamemode adventure @s[tag=!storyteller]
-team leave @s[team=00_spectator]
 
 fmvariable set role false none
 fmvariable set phase false 0

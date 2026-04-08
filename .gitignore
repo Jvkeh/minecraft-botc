@@ -71,3 +71,7 @@ config/simplemacro
 /saves/seed1
 resources/datapack/required/ct/commands.json
 resources/datapack/required/ct/spyglass.json
+/saves/world/playerdata
+config/fancymenu/user_variables.db
+/saves/world/poi
+/saves/world/stats
