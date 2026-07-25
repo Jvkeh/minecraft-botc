@@ -80,3 +80,12 @@ config/fancymenu/user_variables.db
 /saves/test
 saves/world/data/raids.dat
 saves/world/data/command_storage_ct.dat
+config/cardinal-components-api.properties
+/config/polymer
+config/slurs_filter.txt
+/polymer
+config/fancymenu/ui_themes/cherry_blossom.json
+config/fancymenu/ui_themes/cozy_campfire.json
+config/lingua_bib.json
+config/gpu_booster_config.json
+/saves/world/advancements

@@ -1,0 +1,16 @@
+BotC v1.6.0 BETA 4 - July 24, 2026
+
+Features and changes:
+
+Technical changes:
+
+Fixed bugs:
+#134: Icons in the bag differ in size
+#145: Phobos script format doesn't display NPCs
+#146: Chat spam on N1
+#147: No text pop-up for entering private voice chat rooms
+#148: No barrier icon at entrance of occupied voice chat rooms
+#149: Missing Good and Evil Reminder Tokens
+#150: Compasses are not deleted
+#154: The first four townsfolk alphabetically do not get handed out properly
+#156: Grey house icon appears incorrectly

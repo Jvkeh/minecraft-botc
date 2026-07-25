@@ -29,3 +29,5 @@ team modify 13_white nametagVisibility always
 team modify 14_gray nametagVisibility always
 team modify 15_black nametagVisibility always
 team modify 00_spectator nametagVisibility always
+
+clear @a minecraft:compass[minecraft:custom_name={italic:0b,text:"Home Compass"}]

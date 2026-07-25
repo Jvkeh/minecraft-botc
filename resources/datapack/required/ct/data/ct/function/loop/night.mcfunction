@@ -1,5 +1,5 @@
 execute as @a if score @s id = @s vc run tag @s add in_house
-clear @s[tag=in_house] minecraft:compass
+clear @a[tag=in_house] minecraft:compass
 tag @a remove in_house
 
 execute if entity @a[tag=!storyteller,tag=!spectator,scores={vc=0}] run title @a[tag=storyteller] actionbar [{"selector": "@a[tag=!storyteller,tag=!spectator,scores={vc=0}]"},{"text":" is not in a house.","color":"red"}]
@@ -10,7 +10,7 @@ execute if score growl game_data matches 1 if score current_day game_data matche
 execute as @a[scores={reveal_cd=139},tag=!spectator,tag=!storyteller] if score @s vc = @s id run function ct:start_game/roles/youare
 execute as @a[tag=!spectator,tag=!storyteller,scores={reveal_cd=1..}] if score @s vc = @s id run scoreboard players remove @s reveal_cd 1
 execute as @a[scores={reveal_cd=60}] run function ct:start_game/roles/announce
-execute as @a[scores={reveal_cd=1}] run function ct:start_game/roles/hover_hint
+tellraw @s[tag=!storyteller,tag=!spectator,scores={reveal_cd=1}] [{"text":"! ","color":"yellow","bold":true},{"text":"Press T to release your mouse, then hover over your character icon in the top left to see your ability.","color":"gray","bold":false}]
 execute as @a at @s run function ct:loop/player/night
 function ct:loop/timer/end_timer
 

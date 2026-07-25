@@ -388,5 +388,9 @@ execute if data storage ct:script meta{name:"Trouble Brewing"} run data modify s
 execute if data storage ct:script meta{name:"Sects and Violets"} run data modify storage ct:script meta.icon set value "sects_and_violets"
 execute if data storage ct:script meta{name:"Bad Moon Rising"} run data modify storage ct:script meta.icon set value "bad_moon_rising"
 
+# Generic stuff that goes on every script
+data modify storage ct:script reminders prepend value {icon:evil,text:evil}
+data modify storage ct:script reminders prepend value {icon:good,text:good}
+
 data remove storage ct:script script_imported
 function ct:script/fill_empty_spaces

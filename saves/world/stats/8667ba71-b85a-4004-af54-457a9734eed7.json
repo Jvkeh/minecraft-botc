@@ -4,12 +4,12 @@
       "minecraft:carrot_on_a_stick": 5
     },
     "minecraft:custom": {
-      "minecraft:damage_resisted": 1970,
-      "minecraft:time_since_rest": 2229797,
-      "minecraft:total_world_time": 2744296,
-      "minecraft:leave_game": 108,
-      "minecraft:play_time": 2229797,
-      "minecraft:time_since_death": 2229797
+      "minecraft:damage_resisted": 2000,
+      "minecraft:time_since_rest": 2287681,
+      "minecraft:total_world_time": 2802451,
+      "minecraft:leave_game": 109,
+      "minecraft:play_time": 2287681,
+      "minecraft:time_since_death": 2287681
     }
   },
   "DataVersion": 4671

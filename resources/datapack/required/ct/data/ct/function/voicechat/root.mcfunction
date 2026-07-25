@@ -1,3 +1,4 @@
+execute as @a[tag=!in_vc,scores={vc=1..}] at @s run function ct:loop/voicechat/messages
 tag @a[scores={vc=1..}] add in_vc
 
 execute if predicate ct:vc/red_house run return run function ct:voicechat/red_house

@@ -1,3 +1,7 @@
+fmvariable set bag_acrobat false 0
+fmvariable set bag_alchemist false 0
+fmvariable set bag_alsaahir false 0
+fmvariable set bag_amnesiac false 0
 fmvariable set bag_balloonist false 0
 fmvariable set bag_banshee false 0
 fmvariable set bag_bountyhunter false 0

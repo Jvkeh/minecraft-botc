@@ -74,7 +74,7 @@ variable {
 
 variable {
   name = dev
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -194,7 +194,7 @@ variable {
 
 variable {
   name = version
-  value = 1.6.0-BETA 3
+  value = 1.6.0-BETA 4
   reset_on_launch = false
 }
 
@@ -938,7 +938,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1106,13 +1106,13 @@ variable {
 
 variable {
   name = minion_count
-  value = 2
+  value = 3
   reset_on_launch = false
 }
 
 variable {
   name = team_color
-  value = #cf0606
+  value = #1464e7
   reset_on_launch = false
 }
 
@@ -1184,7 +1184,7 @@ variable {
 
 variable {
   name = day_start
-  value = 13:00
+  value = 12:41
   reset_on_launch = false
 }
 
@@ -1280,7 +1280,7 @@ variable {
 
 variable {
   name = script_format
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -2018,7 +2018,7 @@ variable {
 
 variable {
   name = town_count
-  value = 7
+  value = 9
   reset_on_launch = false
 }
 
@@ -2060,6 +2060,12 @@ variable {
 
 variable {
   name = lycanthrope
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_acrobat
   value = 0
   reset_on_launch = false
 }
@@ -2186,7 +2192,7 @@ variable {
 
 variable {
   name = player_count
-  value = 11
+  value = 0
   reset_on_launch = false
 }
 
@@ -2282,7 +2288,7 @@ variable {
 
 variable {
   name = script_json
-  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"grandmother","pixie","empath","balloonist","chambermaid","dreamer","towncrier","gambler","nightwatchman","juggler","alchemist","cannibal","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","organgrinder","boomdandy","yaggababble","vortox","legion","fanggu","ojo","djinn"]
+  value = [{"id":"_meta","author":"Sybillian","name":"Parlor Oil & Snake Tricks"},"alsaahir","acrobat","amnesiac","chambermaid","dreamer","towncrier","gambler","nightwatchman","juggler","alchemist","cannibal","poppygrower","lunatic","sweetheart","plaguedoctor","moonchild","poisoner","harpy","organgrinder","boomdandy","yaggababble","vortox","legion","ojo","djinn","vizier","heretic","banshee"]
   reset_on_launch = false
 }
 
@@ -2312,7 +2318,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 15
+  value = 0
   reset_on_launch = false
 }
 
@@ -2444,7 +2450,7 @@ variable {
 
 variable {
   name = editing_reminder
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -3079,6 +3085,12 @@ variable {
 }
 
 variable {
+  name = bag_amnesiac
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
   name = philosopher
   value = 0
   reset_on_launch = false
@@ -3128,6 +3140,12 @@ variable {
 
 variable {
   name = plaguedoctor
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_alsaahir
   value = 0
   reset_on_launch = false
 }
