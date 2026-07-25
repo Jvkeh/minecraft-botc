@@ -14,3 +14,4 @@ Fixed bugs:
 #150: Compasses are not deleted
 #154: The first four townsfolk alphabetically do not get handed out properly
 #156: Grey house icon appears incorrectly
+#158: Banshee votes chat and actionbar don't line up

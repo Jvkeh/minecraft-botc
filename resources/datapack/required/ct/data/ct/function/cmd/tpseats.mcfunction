@@ -1,3 +1,6 @@
+execute if entity @s[tag=!storyteller] run return run function ct:error/not_storyteller
+execute if score phase game_data matches 0 run return run function ct:error/game_not_active
+
 tp @a[team=01_red] 120.33 72.50 68.44 241.44 0
 tp @a[team=02_orange] 119.36 72.50 65.40 257.59 0
 tp @a[team=03_yellow] 119.33 72.50 62.54 281.36 0
