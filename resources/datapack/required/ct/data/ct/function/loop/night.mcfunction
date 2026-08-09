@@ -12,7 +12,7 @@ execute as @a[tag=!spectator,tag=!storyteller,scores={reveal_cd=1..}] if score @
 execute as @a[scores={reveal_cd=60}] run function ct:start_game/roles/announce
 tellraw @s[tag=!storyteller,tag=!spectator,scores={reveal_cd=1}] [{"text":"! ","color":"yellow","bold":true},{"text":"Press T to release your mouse, then hover over your character icon in the top left to see your ability.","color":"gray","bold":false}]
 execute as @a at @s run function ct:loop/player/night
-function ct:loop/timer/end_timer
+function ct:util/timer/end
 
 ## Window/Door Particles
 # Red

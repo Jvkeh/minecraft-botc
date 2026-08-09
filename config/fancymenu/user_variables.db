@@ -50,7 +50,7 @@ variable {
 
 variable {
   name = current_day
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 14
+  value = 15
   reset_on_launch = false
 }
 
@@ -164,13 +164,13 @@ variable {
 
 variable {
   name = player_15
-  value = Celeste
+  value = Sunny
   reset_on_launch = false
 }
 
 variable {
   name = player_13
-  value = efe
+  value = Zuri
   reset_on_launch = false
 }
 
@@ -188,7 +188,7 @@ variable {
 
 variable {
   name = player_14
-  value = Kai
+  value = Will
   reset_on_launch = false
 }
 
@@ -260,7 +260,7 @@ variable {
 
 variable {
   name = role
-  value = sweetheart
+  value = none
   reset_on_launch = false
 }
 
@@ -332,7 +332,7 @@ variable {
 
 variable {
   name = player_11
-  value = Steve
+  value = Alex
   reset_on_launch = false
 }
 
@@ -350,7 +350,7 @@ variable {
 
 variable {
   name = player_12
-  value = Shane
+  value = Makena
   reset_on_launch = false
 }
 
@@ -362,7 +362,7 @@ variable {
 
 variable {
   name = player_10
-  value = Ari
+  value = noor
   reset_on_launch = false
 }
 
@@ -614,7 +614,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Celeste
+  value = none
   reset_on_launch = false
 }
 
@@ -938,7 +938,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1184,7 +1184,7 @@ variable {
 
 variable {
   name = day_start
-  value = 12:41
+  value = 15:55
   reset_on_launch = false
 }
 
@@ -1868,7 +1868,7 @@ variable {
 
 variable {
   name = player_1
-  value = anya
+  value = Selina
   reset_on_launch = false
 }
 
@@ -1892,7 +1892,7 @@ variable {
 
 variable {
   name = player_4
-  value = Russel
+  value = Shane
   reset_on_launch = false
 }
 
@@ -1904,19 +1904,19 @@ variable {
 
 variable {
   name = player_3
-  value = Alex
+  value = Celeste
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Sybillian
+  value = efe
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = noor
+  value = anya
   reset_on_launch = false
 }
 
@@ -1928,19 +1928,19 @@ variable {
 
 variable {
   name = player_8
-  value = Zuri
+  value = Russel
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Sunny
+  value = Ari
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = Selina
+  value = Steve
   reset_on_launch = false
 }
 
@@ -2228,7 +2228,7 @@ variable {
 
 variable {
   name = day_minutes
-  value = 2
+  value = 1
   reset_on_launch = false
 }
 
@@ -2318,7 +2318,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 15
+  value = 16
   reset_on_launch = false
 }
 
@@ -2576,7 +2576,7 @@ variable {
 
 variable {
   name = phase
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -2612,7 +2612,7 @@ variable {
 
 variable {
   name = p2_alive
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -2966,7 +2966,7 @@ variable {
 
 variable {
   name = p2_role
-  value = sweetheart
+  value = none
   reset_on_launch = false
 }
 
@@ -3080,7 +3080,7 @@ variable {
 
 variable {
   name = ghost_votes
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 

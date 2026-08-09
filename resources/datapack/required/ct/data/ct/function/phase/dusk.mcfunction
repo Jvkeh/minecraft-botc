@@ -3,7 +3,7 @@ scoreboard players set phase game_data 3
 time set 12200
 execute as @e[type=minecraft:item_display,tag=vc] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=exclamation_red] run data modify entity @s view_range set value 1
-bossbar set day_time visible false
+
 gamerule advance_time false
 
 scoreboard players set current_majority vote 0

@@ -3,6 +3,7 @@ BotC v1.6.0 BETA 4 - July 24, 2026
 Features and changes:
 
 Technical changes:
+Timer functions moved to util folder as they're grabbed from a lot of different spots.
 
 Fixed bugs:
 #134: Icons in the bag differ in size
@@ -15,3 +16,5 @@ Fixed bugs:
 #154: The first four townsfolk alphabetically do not get handed out properly
 #156: Grey house icon appears incorrectly
 #158: Banshee votes chat and actionbar don't line up
+Timer doesn't pause/resume correctly at nominations.
+Night Chat is not isolated.

@@ -20,8 +20,8 @@ execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s vie
 execute as @e[type=minecraft:item_display,tag=vote_marker] if score @s id = @a[tag=nominee,limit=1] id run tag @s add arm_target
 rotate @e[type=minecraft:item_display,limit=1,tag=nominee_arm] facing entity @e[type=minecraft:item_display,tag=vote_marker,tag=arm_target,limit=1]
 tag @e[type=minecraft:item_display,tag=vote_marker,tag=arm_target] remove arm_target
-bossbar set botc:votes visible true
-bossbar set botc:votes players @a
+bossbar set ct:votes visible true
+bossbar set ct:votes players @a
 
 execute as @e[type=minecraft:item_display,tag=arm] at @s run tp @s ~ ~ ~ ~ 0
 execute as @a run function ct:loop/vote/save_nom with storage ct:nominations

@@ -1,21 +1,21 @@
 execute if score dev_mode game_data matches 1 run return fail
 function ct:admin/init/voice_chats
 
-bossbar add day_time "Time for Conversations:"
-bossbar set day_time color blue
-bossbar set day_time players @a
-bossbar set day_time visible false
-bossbar set day_time style progress
-bossbar set day_time max 300
-bossbar set day_time value 300
+bossbar add ct:day_time "Time for Conversations:"
+bossbar set ct:day_time color blue
+bossbar set ct:day_time players @a
+bossbar set ct:day_time visible false
+bossbar set ct:day_time style progress
+bossbar set ct:day_time max 300
+bossbar set ct:day_time value 300
 
-bossbar add botc:votes "Votes:"
-bossbar set botc:votes color blue
-bossbar set botc:votes players @a
-bossbar set botc:votes visible false
-bossbar set botc:votes style progress
-bossbar set botc:votes max 10
-bossbar set botc:votes value 10
+bossbar add ct:votes "Votes:"
+bossbar set ct:votes color blue
+bossbar set ct:votes players @a
+bossbar set ct:votes visible false
+bossbar set ct:votes style progress
+bossbar set ct:votes max 10
+bossbar set ct:votes value 10
 
 function ct:data/travellers
 data modify storage ct:seats seats set value [{placeholder:true},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]
