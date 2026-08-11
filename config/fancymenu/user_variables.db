@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = p5_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -50,7 +50,7 @@ variable {
 
 variable {
   name = current_day
-  value = 1
+  value = 2
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 15
+  value = 9
   reset_on_launch = false
 }
 
@@ -164,13 +164,13 @@ variable {
 
 variable {
   name = player_15
-  value = noor
+  value = efe
   reset_on_launch = false
 }
 
 variable {
   name = player_13
-  value = Steve
+  value = Sunny
   reset_on_launch = false
 }
 
@@ -188,7 +188,7 @@ variable {
 
 variable {
   name = player_14
-  value = Olivia
+  value = Alex
   reset_on_launch = false
 }
 
@@ -212,7 +212,7 @@ variable {
 
 variable {
   name = p12_role
-  value = none
+  value = harpy
   reset_on_launch = false
 }
 
@@ -266,7 +266,7 @@ variable {
 
 variable {
   name = p3_role
-  value = none
+  value = plaguedoctor
   reset_on_launch = false
 }
 
@@ -332,7 +332,7 @@ variable {
 
 variable {
   name = player_11
-  value = Will
+  value = Steve
   reset_on_launch = false
 }
 
@@ -362,7 +362,7 @@ variable {
 
 variable {
   name = player_10
-  value = efe
+  value = Shane
   reset_on_launch = false
 }
 
@@ -452,7 +452,7 @@ variable {
 
 variable {
   name = quickaction
-  value = tphouse
+  value = special
   reset_on_launch = false
 }
 
@@ -620,7 +620,7 @@ variable {
 
 variable {
   name = last_nom
-  value = Alex
+  value = Ari
   reset_on_launch = false
 }
 
@@ -638,7 +638,7 @@ variable {
 
 variable {
   name = organgrinder
-  value = off
+  value = on
   reset_on_launch = false
 }
 
@@ -770,7 +770,7 @@ variable {
 
 variable {
   name = p4_role
-  value = none
+  value = towncrier
   reset_on_launch = false
 }
 
@@ -818,7 +818,7 @@ variable {
 
 variable {
   name = p6_role
-  value = none
+  value = alchemist
   reset_on_launch = false
 }
 
@@ -866,7 +866,7 @@ variable {
 
 variable {
   name = p13_role
-  value = none
+  value = ojo
   reset_on_launch = false
 }
 
@@ -980,7 +980,7 @@ variable {
 
 variable {
   name = p8_role
-  value = none
+  value = poisoner
   reset_on_launch = false
 }
 
@@ -992,7 +992,7 @@ variable {
 
 variable {
   name = p15_role
-  value = none
+  value = banshee
   reset_on_launch = false
 }
 
@@ -1190,7 +1190,7 @@ variable {
 
 variable {
   name = day_start
-  value = 17:48
+  value = 18:45
   reset_on_launch = false
 }
 
@@ -1424,7 +1424,7 @@ variable {
 
 variable {
   name = p10_role
-  value = none
+  value = gambler
   reset_on_launch = false
 }
 
@@ -1580,7 +1580,7 @@ variable {
 
 variable {
   name = p1_role
-  value = none
+  value = chambermaid
   reset_on_launch = false
 }
 
@@ -1766,7 +1766,7 @@ variable {
 
 variable {
   name = p5_role
-  value = none
+  value = cannibal
   reset_on_launch = false
 }
 
@@ -1844,7 +1844,7 @@ variable {
 
 variable {
   name = p9_role
-  value = none
+  value = sweetheart
   reset_on_launch = false
 }
 
@@ -1874,7 +1874,7 @@ variable {
 
 variable {
   name = player_1
-  value = Sunny
+  value = Selina
   reset_on_launch = false
 }
 
@@ -1892,13 +1892,13 @@ variable {
 
 variable {
   name = player_5
-  value = Russel
+  value = Will
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Selina
+  value = Makena
   reset_on_launch = false
 }
 
@@ -1910,19 +1910,19 @@ variable {
 
 variable {
   name = player_3
-  value = Zuri
+  value = noor
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Shane
+  value = Russel
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Alex
+  value = anya
   reset_on_launch = false
 }
 
@@ -1934,13 +1934,13 @@ variable {
 
 variable {
   name = player_8
-  value = Makena
+  value = Olivia
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = anya
+  value = Kai
   reset_on_launch = false
 }
 
@@ -1982,7 +1982,7 @@ variable {
 
 variable {
   name = p14_role
-  value = none
+  value = acrobat
   reset_on_launch = false
 }
 
@@ -2060,7 +2060,7 @@ variable {
 
 variable {
   name = p4_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2324,7 +2324,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 15
+  value = 16
   reset_on_launch = false
 }
 
@@ -2444,7 +2444,7 @@ variable {
 
 variable {
   name = p1_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2528,7 +2528,7 @@ variable {
 
 variable {
   name = p8_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2594,7 +2594,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 3
   reset_on_launch = false
 }
 
@@ -2726,7 +2726,7 @@ variable {
 
 variable {
   name = p3_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2780,7 +2780,7 @@ variable {
 
 variable {
   name = p11_role
-  value = none
+  value = boomdandy
   reset_on_launch = false
 }
 
@@ -2984,7 +2984,7 @@ variable {
 
 variable {
   name = p2_role
-  value = none
+  value = amnesiac
   reset_on_launch = false
 }
 
@@ -3098,7 +3098,7 @@ variable {
 
 variable {
   name = ghost_votes
-  value = 0
+  value = 4
   reset_on_launch = false
 }
 
@@ -3134,7 +3134,7 @@ variable {
 
 variable {
   name = p7_role
-  value = none
+  value = dreamer
   reset_on_launch = false
 }
 
@@ -3182,7 +3182,7 @@ variable {
 
 variable {
   name = p7_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 

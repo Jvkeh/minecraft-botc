@@ -2,6 +2,8 @@ tellraw @a [{"selector":"@s"},{"text":" died.","color":"red"}]
 loot replace entity @s armor.head loot ct:skulls
 tag @s add dead
 tag @s add died_today
+execute if entity @s[tag=voting_yes] run function ct:item/vote_no
+
 
 execute as @a at @s run playsound ct:clocktower.night_death player @s
 execute as @s[team=01_red] run team modify 01_red suffix {"text":" ☠","color":"dark_gray"}

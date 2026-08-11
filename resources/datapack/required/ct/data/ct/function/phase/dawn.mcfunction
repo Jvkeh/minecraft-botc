@@ -30,4 +30,7 @@ team modify 14_gray nametagVisibility always
 team modify 15_black nametagVisibility always
 team modify 00_spectator nametagVisibility always
 
+tag @a remove universal_vc
+execute as @a run voicechat leave
+
 clear @a minecraft:compass[minecraft:custom_name={italic:0b,text:"Home Compass"}]

@@ -7,7 +7,7 @@ execute if score organ_grinder settings matches 0 if entity @s[tag=voting_yes,ta
 execute if score organ_grinder settings matches 0 if entity @s[tag=voting_yes,tag=!dead] at @s run function ct:loop/vote/effect/regular_vote
 tag @s remove voting_now
 
-tag @s[tag=voting_yes] add voted_today
+tag @s[tag=voting_ghost] add voted_today
 tellraw @s[tag=voting_yes] [{"text":"You voted §aYES§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 tellraw @s[tag=!voting_yes] [{"text":"You voted §cNO§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 

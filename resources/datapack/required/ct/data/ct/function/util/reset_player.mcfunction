@@ -49,6 +49,7 @@ tag @s remove outsider
 tag @s remove townsfolk
 tag @s remove spectator
 tag @s remove not_legion
+tag @s remove rejoining
 
 fmvariable set role false none
 fmvariable set phase false 0

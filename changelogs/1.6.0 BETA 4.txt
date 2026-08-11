@@ -8,6 +8,8 @@ Timer functions moved to util folder as they're grabbed from a lot of different 
 Fixed bugs:
 #132: Players can escape the pyre while being executed.
 #134: Icons in the bag differ in size
+#138: Alive vote not changed to a Dead vote visually when a player dies with their vote on
+#140: Both Alternate Icon resource packs are missing their 'faded' icon variants
 #141: Resetting the game doesnt remove the current nomination
 #143: The Storyteller settings part of the options menu doesn't currently work.
 #145: Phobos script format doesn't display NPCs
@@ -16,7 +18,10 @@ Fixed bugs:
 #148: No barrier icon at entrance of occupied voice chat rooms
 #149: Missing Good and Evil Reminder Tokens
 #150: Compasses are not deleted
+#151: Ghost votes are not able to be used during an organ grinder vote
+#153: (Partial) When a player disconnects during the night phase, then returns, they can hear the ST
 #154: The first four townsfolk alphabetically do not get handed out properly
+#155: The Storyteller does not always get removed from Night Chat at dawn
 #156: Grey house icon appears incorrectly
 #158: Banshee votes chat and actionbar don't line up
 #159: Timer doesn't hide or un-pause after a vote

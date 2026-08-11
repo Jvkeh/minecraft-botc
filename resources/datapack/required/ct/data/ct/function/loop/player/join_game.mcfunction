@@ -32,6 +32,8 @@ function ct:admin/give_script
 
 effect give @s minecraft:resistance infinite 9 true
 
+tag @s add rejoining
+scoreboard players set @s vc 0
 scoreboard players set @s join_game 0
 
 schedule function ct:util/sync_variables 5s
