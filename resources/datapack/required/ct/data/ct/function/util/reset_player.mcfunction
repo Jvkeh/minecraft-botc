@@ -17,9 +17,14 @@ team leave @s
 clear @s minecraft:player_head
 clear @s minecraft:writable_book
 clear @s minecraft:compass
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_ghost"]}]
 tp @s[tag=spectator] 122 72 70 -145 0
 gamemode adventure @s[tag=!storyteller]
 team leave @s[team=00_spectator]
+effect clear @s minecraft:blindness
 
 tag @s remove dead
 tag @s remove has_role
@@ -43,6 +48,7 @@ tag @s remove minion
 tag @s remove outsider
 tag @s remove townsfolk
 tag @s remove spectator
+tag @s remove not_legion
 
 fmvariable set role false none
 fmvariable set phase false 0

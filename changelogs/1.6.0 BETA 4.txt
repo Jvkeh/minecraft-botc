@@ -6,7 +6,9 @@ Technical changes:
 Timer functions moved to util folder as they're grabbed from a lot of different spots.
 
 Fixed bugs:
+#132: Players can escape the pyre while being executed.
 #134: Icons in the bag differ in size
+#141: Resetting the game doesnt remove the current nomination
 #143: The Storyteller settings part of the options menu doesn't currently work.
 #145: Phobos script format doesn't display NPCs
 #146: Chat spam on N1

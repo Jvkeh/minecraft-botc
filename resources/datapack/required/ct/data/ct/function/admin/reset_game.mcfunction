@@ -2,6 +2,12 @@ execute as @e[type=minecraft:item_display,tag=exclamation_yellow] run data modif
 execute as @e[type=minecraft:item_display,tag=exclamation_red] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=vc] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=house] run data modify entity @s view_range set value 0
+execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s view_range set value 0
+execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s item.components."minecraft:custom_model_data".strings[0] set value "voting_no"
+execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 0
+
+
+schedule clear ct:loop/vote/cycle
 
 data modify storage ct:seats seats set value [{username:"Nobody",role:0,alive:0,reminders:[]}]
 data merge storage ct:nominations {days:[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]}
@@ -13,17 +19,23 @@ scoreboard players reset * pointing
 scoreboard players reset * pointing_at
 scoreboard players reset * reveal_cd
 scoreboard players reset * use_carrot
+
 scoreboard players set start vote 0
 scoreboard players set current_majority vote 0
 scoreboard players set current vote 0
 scoreboard players set first vote 0
 scoreboard players set total vote 0
+
 scoreboard players set ghost_votes game_data 0
 scoreboard players set alive_players game_data 0
 scoreboard players set current_day game_data 0
 scoreboard players set phase game_data 0
+scoreboard players set vote_active game_data 0
 
 scoreboard players set organ_grinder settings 0
+
+bossbar set ct:votes visible false
+bossbar set ct:day_time visible false
 
 execute as @a run function ct:util/reset_player
 
