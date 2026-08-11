@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = chat_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1784082699591
+  last_edited_time = 1786432950717
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7fcdbad9-8402-48a2-aae4-08fabe5236b2-1784082675575] = [groups:][instances:]
+  [loading_requirement_container_meta:5e0690c6-2395-4802-9c0a-8cbc24c702a6-1786432843612] = [groups:][instances:]
 }
 
 menu_background {

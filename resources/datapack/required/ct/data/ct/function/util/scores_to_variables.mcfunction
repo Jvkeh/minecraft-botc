@@ -5,7 +5,7 @@ execute store result storage ct:players vote_tokens int 1 run scoreboard players
 execute store result storage ct:players current_day int 1 run scoreboard players get current_day game_data
 execute store result storage ct:players clock_speed int 1 run scoreboard players get clock_speed game_data
 execute store result storage ct:players speed_boost int 1 run scoreboard players get speed_boost game_data
-execute store result storage ct:players noms_pause_timer int 1 run scoreboard players get noms_pause_timer game_data
+execute store result storage ct:players noms_pause_timer int 1 run scoreboard players get noms_pause_timer settings
 
 data modify storage ct:players count set string storage ct:players count
 data modify storage ct:players alive set string storage ct:players alive

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-timer
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1786253933492
+  last_edited_time = 1786433244992
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:bd63a2ce-0d62-4346-aeb8-abfb51a654a7-1786253803785] = [groups:][instances:]
+  [loading_requirement_container_meta:568a24fb-779d-4dc4-a77e-3c6fe3486b99-1786433228061] = [groups:][instances:]
 }
 
 customization {
@@ -733,19 +733,25 @@ element {
 element {
   button_element_executable_block_identifier = c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029
   [executable_action_instance:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695][action_type:sendmessage] = /scoreboard players set noms_pause_timer settings 1
-  [executable_block:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269][type:if] = [executables:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695;][appended:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838]
+  [executable_action_instance:c173107e-a817-4a01-8ac3-5fc9ccc8e4df-1786433201465][action_type:set_variable] = noms_pause_timer:1
+  [executable_block:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269][type:if] = [executables:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695;c173107e-a817-4a01-8ac3-5fc9ccc8e4df-1786433201465;][appended:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838]
   [executable_action_instance:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693][action_type:sendmessage] = /scoreboard players set noms_pause_timer settings 0
-  [executable_block:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838][type:else] = [executables:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693;]
+  [executable_action_instance:523fb2f6-867a-4882-9043-4f71742db352-1786433184032][action_type:set_variable] = noms_pause_timer:0
+  [executable_block:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838][type:else] = [executables:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693;523fb2f6-867a-4882-9043-4f71742db352-1786433184032;]
   [if_executable_block_body:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269] = ff29e6e6-f11f-49a4-9719-f38ef1fca1ac-1778688523892
   [loading_requirement_container_meta:ff29e6e6-f11f-49a4-9719-f38ef1fca1ac-1778688523892] = [groups:][instances:095555b9-5799-4e21-b1e4-603703689839-1778688524979;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:095555b9-5799-4e21-b1e4-603703689839-1778688524979] = ["mode":"equals","number":"{"placeholder":"scoreboard_score","values":{"player":"noms_pause_timer","objective":"settings"}}","compare_with":"0"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:095555b9-5799-4e21-b1e4-603703689839-1778688524979] = ["mode":"equals","number":"{"placeholder":"getvariable","values":{"name":"noms_pause_timer"}}","compare_with":"0"]$
   [if_executable_block_collapsed:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269] = false
-  [executable_block:c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029][type:generic] = [executables:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269;]
+  [executable_action_instance:863ddfc6-f59c-4723-a456-00d73ea86ff7-1786432813026][action_type:sendmessage] = /function ct:util/sync_variables
+  [executable_block:9ea2296b-11a8-41b4-9ce7-667838fb5ac6-1786433144642][type:delay] = [executables:863ddfc6-f59c-4723-a456-00d73ea86ff7-1786432813026;]
+  [delay_executable_block_value:9ea2296b-11a8-41b4-9ce7-667838fb5ac6-1786433144642] = 1
+  [delay_executable_block_collapsed:9ea2296b-11a8-41b4-9ce7-667838fb5ac6-1786433144642] = false
+  [executable_block:c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029][type:generic] = [executables:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269;9ea2296b-11a8-41b4-9ce7-667838fb5ac6-1786433144642;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  label = Pause during nominations: {"placeholder":"switch_case","values":{"value":"{"placeholder":"scoreboard_score","values":{"player":"noms_pause_timer","objective":"settings"}}","cases":"0:NO,1:YES","default":"NO"}}
+  label = Pause during nominations: {"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"noms_pause_timer"}}","cases":"0:NO,1:YES","default":"NO"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 6691398e-694d-4665-9682-e10638b99e1e-1775779202029
   [loading_requirement_container_meta:6691398e-694d-4665-9682-e10638b99e1e-1775779202029] = [groups:][instances:]

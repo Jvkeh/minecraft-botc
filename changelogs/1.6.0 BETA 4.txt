@@ -7,6 +7,7 @@ Timer functions moved to util folder as they're grabbed from a lot of different 
 
 Fixed bugs:
 #134: Icons in the bag differ in size
+#143: The Storyteller settings part of the options menu doesn't currently work.
 #145: Phobos script format doesn't display NPCs
 #146: Chat spam on N1
 #147: No text pop-up for entering private voice chat rooms
@@ -16,5 +17,5 @@ Fixed bugs:
 #154: The first four townsfolk alphabetically do not get handed out properly
 #156: Grey house icon appears incorrectly
 #158: Banshee votes chat and actionbar don't line up
-Timer doesn't pause/resume correctly at nominations.
+#159: Timer doesn't hide or un-pause after a vote
 Night Chat is not isolated.
