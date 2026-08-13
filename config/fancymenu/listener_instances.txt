@@ -44,7 +44,13 @@ listener_instance {
   [loading_requirement_container_meta:3e2044ee-58ed-4fe7-acd0-1d51c5e9eed2-1781066508640] = [groups:][instances:b9dc1279-7955-4688-a789-570af7136063-1781066511729;]
   [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:b9dc1279-7955-4688-a789-570af7136063-1781066511729] = ["mode":"equals","text":"$$data","compare_with":"update_variables"]$
   [if_executable_block_collapsed:efa0bcc3-fbc4-4924-963a-98b162344ed0-1781066525005] = false
-  [executable_block:b92f5369-4430-4aac-8df9-f67a85f88a7d-1781066506691][type:generic] = [executables:efa0bcc3-fbc4-4924-963a-98b162344ed0-1781066525005;]
+  [executable_action_instance:63b5b5c0-b157-4695-9c50-5c9a32e8812f-1786581503489][action_type:set_variable] = day_start:{"placeholder":"realtimehour"}:{"placeholder":"realtimeminute"}
+  [executable_block:7196de19-aac3-417f-b811-927406b9327b-1786581499698][type:if] = [executables:63b5b5c0-b157-4695-9c50-5c9a32e8812f-1786581503489;]
+  [if_executable_block_body:7196de19-aac3-417f-b811-927406b9327b-1786581499698] = 5c778d6b-b455-4e14-8205-8768242292d4-1786581485705
+  [loading_requirement_container_meta:5c778d6b-b455-4e14-8205-8768242292d4-1786581485705] = [groups:][instances:271c2d5b-2e09-4f61-9062-3b7948b6fb5f-1786581487856;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:271c2d5b-2e09-4f61-9062-3b7948b6fb5f-1786581487856] = ["mode":"equals","text":"$$data","compare_with":"update_time"]$
+  [if_executable_block_collapsed:7196de19-aac3-417f-b811-927406b9327b-1786581499698] = false
+  [executable_block:b92f5369-4430-4aac-8df9-f67a85f88a7d-1781066506691][type:generic] = [executables:efa0bcc3-fbc4-4924-963a-98b162344ed0-1781066525005;7196de19-aac3-417f-b811-927406b9327b-1786581499698;]
 }
 
 listener_instance {

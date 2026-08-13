@@ -13,7 +13,7 @@ execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entit
 function ct:util/color_names
 execute if score organ_grinder settings matches 0 run tellraw @a [{"selector":"@a[tag=nominee]"},{"text":" received ",color:white},{"score":{"name":"total","objective":"vote"},"bold":true,color:white},{"text":" votes.",color:white}]
 execute if score organ_grinder settings matches 1 run tellraw @a[tag=storyteller] [{"selector":"@a[tag=nominee]"},{"text":" received ",color:white},{"score":{"name":"total","objective":"vote"},"bold":true,color:white},{"text":" votes.",color:white}]
-tellraw @a[tag=storyteller] [{"text":"✔ ","bold":true,"color":"green"},{"text":"These players voted: ","bold":false,"color":"white"},{"selector":"@a[tag=voting_yes]","bold":false}]
+tellraw @a[tag=storyteller] [{"text":"✔ ","bold":true,"color":"green"},{"text":"These players voted: ","bold":false,"color":"white"},{"selector":"@a[tag=!voting_no,tag=!spectator,tag=!storyteller]","bold":false}]
 execute as @a[tag=!storyteller,tag=!spectator] unless entity @s[scores={role=130}] run tag @s add not_legion
 execute if entity @a[scores={role=130},tag=voting_yes] unless entity @a[tag=not_legion,tag=voting_yes] run tellraw @a[tag=storyteller] [{"text":"! ","bold":true,"color":"dark_red"},{"text":"Only Legion voted.","bold":false,"color":"red"}]
 function ct:util/color_prefixes

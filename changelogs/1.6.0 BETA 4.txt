@@ -6,9 +6,12 @@ Technical changes:
 Timer functions moved to util folder as they're grabbed from a lot of different spots.
 
 Fixed bugs:
+#4: The bottom right "Since ..." uses the Storyteller's timezone.
+#87: Compasses not handed out on night one
 #132: Players can escape the pyre while being executed.
 #134: Icons in the bag differ in size
 #138: Alive vote not changed to a Dead vote visually when a player dies with their vote on
+#139: Dead Votes are not removed when voting during a Sober Organ Grinder day
 #140: Both Alternate Icon resource packs are missing their 'faded' icon variants
 #141: Resetting the game doesnt remove the current nomination
 #143: The Storyteller settings part of the options menu doesn't currently work.
@@ -26,3 +29,4 @@ Fixed bugs:
 #158: Banshee votes chat and actionbar don't line up
 #159: Timer doesn't hide or un-pause after a vote
 Night Chat is not isolated.
+Players can join Town Square voice chat during night.

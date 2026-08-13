@@ -50,6 +50,7 @@ tag @s remove townsfolk
 tag @s remove spectator
 tag @s remove not_legion
 tag @s remove rejoining
+tag @s remove being_executed
 
 fmvariable set role false none
 fmvariable set phase false 0

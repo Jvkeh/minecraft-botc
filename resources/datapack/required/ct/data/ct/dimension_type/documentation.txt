@@ -1,0 +1,5 @@
+!! NOT YET IMPLEMENTED !!
+
+minecraft:overworld functions as a sort of "lobby" dimension. Each custom dimension contains exactly one map
+to be used with the modpack. ct:ravenswood_bluff is the default map, but registering a dimension_type and a
+dimension in the datapack will allow you to create a new dimension in which to put your custom map.

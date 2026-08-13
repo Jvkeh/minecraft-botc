@@ -24,6 +24,6 @@ execute if predicate ct:vc/greenhouse run return run function ct:voicechat/green
 execute if predicate ct:vc/inn run return run function ct:voicechat/inn
 execute if predicate ct:vc/bakery run return run function ct:voicechat/bakery
 execute if predicate ct:vc/storyteller_den run return run function ct:voicechat/storyteller_den
-execute if predicate ct:vc/town_square run return run function ct:voicechat/town_square
+execute unless score phase game_data matches 4 if predicate ct:vc/town_square run return run function ct:voicechat/town_square
 
 function ct:voicechat/leave
