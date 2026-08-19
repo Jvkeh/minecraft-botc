@@ -5,6 +5,7 @@ Features and changes:
 Technical changes:
 Timer functions moved to util folder as they're grabbed from a lot of different spots.
 
+
 Fixed bugs:
 #4: The bottom right "Since ..." uses the Storyteller's timezone.
 #87: Compasses not handed out on night one
@@ -28,5 +29,6 @@ Fixed bugs:
 #156: Grey house icon appears incorrectly
 #158: Banshee votes chat and actionbar don't line up
 #159: Timer doesn't hide or un-pause after a vote
+#162: VI and Legion distribution issues
 Night Chat is not isolated.
 Players can join Town Square voice chat during night.

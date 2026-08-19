@@ -1,5 +1,5 @@
-execute unless entity @a[scores={role=130}] if entity @a[scores={role=78}] run scoreboard players set @a[scores={role=0},tag=!storyteller,tag=!spectator] role 78
-execute if entity @a[scores={role=130}] run scoreboard players set @a[scores={role=0},tag=!storyteller,tag=!spectator] role 130
+execute unless entity @a[scores={role=404}] if entity @a[scores={role=61}] run scoreboard players set @a[scores={role=0},tag=!storyteller,tag=!spectator] role 61
+execute if entity @a[scores={role=404}] run scoreboard players set @a[scores={role=0},tag=!storyteller,tag=!spectator] role 404
 
 execute as @a[scores={id=1}] run function ct:start_game/roles/set_grim_roles {id:1}
 execute as @a[scores={id=2}] run function ct:start_game/roles/set_grim_roles {id:2}
