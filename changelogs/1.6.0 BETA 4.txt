@@ -1,10 +1,7 @@
-BotC v1.6.0 BETA 4 - July 24, 2026
-
-Features and changes:
+BotC v1.6.0 BETA 4 - August 21st, 2026
 
 Technical changes:
 Timer functions moved to util folder as they're grabbed from a lot of different spots.
-
 
 Fixed bugs:
 #4: The bottom right "Since ..." uses the Storyteller's timezone.
@@ -32,3 +29,4 @@ Fixed bugs:
 #162: VI and Legion distribution issues
 Night Chat is not isolated.
 Players can join Town Square voice chat during night.
+Fixed "Mark" sending an end vote message.

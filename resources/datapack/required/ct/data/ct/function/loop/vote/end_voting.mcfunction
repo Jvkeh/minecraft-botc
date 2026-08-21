@@ -30,6 +30,7 @@ scoreboard players set total vote 0
 scoreboard players set first vote 0
 scoreboard players set current vote 0
 
+execute as @e[type=minecraft:item_display,tag=vote_marker] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 0
 
 tag @a[tag=not_legion] remove not_legion

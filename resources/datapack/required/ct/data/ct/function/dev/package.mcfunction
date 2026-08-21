@@ -8,7 +8,6 @@ fmvariable get version
 tag @s remove storyteller
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["ct_bag"]}]
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]}]
-clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["grimoire"]}]
 gamerule send_command_feedback false
 gamerule reduced_debug_info true
 gamerule spectators_generate_chunks false
