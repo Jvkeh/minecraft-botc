@@ -31,6 +31,7 @@ Fixed bugs:
 - #158: Banshee votes chat and actionbar don't line up
 - #159: Timer doesn't hide or un-pause after a vote
 - #162: VI and Legion distribution issues
+- #164: Disable Enhanced Groups group summary setting
 - Night Chat is not isolated.
 - Players can join Town Square voice chat during night.
 - Fixed "Mark" sending an end vote message.
