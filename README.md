@@ -18,3 +18,10 @@ All players need to do is install the modpack via Modrinth. If Modrinth is not a
 - [Setup Simple Voice Chat](https://modrepo.de/minecraft/voicechat/wiki/server_setup).
 - Op yourself from the server console.
 - Done!
+
+## Custom Content & AI Disclosure
+This project is distributed under the GNU GPLv3, in short meaning that you are able to modify and redistribute this project, so long as your variation of it is also open source and distributed under the same license.
+
+No AI has been or will be used in the creation of this project, neither in the creation of code or art nor as a quality check or search engine. As of the writing of this document, the legality of AI usage involving existing media is murky, and I am not able to forcibly prevent anyone from using AI in relation to this project. As an artist, however, I am asking that if you create anything involving my work to not touch it with AI in any manner. This, as with all projects I create, is a celebration of human work, and to use AI in a fork of or add-on to it is offensive at best.
+
+If you want to create a modified version or custom map for this project, that's awesome and I'd love to hear about it! Right now the process isn't super easy and requires a certain amount of technical Minecraft knowledge to adjust the datapack appropriately. This is something that is being slowly improved with each update.
