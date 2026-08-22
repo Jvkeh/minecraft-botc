@@ -34,3 +34,5 @@ tag @a remove universal_vc
 execute as @a run voicechat leave
 
 clear @a minecraft:compass[minecraft:custom_name={italic:0b,text:"Home Compass"}]
+
+function ct:util/sync_variables

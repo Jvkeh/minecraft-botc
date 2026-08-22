@@ -39,3 +39,5 @@ tag @a[tag=voted_today,tag=dead,tag=!died_today,tag=!active_banshee] add expende
 tag @a remove died_today
 tag @a remove voted_today
 tag @a remove being_executed
+
+function ct:util/sync_variables

@@ -6,5 +6,10 @@ Features and changes:
 Technical changes:
 
 Fixed bugs:
-#152: /whisper does not work for last and first player in games of less than 15 players
-#171: Commands usable by players, which should not
+- #152: /whisper does not work for last and first player in games of less than 15 players
+- #165: Demon about message spam
+- #171: Commands usable by players, which should not
+- /pronoun hint uses old syntax.
+- Day # display updates at dawn but not night.
+- Grimoire displays First Night Order on second night.
+- Decorated Pots can consume items.

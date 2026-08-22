@@ -74,7 +74,7 @@ variable {
 
 variable {
   name = dev
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -944,7 +944,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -1112,7 +1112,7 @@ variable {
 
 variable {
   name = minion_count
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -1190,7 +1190,7 @@ variable {
 
 variable {
   name = day_start
-  value = 19:53
+  value = 17:10
   reset_on_launch = false
 }
 
@@ -2024,7 +2024,7 @@ variable {
 
 variable {
   name = town_count
-  value = 3
+  value = 9
   reset_on_launch = false
 }
 
@@ -2198,7 +2198,7 @@ variable {
 
 variable {
   name = player_count
-  value = 1
+  value = 13
   reset_on_launch = false
 }
 
