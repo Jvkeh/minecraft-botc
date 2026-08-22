@@ -27,7 +27,6 @@ cache
 /data
 config/axiom
 config/carpet
-config/enhancedgroups
 config/fabric
 config/NoChatReports
 config/voicechat/category-volumes.properties
@@ -89,3 +88,4 @@ config/fancymenu/ui_themes/cozy_campfire.json
 config/lingua_bib.json
 config/gpu_booster_config.json
 /saves/world/advancements
+.vscode/
