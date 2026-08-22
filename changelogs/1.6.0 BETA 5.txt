@@ -1,8 +1,10 @@
 BotC v1.6.0 BETA 5 - August 21st, 2026
 
 Features and changes:
+- Setup tutorial messages now refer to the player's username instead of <player>.
 
 Technical changes:
 
 Fixed bugs:
 #152: /whisper does not work for last and first player in games of less than 15 players
+#171: Commands usable by players, which should not
