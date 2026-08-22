@@ -18,3 +18,4 @@ Fixed bugs:
 - Group chat HUD is enabled.
 - "Requesting Chat" is automatically disabled if the player and ST are both in the Town Square.
 - White House voice chat has a dead zone.
+- Village Idiot does not fill empty spots.
