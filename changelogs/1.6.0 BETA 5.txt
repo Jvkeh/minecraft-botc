@@ -1,0 +1,8 @@
+BotC v1.6.0 BETA 5 - August 21st, 2026
+
+Features and changes:
+
+Technical changes:
+
+Fixed bugs:
+#152: /whisper does not work for last and first player in games of less than 15 players
