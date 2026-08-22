@@ -5,7 +5,7 @@ realms_persistence.json
 servers.dat
 servers.dat_old
 usercache.json
-options.txt
+/options.txt
 command_history.txt
 checkbox_states.json
 spiffy_instance_data
