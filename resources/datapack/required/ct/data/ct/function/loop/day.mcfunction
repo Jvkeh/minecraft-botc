@@ -3,8 +3,8 @@ execute as @a[tag=!storyteller,tag=!spectator,scores={vc=16}] run scoreboard pla
 execute as @a[tag=!storyteller,tag=!spectator,scores={vc=17}] run scoreboard players add wheat vc 1
 execute as @a[tag=!storyteller,tag=!spectator,scores={vc=18}] run scoreboard players add church vc 1
 execute as @a[tag=!storyteller,tag=!spectator,scores={vc=19}] run scoreboard players add graveyard vc 1
-execute as @a[tag=!storyteller,tag=!spectator,scores={vc=21}] run scoreboard players add inn vc 1
 execute as @a[tag=!storyteller,tag=!spectator,scores={vc=20}] run scoreboard players add greenhouse vc 1
+execute as @a[tag=!storyteller,tag=!spectator,scores={vc=21}] run scoreboard players add inn vc 1
 execute as @a[tag=!storyteller,tag=!spectator,scores={vc=22}] run scoreboard players add bakery vc 1
 execute as @a[tag=!spectator,scores={vc=23}] run scoreboard players add den vc 1
 
