@@ -15,3 +15,6 @@ Fixed bugs:
 - Day # display updates at dawn but not night.
 - Grimoire displays First Night Order on second night.
 - Decorated Pots can consume items.
+- Group chat HUD is enabled.
+- "Requesting Chat" is automatically disabled if the player and ST are both in the Town Square.
+- White House voice chat has a dead zone.
