@@ -4,6 +4,8 @@ Features and changes:
 - Setup tutorial messages now refer to the player's username instead of <player>.
 
 Technical changes:
+- Removed unused file references from carrot_on_a_stick.json
+- Added min_format and max_format to datapack.
 
 Fixed bugs:
 - #152: /whisper does not work for last and first player in games of less than 15 players
