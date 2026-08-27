@@ -1,7 +1,6 @@
 scoreboard players set @s use_carrot 0
 execute as @e[type=minecraft:item_display,tag=arm] run data modify entity @s view_range set value 1
 
-tag @a add voting_no
 scoreboard players operation current vote = @a[tag=nominee] id
 scoreboard players add current vote 1
 execute if score current vote > player_count game_data run scoreboard players set current vote 1

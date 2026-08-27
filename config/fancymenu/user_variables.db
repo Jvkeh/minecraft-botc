@@ -452,7 +452,7 @@ variable {
 
 variable {
   name = quickaction
-  value = none
+  value = banshee
   reset_on_launch = false
 }
 
@@ -1112,7 +1112,7 @@ variable {
 
 variable {
   name = minion_count
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -1190,7 +1190,7 @@ variable {
 
 variable {
   name = day_start
-  value = 20:27
+  value = 12:23
   reset_on_launch = false
 }
 
@@ -2024,7 +2024,7 @@ variable {
 
 variable {
   name = town_count
-  value = 9
+  value = 5
   reset_on_launch = false
 }
 
@@ -2198,7 +2198,7 @@ variable {
 
 variable {
   name = player_count
-  value = 0
+  value = 8
   reset_on_launch = false
 }
 
@@ -2294,7 +2294,7 @@ variable {
 
 variable {
   name = script_json
-  value = ["villageidiot"]
+  value = 
   reset_on_launch = false
 }
 
@@ -2324,7 +2324,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 0
+  value = 8
   reset_on_launch = false
 }
 
@@ -2348,7 +2348,7 @@ variable {
 
 variable {
   name = clock_speed
-  value = 5
+  value = 8
   reset_on_launch = false
 }
 
@@ -2486,7 +2486,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -2900,7 +2900,7 @@ variable {
 
 variable {
   name = editing_player
-  value = 5
+  value = 10
   reset_on_launch = false
 }
 

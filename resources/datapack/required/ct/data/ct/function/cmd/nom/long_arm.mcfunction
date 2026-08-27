@@ -9,7 +9,11 @@ tag @e[type=minecraft:item_display,tag=vote_marker,tag=arm_target] remove arm_ta
 execute as @a at @s run playsound ct:clocktower.nominate voice @s ~ ~ ~
 item replace entity @a[tag=!expended_ghost,tag=!storyteller,tag=!spectator] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"NO",color:"red",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
 item replace entity @a[tag=storyteller] hotbar.6 with minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["start_vote"]},custom_name=[{text:"Start Vote",color:"white",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]
-tag @a[tag=!expended_ghost,team=!00_spectator] add voting_no
+tag @a remove voting_yes
+tag @a remove voting_no
+tag @a remove voting_ghost
+tag @a remove voting_banshee
+tag @a[team=!00_spectator] add voting_no
 function ct:util/color_names
 tellraw @a [{"selector":"@a[tag=nominator]"},{"text":" has nominated ",color:white},{"selector":"@a[tag=nominee]"},{"text":".","color":white}]
 function ct:util/color_prefixes

@@ -1,5 +1,6 @@
 scoreboard players set @s use_carrot 0
 tag @s remove voting_yes
+tag @s remove voting_ghost
 tag @s[tag=!active_banshee] add voting_no
 tag @s[tag=active_banshee] add voting_banshee
 tellraw @s[tag=!active_banshee] [{"text":"Changed your vote to","color":"white"},{"text":" NO ","color":"red"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
