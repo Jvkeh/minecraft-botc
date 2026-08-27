@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:00ac3d73-238b-47bf-8b0f-2803d401a3c4-1784915330614] = [groups:][instances:]
+  [loading_requirement_container_meta:fbaa94a1-4456-4a8b-95f8-75d0926406c2-1787795792982] = [groups:][instances:]
 }
 
 customization {
@@ -70,8 +70,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = bcebaf7a-f45a-4a8c-af11-2d02975ea90f-1783301428332
-  background_type = video_mcef
+  instance_identifier = d6681bbf-386c-485a-be04-260f32d29cd1-1787795792982
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -137,13 +137,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 82fc7bf7-9d5b-40fe-8e02-440388035434-1783301428333
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
