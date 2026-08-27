@@ -1,7 +1,9 @@
-BotC v1.6.0 BETA 5 - August 21st, 2026
+BotC v1.6.0 BETA 5 - August 27th, 2026
 
 Features and changes:
+- Downgraded Sodium and re-enabled Iris.
 - Setup tutorial messages now refer to the player's username instead of <player>.
+- Silenced the Cyan House's sheep. :)
 
 Technical changes:
 - Removed unused file references from carrot_on_a_stick.json

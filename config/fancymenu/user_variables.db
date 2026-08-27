@@ -74,7 +74,7 @@ variable {
 
 variable {
   name = dev
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -452,7 +452,7 @@ variable {
 
 variable {
   name = quickaction
-  value = banshee
+  value = none
   reset_on_launch = false
 }
 
@@ -944,7 +944,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2024,7 +2024,7 @@ variable {
 
 variable {
   name = town_count
-  value = 5
+  value = 3
   reset_on_launch = false
 }
 
@@ -2198,7 +2198,7 @@ variable {
 
 variable {
   name = player_count
-  value = 8
+  value = 0
   reset_on_launch = false
 }
 
@@ -2348,7 +2348,7 @@ variable {
 
 variable {
   name = clock_speed
-  value = 8
+  value = 20
   reset_on_launch = false
 }
 
@@ -2486,7 +2486,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
