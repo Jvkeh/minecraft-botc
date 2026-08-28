@@ -1055,5 +1055,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-08-27 17:25:01 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-08-27 17:25:20 +1000"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }

@@ -28,7 +28,7 @@ S:custom_game_intro_skip_text = '';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '/config/fancymenu/assets/imp_32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/imp_32.png';
-S:custom_window_title = 'Blood on the Clocktower v1.6.0-BETA 5';
+S:custom_window_title = 'Blood on the Clocktower v1.6.0';
 S:custom_window_icon_16 = '/config/fancymenu/assets/imp_16.png';
 
 

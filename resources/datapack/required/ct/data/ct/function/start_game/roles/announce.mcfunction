@@ -31,69 +31,71 @@ execute as @s[scores={role=1}] run title @s title [{"translate":"clocktower.pref
 execute as @s[scores={role=2}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.alchemist.name",color:"#1464e7"}]
 execute as @s[scores={role=3}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.alsaahir.name",color:"#1464e7"}]
 execute as @s[scores={role=4}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.amnesiac.name",color:"#1464e7"}]
-execute as @s[scores={role=5}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.balloonist.name",color:"#1464e7"}]
-execute as @s[scores={role=6}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.banshee.name",color:"#1464e7"}]
-execute as @s[scores={role=7}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.bountyhunter.name",color:"#1464e7"}]
-execute as @s[scores={role=8}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.cannibal.name",color:"#1464e7"}]
-execute as @s[scores={role=9}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.chambermaid.name",color:"#1464e7"}]
-execute as @s[scores={role=10}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.chef.name",color:"#1464e7"}]
-execute as @s[scores={role=11}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.choirboy.name",color:"#1464e7"}]
-execute as @s[scores={role=12}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.clockmaker.name",color:"#1464e7"}]
-execute as @s[scores={role=13}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.courtier.name",color:"#1464e7"}]
-execute as @s[scores={role=14}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.cultleader.name",color:"#1464e7"}]
-execute as @s[scores={role=15}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.dreamer.name",color:"#1464e7"}]
-execute as @s[scores={role=16}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.empath.name",color:"#1464e7"}]
-execute as @s[scores={role=17}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.engineer.name",color:"#1464e7"}]
-execute as @s[scores={role=18}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.exorcist.name",color:"#1464e7"}]
-execute as @s[scores={role=19}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.farmer.name",color:"#1464e7"}]
-execute as @s[scores={role=20}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.fisherman.name",color:"#1464e7"}]
-execute as @s[scores={role=21}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.flowergirl.name",color:"#1464e7"}]
-execute as @s[scores={role=22}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.fool.name",color:"#1464e7"}]
-execute as @s[scores={role=23}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.fortuneteller.name",color:"#1464e7"}]
-execute as @s[scores={role=24}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.gambler.name",color:"#1464e7"}]
-execute as @s[scores={role=25}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.general.name",color:"#1464e7"}]
-execute as @s[scores={role=26}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.gossip.name",color:"#1464e7"}]
-execute as @s[scores={role=27}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.grandmother.name",color:"#1464e7"}]
-execute as @s[scores={role=28}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.highpriestess.name",color:"#1464e7"}]
-execute as @s[scores={role=29}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.huntsman.name",color:"#1464e7"}]
-execute as @s[scores={role=30}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.innkeeper.name",color:"#1464e7"}]
-execute as @s[scores={role=31}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.investigator.name",color:"#1464e7"}]
-execute as @s[scores={role=32}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.juggler.name",color:"#1464e7"}]
-execute as @s[scores={role=33}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.king.name",color:"#1464e7"}]
-execute as @s[scores={role=34}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.knight.name",color:"#1464e7"}]
-execute as @s[scores={role=35}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.librarian.name",color:"#1464e7"}]
-execute as @s[scores={role=36}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.lycanthrope.name",color:"#1464e7"}]
-execute as @s[scores={role=37}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.magician.name",color:"#1464e7"}]
-execute as @s[scores={role=38}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.mathematician.name",color:"#1464e7"}]
-execute as @s[scores={role=39}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.mayor.name",color:"#1464e7"}]
-execute as @s[scores={role=40}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.minstrel.name",color:"#1464e7"}]
-execute as @s[scores={role=41}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.monk.name",color:"#1464e7"}]
-execute as @s[scores={role=42}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.nightwatchman.name",color:"#1464e7"}]
-execute as @s[scores={role=43}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.noble.name",color:"#1464e7"}]
-execute as @s[scores={role=44}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.oracle.name",color:"#1464e7"}]
-execute as @s[scores={role=45}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.pacifist.name",color:"#1464e7"}]
-execute as @s[scores={role=46}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.philosopher.name",color:"#1464e7"}]
-execute as @s[scores={role=47}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.pixie.name",color:"#1464e7"}]
-execute as @s[scores={role=48}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.poppygrower.name",color:"#1464e7"}]
-execute as @s[scores={role=49}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.preacher.name",color:"#1464e7"}]
-execute as @s[scores={role=50}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.princess.name",color:"#1464e7"}]
-execute as @s[scores={role=51}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.professor.name",color:"#1464e7"}]
-execute as @s[scores={role=52}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.ravenkeeper.name",color:"#1464e7"}]
-execute as @s[scores={role=53}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.sage.name",color:"#1464e7"}]
-execute as @s[scores={role=54}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.sailor.name",color:"#1464e7"}]
-execute as @s[scores={role=55}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.savant.name",color:"#1464e7"}]
-execute as @s[scores={role=56}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.seamstress.name",color:"#1464e7"}]
-execute as @s[scores={role=57}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.shugenja.name",color:"#1464e7"}]
-execute as @s[scores={role=58}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.slayer.name",color:"#1464e7"}]
-execute as @s[scores={role=59}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.snakecharmer.name",color:"#1464e7"}]
-execute as @s[scores={role=60}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.soldier.name",color:"#1464e7"}]
-execute as @s[scores={role=61}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.steward.name",color:"#1464e7"}]
-execute as @s[scores={role=62}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.tealady.name",color:"#1464e7"}]
-execute as @s[scores={role=63}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.towncrier.name",color:"#1464e7"}]
-execute as @s[scores={role=64}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.undertaker.name",color:"#1464e7"}]
-execute as @s[scores={role=65}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.villageidiot.name",color:"#1464e7"}]
-execute as @s[scores={role=66}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.virgin.name",color:"#1464e7"}]
-execute as @s[scores={role=67}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.washerwoman.name",color:"#1464e7"}]
+execute as @s[scores={role=5}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.artist.name",color:"#1464e7"}]
+execute as @s[scores={role=6}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.atheist.name",color:"#1464e7"}]
+execute as @s[scores={role=7}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.balloonist.name",color:"#1464e7"}]
+execute as @s[scores={role=8}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.banshee.name",color:"#1464e7"}]
+execute as @s[scores={role=9}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.bountyhunter.name",color:"#1464e7"}]
+execute as @s[scores={role=10}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.cannibal.name",color:"#1464e7"}]
+execute as @s[scores={role=11}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.chambermaid.name",color:"#1464e7"}]
+execute as @s[scores={role=12}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.chef.name",color:"#1464e7"}]
+execute as @s[scores={role=13}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.choirboy.name",color:"#1464e7"}]
+execute as @s[scores={role=14}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.clockmaker.name",color:"#1464e7"}]
+execute as @s[scores={role=15}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.courtier.name",color:"#1464e7"}]
+execute as @s[scores={role=16}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.cultleader.name",color:"#1464e7"}]
+execute as @s[scores={role=17}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.dreamer.name",color:"#1464e7"}]
+execute as @s[scores={role=18}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.empath.name",color:"#1464e7"}]
+execute as @s[scores={role=19}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.engineer.name",color:"#1464e7"}]
+execute as @s[scores={role=20}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.exorcist.name",color:"#1464e7"}]
+execute as @s[scores={role=21}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.farmer.name",color:"#1464e7"}]
+execute as @s[scores={role=22}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.fisherman.name",color:"#1464e7"}]
+execute as @s[scores={role=23}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.flowergirl.name",color:"#1464e7"}]
+execute as @s[scores={role=24}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.fool.name",color:"#1464e7"}]
+execute as @s[scores={role=25}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.fortuneteller.name",color:"#1464e7"}]
+execute as @s[scores={role=26}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.gambler.name",color:"#1464e7"}]
+execute as @s[scores={role=27}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.general.name",color:"#1464e7"}]
+execute as @s[scores={role=28}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.gossip.name",color:"#1464e7"}]
+execute as @s[scores={role=29}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.grandmother.name",color:"#1464e7"}]
+execute as @s[scores={role=30}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.highpriestess.name",color:"#1464e7"}]
+execute as @s[scores={role=31}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.huntsman.name",color:"#1464e7"}]
+execute as @s[scores={role=32}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.innkeeper.name",color:"#1464e7"}]
+execute as @s[scores={role=33}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.investigator.name",color:"#1464e7"}]
+execute as @s[scores={role=34}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.juggler.name",color:"#1464e7"}]
+execute as @s[scores={role=35}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.king.name",color:"#1464e7"}]
+execute as @s[scores={role=36}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.knight.name",color:"#1464e7"}]
+execute as @s[scores={role=37}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.librarian.name",color:"#1464e7"}]
+execute as @s[scores={role=38}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.lycanthrope.name",color:"#1464e7"}]
+execute as @s[scores={role=39}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.magician.name",color:"#1464e7"}]
+execute as @s[scores={role=40}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.mathematician.name",color:"#1464e7"}]
+execute as @s[scores={role=41}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.mayor.name",color:"#1464e7"}]
+execute as @s[scores={role=42}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.minstrel.name",color:"#1464e7"}]
+execute as @s[scores={role=43}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.monk.name",color:"#1464e7"}]
+execute as @s[scores={role=44}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.nightwatchman.name",color:"#1464e7"}]
+execute as @s[scores={role=45}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.noble.name",color:"#1464e7"}]
+execute as @s[scores={role=46}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.oracle.name",color:"#1464e7"}]
+execute as @s[scores={role=47}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.pacifist.name",color:"#1464e7"}]
+execute as @s[scores={role=48}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.philosopher.name",color:"#1464e7"}]
+execute as @s[scores={role=49}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.pixie.name",color:"#1464e7"}]
+execute as @s[scores={role=50}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.poppygrower.name",color:"#1464e7"}]
+execute as @s[scores={role=51}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.preacher.name",color:"#1464e7"}]
+execute as @s[scores={role=52}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.princess.name",color:"#1464e7"}]
+execute as @s[scores={role=53}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.professor.name",color:"#1464e7"}]
+execute as @s[scores={role=54}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.ravenkeeper.name",color:"#1464e7"}]
+execute as @s[scores={role=55}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.sage.name",color:"#1464e7"}]
+execute as @s[scores={role=56}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.sailor.name",color:"#1464e7"}]
+execute as @s[scores={role=57}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.savant.name",color:"#1464e7"}]
+execute as @s[scores={role=58}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.seamstress.name",color:"#1464e7"}]
+execute as @s[scores={role=59}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.shugenja.name",color:"#1464e7"}]
+execute as @s[scores={role=60}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.slayer.name",color:"#1464e7"}]
+execute as @s[scores={role=61}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.snakecharmer.name",color:"#1464e7"}]
+execute as @s[scores={role=62}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.soldier.name",color:"#1464e7"}]
+execute as @s[scores={role=63}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.steward.name",color:"#1464e7"}]
+execute as @s[scores={role=64}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.tealady.name",color:"#1464e7"}]
+execute as @s[scores={role=65}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.towncrier.name",color:"#1464e7"}]
+execute as @s[scores={role=66}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.undertaker.name",color:"#1464e7"}]
+execute as @s[scores={role=67}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.villageidiot.name",color:"#1464e7"}]
+execute as @s[scores={role=68}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.virgin.name",color:"#1464e7"}]
+execute as @s[scores={role=69}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.washerwoman.name",color:"#1464e7"}]
 ## 200-299: OUTSIDERS
 execute as @s[scores={role=200}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.barber.name",color:"#1464e7"}]
 execute as @s[scores={role=201}] run title @s title [{"translate":"clocktower.prefix.the","color":"#1464e7"},{"translate":"clocktower.role.butler.name",color:"#1464e7"}]
@@ -191,69 +193,71 @@ execute as @s[scores={role=1}] run fmvariable set role false acrobat
 execute as @s[scores={role=2}] run fmvariable set role false alchemist
 execute as @s[scores={role=3}] run fmvariable set role false alsaahir
 execute as @s[scores={role=4}] run fmvariable set role false amnesiac
-execute as @s[scores={role=5}] run fmvariable set role false balloonist
-execute as @s[scores={role=6}] run fmvariable set role false banshee
-execute as @s[scores={role=7}] run fmvariable set role false bountyhunter
-execute as @s[scores={role=8}] run fmvariable set role false cannibal
-execute as @s[scores={role=9}] run fmvariable set role false chambermaid
-execute as @s[scores={role=10}] run fmvariable set role false chef
-execute as @s[scores={role=11}] run fmvariable set role false choirboy
-execute as @s[scores={role=12}] run fmvariable set role false clockmaker
-execute as @s[scores={role=13}] run fmvariable set role false courtier
-execute as @s[scores={role=14}] run fmvariable set role false cultleader
-execute as @s[scores={role=15}] run fmvariable set role false dreamer
-execute as @s[scores={role=16}] run fmvariable set role false empath
-execute as @s[scores={role=17}] run fmvariable set role false engineer
-execute as @s[scores={role=18}] run fmvariable set role false exorcist
-execute as @s[scores={role=19}] run fmvariable set role false farmer
-execute as @s[scores={role=20}] run fmvariable set role false fisherman
-execute as @s[scores={role=21}] run fmvariable set role false flowergirl
-execute as @s[scores={role=22}] run fmvariable set role false fool
-execute as @s[scores={role=23}] run fmvariable set role false fortuneteller
-execute as @s[scores={role=24}] run fmvariable set role false gambler
-execute as @s[scores={role=25}] run fmvariable set role false general
-execute as @s[scores={role=26}] run fmvariable set role false gossip
-execute as @s[scores={role=27}] run fmvariable set role false grandmother
-execute as @s[scores={role=28}] run fmvariable set role false highpriestess
-execute as @s[scores={role=29}] run fmvariable set role false huntsman
-execute as @s[scores={role=30}] run fmvariable set role false innkeeper
-execute as @s[scores={role=31}] run fmvariable set role false investigator
-execute as @s[scores={role=32}] run fmvariable set role false juggler
-execute as @s[scores={role=33}] run fmvariable set role false king
-execute as @s[scores={role=34}] run fmvariable set role false knight
-execute as @s[scores={role=35}] run fmvariable set role false librarian
-execute as @s[scores={role=36}] run fmvariable set role false lycanthrope
-execute as @s[scores={role=37}] run fmvariable set role false magician
-execute as @s[scores={role=38}] run fmvariable set role false mathematician
-execute as @s[scores={role=39}] run fmvariable set role false mayor
-execute as @s[scores={role=40}] run fmvariable set role false minstrel
-execute as @s[scores={role=41}] run fmvariable set role false monk
-execute as @s[scores={role=42}] run fmvariable set role false nightwatchman
-execute as @s[scores={role=43}] run fmvariable set role false noble
-execute as @s[scores={role=44}] run fmvariable set role false oracle
-execute as @s[scores={role=45}] run fmvariable set role false pacifist
-execute as @s[scores={role=46}] run fmvariable set role false philosopher
-execute as @s[scores={role=47}] run fmvariable set role false pixie
-execute as @s[scores={role=48}] run fmvariable set role false poppygrower
-execute as @s[scores={role=49}] run fmvariable set role false preacher
-execute as @s[scores={role=50}] run fmvariable set role false princess
-execute as @s[scores={role=51}] run fmvariable set role false professor
-execute as @s[scores={role=52}] run fmvariable set role false ravenkeeper
-execute as @s[scores={role=53}] run fmvariable set role false sage
-execute as @s[scores={role=54}] run fmvariable set role false sailor
-execute as @s[scores={role=55}] run fmvariable set role false savant
-execute as @s[scores={role=56}] run fmvariable set role false seamstress
-execute as @s[scores={role=57}] run fmvariable set role false shugenja
-execute as @s[scores={role=58}] run fmvariable set role false slayer
-execute as @s[scores={role=59}] run fmvariable set role false snakecharmer
-execute as @s[scores={role=60}] run fmvariable set role false soldier
-execute as @s[scores={role=61}] run fmvariable set role false steward
-execute as @s[scores={role=62}] run fmvariable set role false tealady
-execute as @s[scores={role=63}] run fmvariable set role false towncrier
-execute as @s[scores={role=64}] run fmvariable set role false undertaker
-execute as @s[scores={role=65}] run fmvariable set role false villageidiot
-execute as @s[scores={role=66}] run fmvariable set role false virgin
-execute as @s[scores={role=67}] run fmvariable set role false washerwoman
+execute as @s[scores={role=5}] run fmvariable set role false artist
+execute as @s[scores={role=6}] run fmvariable set role false atheist
+execute as @s[scores={role=7}] run fmvariable set role false balloonist
+execute as @s[scores={role=8}] run fmvariable set role false banshee
+execute as @s[scores={role=9}] run fmvariable set role false bountyhunter
+execute as @s[scores={role=10}] run fmvariable set role false cannibal
+execute as @s[scores={role=11}] run fmvariable set role false chambermaid
+execute as @s[scores={role=12}] run fmvariable set role false chef
+execute as @s[scores={role=13}] run fmvariable set role false choirboy
+execute as @s[scores={role=14}] run fmvariable set role false clockmaker
+execute as @s[scores={role=15}] run fmvariable set role false courtier
+execute as @s[scores={role=16}] run fmvariable set role false cultleader
+execute as @s[scores={role=17}] run fmvariable set role false dreamer
+execute as @s[scores={role=18}] run fmvariable set role false empath
+execute as @s[scores={role=19}] run fmvariable set role false engineer
+execute as @s[scores={role=20}] run fmvariable set role false exorcist
+execute as @s[scores={role=21}] run fmvariable set role false farmer
+execute as @s[scores={role=22}] run fmvariable set role false fisherman
+execute as @s[scores={role=23}] run fmvariable set role false flowergirl
+execute as @s[scores={role=24}] run fmvariable set role false fool
+execute as @s[scores={role=25}] run fmvariable set role false fortuneteller
+execute as @s[scores={role=26}] run fmvariable set role false gambler
+execute as @s[scores={role=27}] run fmvariable set role false general
+execute as @s[scores={role=28}] run fmvariable set role false gossip
+execute as @s[scores={role=29}] run fmvariable set role false grandmother
+execute as @s[scores={role=30}] run fmvariable set role false highpriestess
+execute as @s[scores={role=31}] run fmvariable set role false huntsman
+execute as @s[scores={role=32}] run fmvariable set role false innkeeper
+execute as @s[scores={role=33}] run fmvariable set role false investigator
+execute as @s[scores={role=34}] run fmvariable set role false juggler
+execute as @s[scores={role=35}] run fmvariable set role false king
+execute as @s[scores={role=36}] run fmvariable set role false knight
+execute as @s[scores={role=37}] run fmvariable set role false librarian
+execute as @s[scores={role=38}] run fmvariable set role false lycanthrope
+execute as @s[scores={role=39}] run fmvariable set role false magician
+execute as @s[scores={role=40}] run fmvariable set role false mathematician
+execute as @s[scores={role=41}] run fmvariable set role false mayor
+execute as @s[scores={role=42}] run fmvariable set role false minstrel
+execute as @s[scores={role=43}] run fmvariable set role false monk
+execute as @s[scores={role=44}] run fmvariable set role false nightwatchman
+execute as @s[scores={role=45}] run fmvariable set role false noble
+execute as @s[scores={role=46}] run fmvariable set role false oracle
+execute as @s[scores={role=47}] run fmvariable set role false pacifist
+execute as @s[scores={role=48}] run fmvariable set role false philosopher
+execute as @s[scores={role=49}] run fmvariable set role false pixie
+execute as @s[scores={role=50}] run fmvariable set role false poppygrower
+execute as @s[scores={role=51}] run fmvariable set role false preacher
+execute as @s[scores={role=52}] run fmvariable set role false princess
+execute as @s[scores={role=53}] run fmvariable set role false professor
+execute as @s[scores={role=54}] run fmvariable set role false ravenkeeper
+execute as @s[scores={role=55}] run fmvariable set role false sage
+execute as @s[scores={role=56}] run fmvariable set role false sailor
+execute as @s[scores={role=57}] run fmvariable set role false savant
+execute as @s[scores={role=58}] run fmvariable set role false seamstress
+execute as @s[scores={role=59}] run fmvariable set role false shugenja
+execute as @s[scores={role=60}] run fmvariable set role false slayer
+execute as @s[scores={role=61}] run fmvariable set role false snakecharmer
+execute as @s[scores={role=62}] run fmvariable set role false soldier
+execute as @s[scores={role=63}] run fmvariable set role false steward
+execute as @s[scores={role=64}] run fmvariable set role false tealady
+execute as @s[scores={role=65}] run fmvariable set role false towncrier
+execute as @s[scores={role=66}] run fmvariable set role false undertaker
+execute as @s[scores={role=67}] run fmvariable set role false villageidiot
+execute as @s[scores={role=68}] run fmvariable set role false virgin
+execute as @s[scores={role=69}] run fmvariable set role false washerwoman
 ## 200-299: OUTSIDERS
 execute as @s[scores={role=200}] run fmvariable set role false barber
 execute as @s[scores={role=201}] run fmvariable set role false butler
