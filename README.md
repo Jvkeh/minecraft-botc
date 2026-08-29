@@ -9,15 +9,10 @@ A list of unimplemented features and issues can be found on this repository's Is
 
 ## Installation
 ### Client Side
-All players need to do is install the modpack via Modrinth. If Modrinth is not an option for some reason, an alternative launcher that can use Modrinth's .mrpack format should be fine. CurseForge is not supported.
+All players need to do is install the modpack via Modrinth. If Modrinth is not an option for some reason, an alternative launcher that can use Modrinth's .mrpack format should be fine. CurseForge is not supported. [**Click here to view detailed installation and configuration instructions**](https://github.com/Sybillian/minecraft-botc/wiki/Installation:-Client).
 
 ### Server Side
-- Install the modpack as you would any other.
-- Move the contents of `./server/config` into `./config`.
-- Move the contents of `./saves` into your server's root folder.
-- [Setup Simple Voice Chat](https://modrepo.de/minecraft/voicechat/wiki/server_setup).
-- Op yourself from the server console.
-- Done!
+As of v1.6.0, installing the modpack is much easier, but still slightly more involved than most. [**Click here to view server-side installation instructions**](https://github.com/Sybillian/minecraft-botc/wiki/Installation:-Server).
 
 ## Custom Content & AI Disclosure
 This project is distributed under the GNU GPLv3, in short meaning that you are able to modify and redistribute this project, so long as your variation of it is also open source and distributed under the same license.
