@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = p5_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 13
+  value = 3
   reset_on_launch = false
 }
 
@@ -170,7 +170,7 @@ variable {
 
 variable {
   name = player_13
-  value = efe
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -296,7 +296,7 @@ variable {
 
 variable {
   name = bag_artist
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -338,7 +338,7 @@ variable {
 
 variable {
   name = player_11
-  value = Selina
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = player_12
-  value = Makena
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -368,7 +368,7 @@ variable {
 
 variable {
   name = player_10
-  value = Sunny
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -626,7 +626,7 @@ variable {
 
 variable {
   name = last_nom
-  value = none
+  value = axrelius
   reset_on_launch = false
 }
 
@@ -1118,13 +1118,13 @@ variable {
 
 variable {
   name = minion_count
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
 variable {
   name = team_color
-  value = #1e14e7
+  value = #1464e7
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 18:18
+  value = 13:34
   reset_on_launch = false
 }
 
@@ -1880,7 +1880,7 @@ variable {
 
 variable {
   name = player_1
-  value = Zack
+  value = emmarkus
   reset_on_launch = false
 }
 
@@ -1898,13 +1898,13 @@ variable {
 
 variable {
   name = player_5
-  value = Ari
+  value = Sir_Winn
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Kai
+  value = axrelius
   reset_on_launch = false
 }
 
@@ -1916,19 +1916,19 @@ variable {
 
 variable {
   name = player_3
-  value = anya
+  value = Shanl0k
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Shane
+  value = Xx_HIkar1_xX
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1940,19 +1940,19 @@ variable {
 
 variable {
   name = player_8
-  value = Olivia
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Emma
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = Celeste
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -2030,12 +2030,18 @@ variable {
 
 variable {
   name = town_count
-  value = 9
+  value = 3
   reset_on_launch = false
 }
 
 variable {
   name = bag_organgrinder
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = bag_atheist
   value = 0
   reset_on_launch = false
 }
@@ -2204,7 +2210,7 @@ variable {
 
 variable {
   name = player_count
-  value = 13
+  value = 0
   reset_on_launch = false
 }
 
@@ -2294,7 +2300,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 1
+  value = 11
   reset_on_launch = false
 }
 
@@ -2600,7 +2606,7 @@ variable {
 
 variable {
   name = phase
-  value = 4
+  value = 3
   reset_on_launch = false
 }
 
@@ -2636,7 +2642,7 @@ variable {
 
 variable {
   name = p2_alive
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2966,7 +2972,7 @@ variable {
 
 variable {
   name = announced_player
-  value = efe
+  value = Sir_Winn
   reset_on_launch = false
 }
 

@@ -10,6 +10,8 @@ tag @s remove voting_now
 
 tag @s[tag=voting_ghost] add voted_today
 tellraw @s[tag=voting_yes] [{"text":"You voted §aYES§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
-tellraw @s[tag=!voting_yes] [{"text":"You voted §cNO§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
+tellraw @s[tag=voting_ghost] [{"text":"You voted §aYES§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
+tellraw @s[tag=voting_banshee] [{"text":"You voted §aYES§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
+tellraw @s[tag=voting_no] [{"text":"You voted §cNO§r to execute "},{"selector":"@a[tag=nominee]"},{"text":"."}]
 
 function ct:admin/variables/score

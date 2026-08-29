@@ -1,0 +1,212 @@
+# This file provides the datapack with a list of vanilla characters to compare against
+# when importing a script, so as to be able to know if it can grab it from ct:character_data characters.
+
+## Townsfolk
+data modify storage ct:character_data character_list.townsfolk set value [\
+    "steward",\
+    "knight",\
+    "chef",\
+    "noble",\
+    "investigator",\
+    "washerwoman",\
+    "clockmaker",\
+    "grandmother",\
+    "librarian",\
+    "shugenja",\
+    "pixie",\
+    "bountyhunter",\
+    "empath",\
+    "highpriestess",\
+    "sailor",\
+    "balloonist",\
+    "general",\
+    "preacher",\
+    "chambermaid",\
+    "villageidiot",\
+    "snakecharmer",\
+    "mathematician",\
+    "king",\
+    "dreamer",\
+    "fortuneteller",\
+    "cultleader",\
+    "flowergirl",\
+    "towncrier",\
+    "oracle",\
+    "undertaker",\
+    "innkeeper",\
+    "monk",\
+    "gambler",\
+    "acrobat",\
+    "exorcist",\
+    "lycanthrope",\
+    "gossip",\
+    "savant",\
+    "alsaahir",\
+    "engineer",\
+    "nightwatchman",\
+    "courtier",\
+    "seamstress",\
+    "philosopher",\
+    "huntsman",\
+    "professor",\
+    "artist",\
+    "slayer",\
+    "fisherman",\
+    "princess",\
+    "juggler",\
+    "soldier",\
+    "alchemist",\
+    "cannibal",\
+    "amnesiac",\
+    "farmer",\
+    "minstrel",\
+    "ravenkeeper",\
+    "sage",\
+    "choirboy",\
+    "banshee",\
+    "tealady",\
+    "mayor",\
+    "fool",\
+    "virgin",\
+    "magician",\
+    "poppygrower",\
+    "pacifist",\
+    "atheist"\
+]
+
+## Outsiders
+data modify storage ct:character_data character_list.outsider set value \
+[\
+    "hermit",\
+    "butler",\
+    "goon",\
+    "ogre",\
+    "lunatic",\
+    "drunk",\
+    "tinker",\
+    "recluse",\
+    "golem",\
+    "sweetheart",\
+    "plaguedoctor",\
+    "klutz",\
+    "moonchild",\
+    "saint",\
+    "barber",\
+    "hatter",\
+    "mutant",\
+    "politician",\
+    "zealot",\
+    "damsel",\
+    "snitch",\
+    "heretic",\
+    "puzzlemaster"\
+]
+
+## Minions
+data modify storage ct:character_data character_list.minion set value \
+[\
+    "mezepheles",\
+    "godfather",\
+    "poisoner",\
+    "devilsadvocate",\
+    "spy",\
+    "harpy",\
+    "witch",\
+    "cerenovus",\
+    "fearmonger",\
+    "pithag",\
+    "psychopath",\
+    "assassin",\
+    "wizard",\
+    "widow",\
+    "xaan",\
+    "marionette",\
+    "wraith",\
+    "summoner",\
+    "eviltwin",\
+    "goblin",\
+    "boomdandy",\
+    "mastermind",\
+    "scarletwoman",\
+    "vizier",\
+    "organgrinder",\
+    "boffin",\
+    "baron"\
+]
+
+## Demons
+data modify storage ct:character_data character_list.demon set value \
+[\
+    "yaggababble",\
+    "pukka",\
+    "lilmonsta",\
+    "nodashii",\
+    "imp",\
+    "shabaloth",\
+    "ojo",\
+    "kazali",\
+    "po",\
+    "zombuul",\
+    "vigormortis",\
+    "vortox",\
+    "legion",\
+    "fanggu",\
+    "lordoftyphon",\
+    "lleech",\
+    "alhadikhia",\
+    "riot",\
+    "leviathan"\
+]
+
+## Travellers
+data modify storage ct:character_data character_list.traveller set value \
+[\
+    "thief",\
+    "bureaucrat",\
+    "barista",\
+    "harlot",\
+    "butcher",\
+    "cacklejack",\
+    "gunslinger",\
+    "matron",\
+    "gangster",\
+    "bonecollector",\
+    "judge",\
+    "apprentice",\
+    "beggar",\
+    "deviant",\
+    "scapegoat",\
+    "gnome"\
+]
+
+## NPCs
+data modify storage ct:character_data character_list.npc set value \
+[\
+    "bishop",\
+    "voudon",\
+    "zenomancer",\
+    "godofug",\
+    "ventriloquist",\
+    "gardener",\
+    "pope",\
+    "hindu",\
+    "knaves",\
+    "tor",\
+    "bootlegger",\
+    "stormcatcher",\
+    "bigwig",\
+    "duchess",\
+    "fibbin",\
+    "fiddler",\
+    "doomsayer",\
+    "buddhist",\
+    "angel",\
+    "deusexfiasco",\
+    "ferryman",\
+    "djinn",\
+    "spiritofivory",\
+    "sentinel",\
+    "toymaker",\
+    "hellslibrarian",\
+    "revolutionary"\
+]

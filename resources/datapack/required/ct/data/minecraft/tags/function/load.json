@@ -1,5 +1,6 @@
 {
     "values": [
-        "ct:admin/init/root"
+        "ct:admin/init/root",
+        "ct:loop/every_five_ticks"
     ]
 }
