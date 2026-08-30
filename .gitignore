@@ -96,3 +96,5 @@ config/lingua_bib.json
 config/gpu_booster_config.json
 /saves/world/advancements
 .vscode/
+resources/datapack/required/ct/spyglass.json
+resources/datapack/required/ct/commands.json

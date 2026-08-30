@@ -24,6 +24,6 @@ tag @s remove traveller
 clear @s minecraft:player_head
 clear @s minecraft:writable_book
 clear @s minecraft:compass
-tp @s 122 72 70 -145 0
+tp @s 172 70 -4 84.1 0
 gamemode spectator @s
 function ct:admin/give_script

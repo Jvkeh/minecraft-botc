@@ -16,15 +16,19 @@ persistentgroup remove "White House"
 persistentgroup remove "Gray House"
 persistentgroup remove "Black House"
 
-persistentgroup remove "Beet Field"
-persistentgroup remove "Wheat Field"
-persistentgroup remove "Church of Miku"
+persistentgroup remove "Clocktower"
+persistentgroup remove "Greenhouse"
+persistentgroup remove "Bar"
 persistentgroup remove "Graveyard"
 persistentgroup remove "Inn"
-persistentgroup remove "Greenhouse"
-persistentgroup remove "Bakery"
-persistentgroup remove "Town Square"
+persistentgroup remove "Appartments"
+persistentgroup remove "Park"
+persistentgroup remove "Shed"
+persistentgroup remove "Church of Miku"
+persistentgroup remove "Graveyard"
 persistentgroup remove "Storyteller Den"
+
+persistentgroup remove "Town Square"
 
 persistentgroup remove "Night Chat"
 
@@ -44,14 +48,18 @@ persistentgroup add "White House" isolated true ct
 persistentgroup add "Gray House" isolated true ct
 persistentgroup add "Black House" isolated true ct
 
-persistentgroup add "Beet Field" isolated false ct
-persistentgroup add "Wheat Field" isolated false ct
-persistentgroup add "Church of Miku" isolated false ct
+persistentgroup add "Clocktower" isolated false ct
+persistentgroup add "Greenhouse" isolated false ct
+persistentgroup add "Bar" isolated false ct
 persistentgroup add "Graveyard" isolated false ct
 persistentgroup add "Inn" isolated false ct
-persistentgroup add "Greenhouse" isolated false ct
-persistentgroup add "Bakery" isolated false ct
+persistentgroup add "Appartments" isolated false ct
+persistentgroup add "Park" isolated false ct
+persistentgroup add "Shed" isolated false ct
+persistentgroup add "Chruch of Miku" isolated false ct
+persistentgroup add "Graveyard" isolated false ct
 persistentgroup add "Storyteller Den" isolated false ct
+
 persistentgroup add "Town Square" open false ct
 
 persistentgroup add "Night Chat" isolated false ct
