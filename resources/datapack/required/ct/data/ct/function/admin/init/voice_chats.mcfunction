@@ -54,4 +54,4 @@ persistentgroup add "Bakery" isolated false ct
 persistentgroup add "Storyteller Den" isolated false ct
 persistentgroup add "Town Square" open false ct
 
-persistentgroup add "Night Chat" open false ct
+persistentgroup add "Night Chat" isolated false ct

@@ -9,7 +9,7 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5748322d-2cb2-4013-bef9-7e9969aff4f1-1784916696395] = [groups:][instances:]
+  [loading_requirement_container_meta:bc845b09-ee42-48de-883f-52e14fc4bdd6-1787810230032] = [groups:][instances:]
 }
 
 menu_background {
@@ -59,8 +59,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 980ef51d-b7b2-47b8-8129-25df20148d88-1781065263463
-  background_type = video_mcef
+  instance_identifier = 8ef02e32-eafb-440c-b3d1-25284faaa756-1786581661740
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -126,13 +126,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 697c8470-7747-44e8-af62-16f5d54d2124-1781065263463
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {

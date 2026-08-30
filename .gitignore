@@ -5,7 +5,7 @@ realms_persistence.json
 servers.dat
 servers.dat_old
 usercache.json
-options.txt
+/options.txt
 command_history.txt
 checkbox_states.json
 spiffy_instance_data
@@ -27,7 +27,6 @@ cache
 /data
 config/axiom
 config/carpet
-config/enhancedgroups
 config/fabric
 config/NoChatReports
 config/voicechat/category-volumes.properties
@@ -78,8 +77,15 @@ config/fancymenu/user_variables.db
 /saves/world/stats
 /.mixin.out
 /saves/test
-saves/world/data/raids.dat
 saves/world/data/command_storage_ct.dat
+saves/world/data/Mansion_index.dat
+saves/world/data/Mineshaft_index.dat
+saves/world/data/Monument_index.dat
+saves/world/data/raids.dat
+saves/world/data/random_sequences.dat
+saves/world/data/Stronghold_index.dat
+saves/world/data/Temple_index.dat
+saves/world/data/Village_index.dat
 config/cardinal-components-api.properties
 /config/polymer
 config/slurs_filter.txt
@@ -89,3 +95,4 @@ config/fancymenu/ui_themes/cozy_campfire.json
 config/lingua_bib.json
 config/gpu_booster_config.json
 /saves/world/advancements
+.vscode/

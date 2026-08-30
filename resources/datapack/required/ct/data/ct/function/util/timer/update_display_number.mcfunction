@@ -1,0 +1,2 @@
+execute if score day_seconds game_data matches ..9 run bossbar set ct:day_time name [{"score":{"name":"day_minutes","objective":"game_data"},"bold":true},{"text":":0"},{"score":{"name":"day_seconds","objective":"game_data"}}]
+execute if score day_seconds game_data matches 10.. run bossbar set ct:day_time name [{"score":{"name":"day_minutes","objective":"game_data"},"bold":true},{"text":":"},{"score":{"name":"day_seconds","objective":"game_data"}}]

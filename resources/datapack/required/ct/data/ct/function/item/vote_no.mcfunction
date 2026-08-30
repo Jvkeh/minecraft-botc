@@ -3,7 +3,8 @@ execute if score organ_grinder settings matches 1 if entity @s[tag=dead,tag=vote
 scoreboard players set @s use_carrot 0
 tag @s remove voting_no
 tag @s remove voting_banshee
-tag @s add voting_yes
+tag @s[tag=!dead] add voting_yes
+tag @s[tag=dead] add voting_ghost
 tellraw @s[tag=!dead,tag=!expended_ghost] [{"text":"Changed your vote to","color":"white"},{"text":" YES ","color":"green"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
 tellraw @s[tag=dead,tag=!expended_ghost] [{"text":"Changed your vote to","color":"white"},{"text":" YES ","color":"aqua"},{"text":"to execute ","color":"white"},{"selector":"@a[tag=nominee]"}]
 item replace entity @s[tag=!dead,tag=!expended_ghost] weapon.offhand with minecraft:carrot_on_a_stick[minecraft:custom_model_data={"strings":["voting_yes"]},custom_name=[{text:"Voting ",color:"white",italic:false},{text:"YES",color:"green",italic:false},{text:" [Right-Click]",color:"gray",italic:false}]]

@@ -4,11 +4,11 @@ kill Ari
 kill Efe
 kill Kai
 kill Makena
-kill Noor
+kill Emma
 kill Sunny
 kill Zuri
 kill Celeste
-kill Russel
+kill Zack
 kill Selina
 kill Shane
 kill Anya

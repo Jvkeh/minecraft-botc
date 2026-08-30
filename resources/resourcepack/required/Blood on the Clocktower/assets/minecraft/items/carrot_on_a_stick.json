@@ -51,17 +51,6 @@
       {
         "when": {
           "strings": [
-            "advance_phase"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/advance_phase"
-        }
-      },
-      {
-        "when": {
-          "strings": [
             "long_arm"
           ]
         },
@@ -79,50 +68,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/short_arm"
-        }
-      },
-      {
-        "when": {
-          "strings": [
-            "6_min_day"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/6_min_day"
-        }
-      },
-      {
-        "when": {
-          "strings": [
-            "5_min_day"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/5_min_day"
-        }
-      },
-      {
-        "when": {
-          "strings": [
-            "4_min_day"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/4_min_day"
-        }
-      },
-      {
-        "when": {
-          "strings": [
-            "3_min_day"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/3_min_day"
         }
       },
       {

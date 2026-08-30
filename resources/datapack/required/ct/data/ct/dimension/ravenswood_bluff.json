@@ -1,0 +1,19 @@
+{
+    "type": "ct:ravenswood_bluff",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "ct:ravenswood",
+            "layers": [
+                {
+                    "block": "minecraft:air",
+                    "height": 0
+                }
+            ],
+            "lakes": false,
+            "features": false,
+            "structure_overrides": [
+            ]
+        }
+    }
+}

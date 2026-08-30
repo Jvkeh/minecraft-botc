@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = ct-settings
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1783371707159
+  last_edited_time = 1787799590761
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:51b10e74-a551-4492-9f08-26dec8ee6bc6-1783371685493] = [groups:][instances:]
+  [loading_requirement_container_meta:492a4a90-4658-43ab-ba62-249124f44f2f-1787799309650] = [groups:][instances:]
 }
 
 customization {
@@ -64,8 +64,8 @@ menu_background {
 }
 
 menu_background {
-  instance_identifier = 0f0644b0-f474-45c1-8644-ecdfba963cc2-1783371426720
-  background_type = video_mcef
+  instance_identifier = ab8addbc-5044-4194-984c-81792df7afe1-1787799309651
+  background_type = video_rinku
   show_background = false
   loop = false
   volume = 1.0
@@ -131,13 +131,6 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
-}
-
-menu_background {
-  instance_identifier = 5ecdcfd1-9926-4441-abe2-9b07b0430228-1783371426721
-  background_type = drippy_color_background
-  show_background = false
-  color = #FD5757FF
 }
 
 decoration_overlay {
@@ -382,6 +375,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 193083be-bc32-4b44-b980-40339479eebd-1766514544875
@@ -467,6 +461,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = -162
@@ -550,6 +545,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 193083be-bc32-4b44-b980-40339479eebd-1766514544875
@@ -600,7 +596,7 @@ element {
 
 element {
   slider_type = decimal_range
-  pre_selected_value = {"placeholder":"calc","values":{"expression":"{"placeholder":"scoreboard_score","values":{"player":"clock_speed","objective":"settings"}} / 10","decimal":"true"}}
+  pre_selected_value = {"placeholder":"calc","values":{"expression":"{"placeholder":"getvariable","values":{"name":"clock_speed"}} / 10","decimal":"true"}}
   slider_label = Voting Delay: $$values
   slider_list_value_0 = OFF
   slider_list_value_1 = Small
@@ -628,6 +624,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1082
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 563158a6-e5bc-426b-98a9-37980868717f-1766515230924
@@ -670,7 +667,7 @@ element {
   advanced_horizontal_tilt_degrees = 0.0
   min_range_value = 0.1
   max_range_value = 4.0
-  rounding_decimal_place = 2
+  rounding_decimal_place = 1
   label_scale = 1.0
   label_shadow = true
   nine_slice_border_x = 5
@@ -713,6 +710,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = mid-centered
   x = 26
@@ -796,6 +794,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 563158a6-e5bc-426b-98a9-37980868717f-1766515230924
@@ -847,19 +846,21 @@ element {
 element {
   button_element_executable_block_identifier = c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029
   [executable_action_instance:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695][action_type:sendmessage] = /scoreboard players set speed_boost settings 1
-  [executable_block:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269][type:if] = [executables:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695;][appended:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838]
+  [executable_action_instance:dba8433e-a354-439b-9fa3-1de03a8f8766-1786433800049][action_type:set_variable] = speed_boost:1
+  [executable_block:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269][type:if] = [executables:9a6463cb-489d-4298-a2c4-f3716cf8b103-1778688544695;dba8433e-a354-439b-9fa3-1de03a8f8766-1786433800049;][appended:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838]
   [executable_action_instance:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693][action_type:sendmessage] = /scoreboard players set speed_boost settings 0
-  [executable_block:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838][type:else] = [executables:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693;]
+  [executable_action_instance:b0e24c4b-231b-414b-96f4-53b87ca9fed2-1786433818417][action_type:set_variable] = speed_boost:0
+  [executable_block:c6690740-a011-4289-b5f1-8f610774fbe6-1778688573838][type:else] = [executables:65df6e1f-76ab-4463-b481-d3356fa9ba8b-1778688578693;b0e24c4b-231b-414b-96f4-53b87ca9fed2-1786433818417;]
   [if_executable_block_body:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269] = ff29e6e6-f11f-49a4-9719-f38ef1fca1ac-1778688523892
   [loading_requirement_container_meta:ff29e6e6-f11f-49a4-9719-f38ef1fca1ac-1778688523892] = [groups:][instances:095555b9-5799-4e21-b1e4-603703689839-1778688524979;]
-  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:095555b9-5799-4e21-b1e4-603703689839-1778688524979] = ["mode":"equals","number":"{"placeholder":"scoreboard_score","values":{"player":"speed_boost","objective":"settings"}}","compare_with":"0"]$
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:095555b9-5799-4e21-b1e4-603703689839-1778688524979] = ["mode":"equals","number":"{"placeholder":"getvariable","values":{"name":"speed_boost"}}","compare_with":"0"]$
   [if_executable_block_collapsed:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269] = false
   [executable_block:c08f0b49-63ad-4734-9769-fab893c9722d-1775779202029][type:generic] = [executables:a4d714a3-b4c5-4ef1-8cbf-2b9ac1851b86-1778688541269;]
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  label = Dawn/Dusk speed boost: {"placeholder":"switch_case","values":{"value":"{"placeholder":"scoreboard_score","values":{"player":"speed_boost","objective":"settings"}}","cases":"0:NO,1:YES","default":"NO"}}
+  label = Dawn/Dusk speed boost: {"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"speed_boost"}}","cases":"0:NO,1:YES","default":"NO"}}
   navigatable = true
   widget_active_state_requirement_container_identifier = 6691398e-694d-4665-9682-e10638b99e1e-1775779202029
   [loading_requirement_container_meta:6691398e-694d-4665-9682-e10638b99e1e-1775779202029] = [groups:][instances:]
@@ -882,6 +883,7 @@ element {
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1083
+  auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 64e83fdc-8c7e-4d49-a5d5-d33e7e3f7124-1766523588128

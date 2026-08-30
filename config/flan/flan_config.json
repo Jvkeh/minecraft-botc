@@ -41,34 +41,14 @@
   "maxBuyBlocks": -1,
   "currencyType": "",
   "lenientBlockEntityCheck": false,
-  "breakBlockBlacklist": [
-    "universal_graves:grave",
-    "yigd:grave"
-  ],
-  "interactBlockBlacklist": [
-    "universal_graves:grave",
-    "yigd:grave",
-    "waystones",
-    "universal_shops:trade_block"
-  ],
+  "breakBlockBlacklist": [],
+  "interactBlockBlacklist": [],
   "breakBlockEntityTagBlacklist": [],
-  "interactBlockEntityTagBlacklist": [
-    "IsDeathChest",
-    "gunpowder.owner",
-    "shop-activated"
-  ],
-  "ignoredEntities": [
-    "corpse:corpse"
-  ],
-  "entityTagIgnore": [
-    "graves.marker"
-  ],
+  "interactBlockEntityTagBlacklist": [],
+  "ignoredEntities": [],
+  "entityTagIgnore": [],
   "ignoredProjectileTypes": [],
-  "legacyOverrides": [
-    "@c:wrenches-flan:interact_block",
-    "appliedenergistics2:nether_quartz_wrench-flan:interact_block",
-    "appliedenergistics2:certus_quartz_wrench-flan:interact_block"
-  ],
+  "legacyOverrides": [],
   "dropTicks": 6000,
   "inactivityTimeDays": -1,
   "inactivityBlocksMax": 2000,
@@ -84,7 +64,7 @@
       "flan:button_lever": true,
       "flan:pressure_plate": true,
       "flan:enchantment": true,
-      "flan:trapdoor": true,
+      "flan:trapdoor": false,
       "flan:fence_gate": true,
       "flan:portal": true,
       "flan:enderchest": true,
@@ -155,7 +135,7 @@
       "flan:raid": true,
       "flan:piston_border": true,
       "flan:beacon": true,
-      "flan:trapdoor": true,
+      "flan:trapdoor": false,
       "flan:lock_items": true,
       "flan:redstone": true,
       "flan:bucket": true,

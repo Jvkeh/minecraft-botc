@@ -157,6 +157,7 @@ item replace entity @a[tag=!storyteller,tag=!spectator] hotbar.0 with minecraft:
 execute as @a run function ct:admin/give_script
 
 execute as @a run function ct:start_game/roles/set_grim_variables with storage ct:players players
+execute as @a[tag=!storyteller,tag=!spectator] run loot give @s loot ct:compass
 
 execute as @a[tag=!has_role,tag=!storyteller,tag=!spectator,sort=random,limit=1] run function ct:start_game/give_role
 execute as @a[tag=!has_role,tag=!storyteller,tag=!spectator,sort=random,limit=1] run function ct:start_game/random_roles

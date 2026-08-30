@@ -1,6 +1,6 @@
 execute if score has_initialized game_data matches 0 run function ct:util/send_tutorial
 
-tellraw @s[tag=!joined] [{"text":"! ","color":"green","bold":true},{"text":"Welcome! Please set your pronouns using ","color":"gray","bold":false},{"text":"/pronouns set <pronouns>","color":"white","bold":false},{"text":" to display them below your username.","color":"gray","bold":false}]
+tellraw @s[tag=!joined] [{"text":"! ","color":"green","bold":true},{"text":"Welcome! Please set your pronouns using ","color":"gray","bold":false},{"text":"/pronouns <pronouns>","color":"white","bold":false},{"text":" to display them below your username.","color":"gray","bold":false}]
 tp @s[tag=!joined] 122 72 70 -145 0
 gamemode adventure @s[tag=!joined]
 tag @s add joined
@@ -32,6 +32,8 @@ function ct:admin/give_script
 
 effect give @s minecraft:resistance infinite 9 true
 
+tag @s add rejoining
+scoreboard players set @s vc 0
 scoreboard players set @s join_game 0
 
 schedule function ct:util/sync_variables 5s
