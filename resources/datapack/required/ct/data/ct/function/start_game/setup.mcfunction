@@ -43,55 +43,55 @@ team join 15_black @r[team=,tag=!storyteller,tag=!spectator]
 
 function ct:util/color_names
 
-data modify block 121 72 68 front_text.messages[1] set value {"selector":"@a[team=01_red]"}
-data modify block 120 72 65 front_text.messages[1] set value {"selector":"@a[team=02_orange]"}
-data modify block 120 72 62 front_text.messages[1] set value {"selector":"@a[team=03_yellow]"}
-data modify block 121 72 59 front_text.messages[1] set value {"selector":"@a[team=04_lime]"}
-data modify block 122 72 58 front_text.messages[1] set value {"selector":"@a[team=05_green]"}
-data modify block 125 72 57 front_text.messages[1] set value {"selector":"@a[team=06_mint]"}
-data modify block 128 72 57 front_text.messages[1] set value {"selector":"@a[team=07_cyan]"}
-data modify block 131 72 58 front_text.messages[1] set value {"selector":"@a[team=08_blue]"}
-data modify block 132 72 59 front_text.messages[1] set value {"selector":"@a[team=09_navy]"}
-data modify block 133 72 62 front_text.messages[1] set value {"selector":"@a[team=10_purple]"}
-data modify block 133 72 65 front_text.messages[1] set value {"selector":"@a[team=11_magenta]"}
-data modify block 132 72 68 front_text.messages[1] set value {"selector":"@a[team=12_lavender]"}
-data modify block 131 72 69 front_text.messages[1] set value {"selector":"@a[team=13_white]"}
-data modify block 128 72 70 front_text.messages[1] set value {"selector":"@a[team=14_gray]"}
-data modify block 125 72 70 front_text.messages[1] set value {"selector":"@a[team=15_black]"}
+data modify entity @e[type=minecraft:text_display, tag=red_player_name, limit=1] text set value {"selector":"@a[team=01_red]"}
+data modify entity @e[type=minecraft:text_display, tag=orange_player_name, limit=1] text set value {"selector":"@a[team=02_orange]"}
+data modify entity @e[type=minecraft:text_display, tag=yellow_player_name, limit=1] text set value {"selector":"@a[team=03_yellow]"}
+data modify entity @e[type=minecraft:text_display, tag=lime_player_name, limit=1] text set value {"selector":"@a[team=04_lime]"}
+data modify entity @e[type=minecraft:text_display, tag=green_player_name, limit=1] text set value {"selector":"@a[team=05_green]"}
+data modify entity @e[type=minecraft:text_display, tag=mint_player_name, limit=1] text set value {"selector":"@a[team=06_mint]"}
+data modify entity @e[type=minecraft:text_display, tag=cyan_player_name, limit=1] text set value {"selector":"@a[team=07_cyan]"}
+data modify entity @e[type=minecraft:text_display, tag=blue_player_name, limit=1] text set value {"selector":"@a[team=08_blue]"}
+data modify entity @e[type=minecraft:text_display, tag=navy_player_name, limit=1] text set value {"selector":"@a[team=09_navy]"}
+data modify entity @e[type=minecraft:text_display, tag=purple_player_name, limit=1] text set value {"selector":"@a[team=10_purple]"}
+data modify entity @e[type=minecraft:text_display, tag=magenta_player_name, limit=1] text set value {"selector":"@a[team=11_magenta]"}
+data modify entity @e[type=minecraft:text_display, tag=lavender_player_name, limit=1] text set value {"selector":"@a[team=12_lavender]"}
+data modify entity @e[type=minecraft:text_display, tag=white_player_name, limit=1] text set value {"selector":"@a[team=13_white]"}
+data modify entity @e[type=minecraft:text_display, tag=gray_player_name, limit=1] text set value {"selector":"@a[team=14_gray]"}
+data modify entity @e[type=minecraft:text_display, tag=black_player_name, limit=1] text set value {"selector":"@a[team=15_black]"}
 
 data remove storage ct:players players
 
-execute if data block 121 72 68 front_text.messages[1].text run data modify storage ct:players players.p1 set from block 121 72 68 front_text.messages[1].hover_event.name
-execute if data block 120 72 65 front_text.messages[1].text run data modify storage ct:players players.p2 set from block 120 72 65 front_text.messages[1].hover_event.name
-execute if data block 120 72 62 front_text.messages[1].text run data modify storage ct:players players.p3 set from block 120 72 62 front_text.messages[1].hover_event.name
-execute if data block 121 72 59 front_text.messages[1].text run data modify storage ct:players players.p4 set from block 121 72 59 front_text.messages[1].hover_event.name
-execute if data block 122 72 58 front_text.messages[1].text run data modify storage ct:players players.p5 set from block 122 72 58 front_text.messages[1].hover_event.name
-execute if data block 125 72 57 front_text.messages[1].text run data modify storage ct:players players.p6 set from block 125 72 57 front_text.messages[1].hover_event.name
-execute if data block 128 72 57 front_text.messages[1].text run data modify storage ct:players players.p7 set from block 128 72 57 front_text.messages[1].hover_event.name
-execute if data block 131 72 58 front_text.messages[1].text run data modify storage ct:players players.p8 set from block 131 72 58 front_text.messages[1].hover_event.name
-execute if data block 132 72 59 front_text.messages[1].text run data modify storage ct:players players.p9 set from block 132 72 59 front_text.messages[1].hover_event.name
-execute if data block 133 72 62 front_text.messages[1].text run data modify storage ct:players players.p10 set from block 133 72 62 front_text.messages[1].hover_event.name
-execute if data block 133 72 65 front_text.messages[1].text run data modify storage ct:players players.p11 set from block 133 72 65 front_text.messages[1].hover_event.name
-execute if data block 132 72 68 front_text.messages[1].text run data modify storage ct:players players.p12 set from block 132 72 68 front_text.messages[1].hover_event.name
-execute if data block 131 72 69 front_text.messages[1].text run data modify storage ct:players players.p13 set from block 131 72 69 front_text.messages[1].hover_event.name
-execute if data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set from block 128 72 70 front_text.messages[1].hover_event.name
-execute if data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set from block 125 72 70 front_text.messages[1].hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=red_player_name, limit=1] {"text":""} run data modify storage ct:players players.p1 set from entity @e[type=minecraft:text_display ,tag=red_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=orange_player_name, limit=1] {"text":""} run data modify storage ct:players players.p2 set from entity @e[type=minecraft:text_display ,tag=orange_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=yellow_player_name, limit=1] {"text":""} run data modify storage ct:players players.p3 set from entity @e[type=minecraft:text_display ,tag=yellow_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=lime_player_name, limit=1] {"text":""} run data modify storage ct:players players.p4 set from entity @e[type=minecraft:text_display ,tag=lime_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=green_player_name, limit=1] {"text":""} run data modify storage ct:players players.p5 set from entity @e[type=minecraft:text_display ,tag=green_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=mint_player_name, limit=1] {"text":""} run data modify storage ct:players players.p6 set from entity @e[type=minecraft:text_display ,tag=mint_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=cyan_player_name, limit=1] {"text":""} run data modify storage ct:players players.p7 set from entity @e[type=minecraft:text_display ,tag=cyan_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=blue_player_name, limit=1] {"text":""} run data modify storage ct:players players.p8 set from entity @e[type=minecraft:text_display ,tag=blue_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=navy_player_name, limit=1] {"text":""} run data modify storage ct:players players.p9 set from entity @e[type=minecraft:text_display ,tag=navy_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=purple_player_name, limit=1] {"text":""} run data modify storage ct:players players.p10 set from entity @e[type=minecraft:text_display ,tag=purple_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=magenta_player_name, limit=1] {"text":""} run data modify storage ct:players players.p11 set from entity @e[type=minecraft:text_display ,tag=magenta_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=lavender_player_name, limit=1] {"text":""} run data modify storage ct:players players.p12 set from entity @e[type=minecraft:text_display ,tag=lavender_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=white_player_name, limit=1] {"text":""} run data modify storage ct:players players.p13 set from entity @e[type=minecraft:text_display ,tag=white_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=gray_player_name, limit=1] {"text":""} run data modify storage ct:players players.p14 set from entity @e[type=minecraft:text_display ,tag=gray_player_name, limit=1] text.hover_event.name
+execute unless data entity @e[type=minecraft:text_display, tag=black_player_name, limit=1] {"text":""} run data modify storage ct:players players.p15 set from entity @e[type=minecraft:text_display ,tag=black_player_name, limit=1] text.hover_event.name
 
-execute unless data block 121 72 68 front_text.messages[1].text run data modify storage ct:players players.p1 set value "Nobody!"
-execute unless data block 120 72 65 front_text.messages[1].text run data modify storage ct:players players.p2 set value "Nobody!"
-execute unless data block 120 72 62 front_text.messages[1].text run data modify storage ct:players players.p3 set value "Nobody!"
-execute unless data block 121 72 59 front_text.messages[1].text run data modify storage ct:players players.p4 set value "Nobody!"
-execute unless data block 122 72 58 front_text.messages[1].text run data modify storage ct:players players.p5 set value "Nobody!"
-execute unless data block 125 72 57 front_text.messages[1].text run data modify storage ct:players players.p6 set value "Nobody!"
-execute unless data block 128 72 57 front_text.messages[1].text run data modify storage ct:players players.p7 set value "Nobody!"
-execute unless data block 131 72 58 front_text.messages[1].text run data modify storage ct:players players.p8 set value "Nobody!"
-execute unless data block 132 72 59 front_text.messages[1].text run data modify storage ct:players players.p9 set value "Nobody!"
-execute unless data block 133 72 62 front_text.messages[1].text run data modify storage ct:players players.p10 set value "Nobody!"
-execute unless data block 133 72 65 front_text.messages[1].text run data modify storage ct:players players.p11 set value "Nobody!"
-execute unless data block 132 72 68 front_text.messages[1].text run data modify storage ct:players players.p12 set value "Nobody!"
-execute unless data block 131 72 69 front_text.messages[1].text run data modify storage ct:players players.p13 set value "Nobody!"
-execute unless data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set value "Nobody!"
-execute unless data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=red_player_name, limit=1] {"text":""} run data modify storage ct:players players.p1 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=orange_player_name, limit=1] {"text":""} run data modify storage ct:players players.p2 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=yellow_player_name, limit=1] {"text":""} run data modify storage ct:players players.p3 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=lime_player_name, limit=1] {"text":""} run data modify storage ct:players players.p4 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=green_player_name, limit=1] {"text":""} run data modify storage ct:players players.p5 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=mint_player_name, limit=1] {"text":""} run data modify storage ct:players players.p6 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=cyan_player_name, limit=1] {"text":""} run data modify storage ct:players players.p7 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=blue_player_name, limit=1] {"text":""} run data modify storage ct:players players.p8 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=navy_player_name, limit=1] {"text":""} run data modify storage ct:players players.p9 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=purple_player_name, limit=1] {"text":""} run data modify storage ct:players players.p10 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=magenta_player_name, limit=1] {"text":""} run data modify storage ct:players players.p11 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=lavender_player_name, limit=1] {"text":""} run data modify storage ct:players players.p12 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=white_player_name, limit=1] {"text":""} run data modify storage ct:players players.p13 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=gray_player_name, limit=1] {"text":""} run data modify storage ct:players players.p14 set value "Nobody!"
+execute if data entity @e[type=minecraft:text_display, tag=black_player_name, limit=1] {"text":""} run data modify storage ct:players players.p15 set value "Nobody!"
 
 data modify entity @e[tag=house_head,limit=1,scores={house_id=1}] item.components.minecraft:profile.name set from storage ct:players players.p1
 data modify entity @e[tag=house_head,limit=1,scores={house_id=2}] item.components.minecraft:profile.name set from storage ct:players players.p2
