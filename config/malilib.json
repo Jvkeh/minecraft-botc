@@ -8,12 +8,6 @@
         "keys": ""
       }
     },
-    "enableChestDataTracker": {
-      "enabled": false,
-      "hotkey": {
-        "keys": ""
-      }
-    },
     "enableConfigSwitcher": {
       "enabled": true,
       "hotkey": {
