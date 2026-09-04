@@ -944,7 +944,7 @@ variable {
 
 variable {
   name = storyteller
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -2198,7 +2198,7 @@ variable {
 
 variable {
   name = player_count
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -2294,7 +2294,7 @@ variable {
 
 variable {
   name = script_json
-  value = 
+  value = [{"id":"_meta","name":"Lemmings Anonymous","bootlegger":["The Storm Catcher favors the King."]},"highpriestess","preacher","villageidiot","snakecharmer","king","fortuneteller","monk","acrobat","philosopher","fisherman","minstrel","mayor","poppygrower","saint","hatter","politician","zealot","poisoner","fearmonger","marionette","scarletwoman","boffin","nodashii","lleech","sentinel","bootlegger","stormcatcher"]
   reset_on_launch = false
 }
 
@@ -2324,7 +2324,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 8
+  value = 1
   reset_on_launch = false
 }
 
