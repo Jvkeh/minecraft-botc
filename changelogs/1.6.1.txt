@@ -5,3 +5,4 @@ Changes and features:
 Technical changes:
 
 Fixed bugs:
+#181: Spectators can /whsiper only the player in the 1st slot
