@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = chat_screen
   render_custom_elements_behind_vanilla = true
-  last_edited_time = 1788152875728
+  last_edited_time = 1788499860250
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:423c21b4-e561-4d98-bb50-96e5fe60368a-1788152857197] = [groups:][instances:]
+  [loading_requirement_container_meta:02441e7a-8885-4935-bc46-bc3cc0a2c397-1788499858211] = [groups:][instances:]
 }
 
 menu_background {
@@ -921,64 +921,6 @@ element {
   nine_slice_slider_handle_border_y = 5
 }
 
-element {
-  url = file:///config/fancymenu/assets/bag_menu.html
-  interactable = false
-  hide_video_controls = false
-  loop_videos = false
-  mute_media = false
-  element_type = browser
-  instance_identifier = 67a258be-288c-4db8-bbab-94bfe41c54ac-1788151574107
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1084
-  auto_sizing_base_gui_scale = 4
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -29
-  y = -100
-  width = 189
-  height = 100
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 460f922f-14b7-43ca-9b39-98ec3bfc9e30-1788142288801
-  [loading_requirement_container_meta:460f922f-14b7-43ca-9b39-98ec3bfc9e30-1788142288801] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  media_volume = 1.0
-}
-
 vanilla_button {
   button_element_executable_block_identifier = 570d7050-a71e-4b3e-92db-ac2ea333c5be-1752613005837
   [executable_block:570d7050-a71e-4b3e-92db-ac2ea333c5be-1752613005837][type:generic] = [executables:]
@@ -1011,8 +953,8 @@ vanilla_button {
   auto_sizing_base_gui_scale = 0
   sticky_anchor = false
   anchor_point = vanilla
-  x = 457
-  y = 234
+  x = 489
+  y = 245
   width = 20
   height = 20
   stay_on_screen = true
@@ -1091,8 +1033,8 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = vanilla
   x = 4
-  y = 259
-  width = 476
+  y = 270
+  width = 508
   height = 12
   stay_on_screen = true
   element_loading_requirement_container_identifier = 5b814fc6-a44c-49b7-9fcd-daa3f67ebf4e-1752613005837

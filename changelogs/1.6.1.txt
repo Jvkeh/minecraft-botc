@@ -6,6 +6,6 @@ Changes and features:
 Technical changes:
 
 Fixed bugs:
-#176: upgrading to v1.6.0 changes simple voice chat default port value
-#179: Using the /script command doesnt open the correct script layout
-#181: Spectators can /whsiper only the player in the 1st slot
+- #176: upgrading to v1.6.0 changes simple voice chat default port value
+- #179: Using the /script command doesnt open the correct script layout
+- #181: Spectators can /whsiper only the player in the 1st slot

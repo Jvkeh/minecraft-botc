@@ -137,9 +137,12 @@
     //
     // PREFIXES
     //
+    "clocktower.prefix.generic": "! ",
     "clocktower.prefix.notification": "§l!§r ",
     "clocktower.prefix.error": "§c!§r ",
     "clocktower.prefix.the": "The ",
+    "clocktower.prefix.team.storyteller": "✎ ",
+    "clocktower.prefix.team.spectator": "👁 ",
     //
     // ERROR MESSAGES
     //
@@ -157,6 +160,14 @@
     // NOTICE MESSAGES
     //
     "clocktower.notice.ferryman": "The Ferryman has restored all dead players' vote tokens.",
+    "clocktower.notice.tpallhome.storyteller": "All players were teleported to their homes.",
+    "clocktower.notice.tpallhome.player": "A mysterious force teleported you home.",
+    "clocktower.notice.tpchurch.storyteller": "Minions and Demons were teleported to the church.",
+    "clocktower.notice.tpchurch.player": "A mysterious force teleported you to the church.",
+    "clocktower.notice.new_target": " has selected a new target.",
+    "clocktower.notice.in_play": " is in play.",
+    "clocktower.notice.bag_created": "You've made a bag with the characters you selected. Press T and click \"Start Night 1\" in the top right to hand them out.",
+    "clocktower.notice.dev_mode": "Dev Mode is currently active. Make sure to run the package function and reload again before shipping.",
     //
     // RANDOM STRINGS
     //
