@@ -1,3 +1,5 @@
+execute as @a run function ct:cmd/togglevc/leave
+
 execute as @a run fmvariable set phase false 1
 scoreboard players set phase game_data 1
 execute as @a run attribute @s[tag=!storyteller,tag=!spectator] minecraft:movement_speed modifier add ct:travel_speed 0.4 add_multiplied_base
@@ -29,9 +31,6 @@ team modify 13_gray nametagVisibility always
 team modify 14_brown nametagVisibility always
 team modify 15_black nametagVisibility always
 team modify 00_spectator nametagVisibility always
-
-tag @a remove universal_vc
-execute as @a run voicechat leave
 
 clear @a minecraft:compass[minecraft:custom_name={italic:0b,text:"Home Compass"}]
 

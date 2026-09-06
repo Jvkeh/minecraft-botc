@@ -8,16 +8,16 @@
         "location": {
           "position": {
             "x": {
-              "min": 62,
-              "max": 75
+              "min": 9175,
+              "max": 9180
             },
             "y": {
-              "min": 75,
-              "max": 80
+              "min": 71,
+              "max": 75
             },
             "z": {
-              "min": 125,
-              "max": 130
+              "min": 5023,
+              "max": 5026
             }
           }
         }
@@ -30,16 +30,38 @@
         "location": {
           "position": {
             "x": {
-              "min": 68,
-              "max": 69
+              "min": 9176,
+              "max": 9179
             },
             "y": {
               "min": 75,
-              "max": 77
+              "max": 79
             },
             "z": {
-              "min": 124,
-              "max": 125
+              "min": 5023,
+              "max": 5026
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "position": {
+            "x": {
+              "min": 9177,
+              "max": 9178
+            },
+            "y": {
+              "min": 71,
+              "max": 73
+            },
+            "z": {
+              "min": 5026,
+              "max": 5027
             }
           }
         }

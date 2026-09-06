@@ -50,7 +50,7 @@ variable {
 
 variable {
   name = current_day
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 15
+  value = 0
   reset_on_launch = false
 }
 
@@ -164,13 +164,13 @@ variable {
 
 variable {
   name = player_15
-  value = Zack
+  value = Steve
   reset_on_launch = false
 }
 
 variable {
   name = player_13
-  value = Shane
+  value = Ari
   reset_on_launch = false
 }
 
@@ -188,7 +188,7 @@ variable {
 
 variable {
   name = player_14
-  value = Ari
+  value = Shane
   reset_on_launch = false
 }
 
@@ -338,7 +338,7 @@ variable {
 
 variable {
   name = player_11
-  value = Selina
+  value = Makena
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = player_12
-  value = Sunny
+  value = Zack
   reset_on_launch = false
 }
 
@@ -368,7 +368,7 @@ variable {
 
 variable {
   name = player_10
-  value = Alex
+  value = Celeste
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 18:47
+  value = 20:18
   reset_on_launch = false
 }
 
@@ -1880,7 +1880,7 @@ variable {
 
 variable {
   name = player_1
-  value = Steve
+  value = Emma
   reset_on_launch = false
 }
 
@@ -1898,13 +1898,13 @@ variable {
 
 variable {
   name = player_5
-  value = Makena
+  value = anya
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Celeste
+  value = Olivia
   reset_on_launch = false
 }
 
@@ -1916,19 +1916,19 @@ variable {
 
 variable {
   name = player_3
-  value = anya
+  value = Selina
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Emma
+  value = Alex
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = Olivia
+  value = efe
   reset_on_launch = false
 }
 
@@ -1940,19 +1940,19 @@ variable {
 
 variable {
   name = player_8
-  value = Will
+  value = Sunny
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Kai
+  value = Will
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = efe
+  value = Kai
   reset_on_launch = false
 }
 
@@ -2606,7 +2606,7 @@ variable {
 
 variable {
   name = phase
-  value = 2
+  value = 4
   reset_on_launch = false
 }
 
