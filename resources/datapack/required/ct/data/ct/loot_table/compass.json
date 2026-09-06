@@ -14,9 +14,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      80,
-                      64,
-                      108
+                      9168,
+                      71,
+                      5017
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -44,9 +44,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      68,
-                      63,
-                      124
+                      9177,
+                      71,
+                      5026
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -74,9 +74,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      55,
-                      64,
-                      111
+                      9191,
+                      76,
+                      5008
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -104,9 +104,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      98,
-                      65,
-                      27
+                      9192,
+                      72,
+                      5038
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -134,9 +134,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      110,
-                      69,
-                      15
+                      9215,
+                      76,
+                      5032
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -164,9 +164,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      124,
-                      69,
-                      12
+                      9206,
+                      72,
+                      5049
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -194,9 +194,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      141,
-                      63,
-                      16
+                      9226,
+                      75,
+                      5054
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -224,9 +224,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      165,
-                      64,
-                      37
+                      9200,
+                      71,
+                      5062
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -254,9 +254,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      179,
-                      63,
-                      47
+                      9169,
+                      71,
+                      5076
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -284,9 +284,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      182,
-                      65,
-                      63
+                      9158,
+                      68,
+                      5097
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -314,9 +314,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      169,
-                      65,
-                      89
+                      9144,
+                      68,
+                      5092
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -344,9 +344,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      152,
-                      65,
-                      85
+                      9147,
+                      68,
+                      5074
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -374,9 +374,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      179,
-                      65,
-                      97
+                      9136,
+                      68,
+                      5083
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -404,9 +404,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      170,
-                      65,
-                      106
+                      9129,
+                      69,
+                      5074
                     ],
                     "dimension": "minecraft:overworld"
                   },
@@ -434,9 +434,9 @@
                 "minecraft:lodestone_tracker": {
                   "target": {
                     "pos": [
-                      151,
-                      65,
-                      112
+                      9130,
+                      70,
+                      5062
                     ],
                     "dimension": "minecraft:overworld"
                   },
