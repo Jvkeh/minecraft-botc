@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 0
+  value = 15
   reset_on_launch = false
 }
 

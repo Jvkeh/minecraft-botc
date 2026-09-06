@@ -16,73 +16,51 @@ function ct:util/timer/end
 
 ## Window/Door Particles
 # Red
-particle minecraft:dust{scale:4,color:0} 80.81 77.91 109 0 0.5 0.6 1 3 normal @a[scores={vc=1},team=01_red]
-particle minecraft:dust{scale:4,color:0} 83.50 78.94 116.56 0.5 0.5 0 1 1 normal @a[scores={vc=1},team=01_red]
+particle minecraft:dust{scale:4,color:0} 9168.5 72.0 5018.5 0.3 0.5 0 1 3 normal @a[scores={vc=1},team=01_red]
 
 # Orange
-particle minecraft:dust{scale:4,color:0} 68.51 77.00 124.00 0.3 0.5 0 1 3 normal @a[scores={vc=2},team=02_orange]
+particle minecraft:dust{scale:4,color:0} 9177.5 72.0 5027.5 0.3 0.5 0 1 3 normal @a[scores={vc=2},team=02_orange]
+particle minecraft:dust{scale:4,color:0} 9177.5 77.5 5026.0 0.3 0.5 0 1 1 normal @a[scores={vc=2},team=02_orange]
 
 # Yellow
-particle minecraft:dust{scale:4,color:0} 55.19 77.00 111.48 0 0.5 0.3 1 3 normal @a[scores={vc=3},team=03_yellow]
-particle minecraft:dust{scale:4,color:0} 55.19 83.00 111.48 0 0.5 0.3 1 3 normal @a[scores={vc=3},team=03_yellow]
-particle minecraft:dust{scale:4,color:0} 49.48 78.00 121.19 0.3 0.5 0 1 3 normal @a[scores={vc=3},team=03_yellow]
-particle minecraft:dust{scale:4,color:0} 53.53 78.00 113.63 0.3 0.5 0 1 1 normal @a[scores={vc=3},team=03_yellow]
-particle minecraft:dust{scale:4,color:0} 53.50 78.00 109.38 0.3 0.5 0 1 1 normal @a[scores={vc=3},team=03_yellow]
+particle minecraft:dust{scale:4,color:0} 9191.5 77.0 5009.5 0.3 0.5 0 1 3 normal @a[scores={vc=3},team=03_yellow]
 
 # Lime
-particle minecraft:dust{scale:4,color:0} 98.00 85.01 27.19 0.6 0.5 0 1 3 normal @a[scores={vc=4},team=04_lime]
-particle minecraft:dust{scale:4,color:0} 100.56 86.01 23.52 0 0.5 1 1 5 normal @a[scores={vc=4},team=04_lime]
+particle minecraft:dust{scale:4,color:0} 9192.0 73.0 5038.5 0 0.5 0.3 1 3 normal @a[scores={vc=4},team=04_lime]
+particle minecraft:dust{scale:4,color:0} 9192.5 73.0 5039.0 0.3 0.5 0 1 3 normal @a[scores={vc=4},team=04_lime]
 
 # Green
-particle minecraft:dust{scale:4,color:0} 111.01 82.00 15.19 0.6 0.5 0 1 3 normal @a[scores={vc=5},team=05_green]
-particle minecraft:dust{scale:4,color:0} 106.99 82 16.00 0.6 0.5 0 1 3 normal @a[scores={vc=5},team=05_green]
-
-# Mint
-particle minecraft:dust{scale:4,color:0} 124.48 81.00 13.00 0.3 0.5 0 1 3 normal @a[scores={vc=6},team=06_cyan]
-particle minecraft:dust{scale:4,color:0} 121.51 82.00 13.56 0.3 0.5 0 1 3 normal @a[scores={vc=6},team=06_cyan]
-particle minecraft:dust{scale:4,color:0} 127.52 82.00 13.56 0.3 0.5 0 1 3 normal @a[scores={vc=6},team=06_cyan]
+particle minecraft:dust{scale:4,color:0} 9214.5 77.0 5032.5 0 0.5 0.3 1 3 normal @a[scores={vc=5},team=05_green]
+particle minecraft:dust{scale:4,color:0} 9216.0 82.5 5032.50 0 0.3 0.3 1 1 normal @a[scores={vc=5},team=05_green]
 
 # Cyan
-particle minecraft:dust{scale:4,color:0} 141.00 80.00 16.50 0 0.5 0.3 1 3 normal @a[scores={vc=7},team=07_light_blue]
-particle minecraft:dust{scale:4,color:0} 145.52 80.99 20.19 0.3 0.5 0 1 3 normal @a[scores={vc=7},team=07_light_blue]
+particle minecraft:dust{scale:4,color:0} 9204.5 73.5 5049.5 0 0.75 0.5 1 3 normal @a[scores={vc=6},team=06_cyan]
+
+# Light Blue
+particle minecraft:dust{scale:4,color:0} 9224.5 76.0 5054.5 0 0.5 0.3 1 3 normal @a[scores={vc=7},team=07_light_blue]
 
 # Blue
-particle minecraft:dust{scale:4,color:0} 165.49 73.00 37.19 0.3 0.5 0 1 3 normal @a[scores={vc=8},team=08_blue]
-particle minecraft:dust{scale:4,color:0} 165.50 76 37.44 0.3 0.5 0.3 1 1 normal @a[scores={vc=8},team=08_blue]
-
-# Navy
-particle minecraft:dust{scale:4,color:0} 179.47 74.00 47.19 0.3 0.5 0 1 3 normal @a[scores={vc=9},team=09_purple]
-particle minecraft:dust{scale:4,color:0} 175.50 75.51 44.55 0 0.5 0.3 1 3 normal @a[scores={vc=9},team=09_purple]
-particle minecraft:dust{scale:4,color:0} 181.50 75.51 44.45 0 0.5 0.3 1 3 normal @a[scores={vc=9},team=09_purple]
+particle minecraft:dust{scale:4,color:0} 9200.5 72.0 5060.5 0.5 0.5 0 1 3 normal @a[scores={vc=8},team=08_blue]
 
 # Purple
-particle minecraft:dust{scale:4,color:0} 182.81 72.00 63.48 0 0.5 0.3 1 3 normal @a[scores={vc=10},team=10_magenta]
-particle minecraft:dust{scale:4,color:0} 182.50 73.00 59.47 0 0.5 0.3 1 3 normal @a[scores={vc=10},team=10_magenta]
-particle minecraft:dust{scale:4,color:0} 182.50 76.00 63.49 0 0.5 0.3 1 3 normal @a[scores={vc=10},team=10_magenta]
+particle minecraft:dust{scale:4,color:0} 9169.5 72.0 5075.5 0.3 0.5 0 1 3 normal @a[scores={vc=9},team=09_purple]
+particle minecraft:dust{scale:4,color:0} 9169.5 77.5 5077.0 0.3 0.5 0 1 1 normal @a[scores={vc=9},team=09_purple]
 
 # Magenta
-particle minecraft:dust{scale:4,color:0} 152.50 72.00 85.19 0.3 0.5 0 1 3 normal @a[scores={vc=11},team=11_pink]
-particle minecraft:dust{scale:4,color:0} 157.48 72.65 84.50 0.3 0.5 0 1 2 normal @a[scores={vc=11},team=11_pink]
-particle minecraft:dust{scale:4,color:0} 149.50 72.60 82.63 0 0.5 0.3 1 2 normal @a[scores={vc=11},team=11_pink]
-particle minecraft:dust{scale:4,color:0} 152.48 75.12 85.60 0 0.5 0.3 1 2 normal @a[scores={vc=11},team=11_pink]
+particle minecraft:dust{scale:4,color:0} 9159.5 69.0 5096.5 0.3 0.5 0.3 1 3 normal @a[scores={vc=10},team=10_magenta]
 
-# Lavender
-particle minecraft:dust{scale:4,color:0} 170.00 72.01 89.19 1 0.5 0 1 5 normal @a[scores={vc=12},team=12_light_gray]
-particle minecraft:dust{scale:4,color:0} 167.51 72.66 89.5 0.3 0.5 0 1 3 normal @a[scores={vc=12},team=12_light_gray]
-particle minecraft:dust{scale:4,color:0} 172.51 72.66 89.5 0.3 0.5 0 1 3 normal @a[scores={vc=12},team=12_light_gray]
+# Pink
+particle minecraft:dust{scale:4,color:0} 9145.5 69.0 5092.5 0 0.5 0.3 1 3 normal @a[scores={vc=11},team=11_pink]
 
-# White
-particle minecraft:dust{scale:4,color:0} 179.81 73.01 97.50 0 0.5 0.3 1 3 normal @a[scores={vc=13},team=13_gray]
-particle minecraft:dust{scale:4,color:0} 182.44 73.50 101.50 0 0.5 0.3 1 1 normal @a[scores={vc=13},team=13_gray]
-particle minecraft:dust{scale:4,color:0} 184.53 73.65 103.50 0 0.5 0.3 1 2 normal @a[scores={vc=13},team=13_gray]
+# Light Gray
+particle minecraft:dust{scale:4,color:0} 9147.5 69.0 5073.5 0.3 0.5 0 1 3 normal @a[scores={vc=12},team=12_light_gray]
 
 # Gray
-particle minecraft:dust{scale:4,color:0} 170.51 73.00 106.81 0.3 0.5 0 1 3 normal @a[scores={vc=14},team=14_brown]
-particle minecraft:dust{scale:4,color:0} 166.52 73.65 107.50 0.3 0.5 0 1 2 normal @a[scores={vc=14},team=14_brown]
-particle minecraft:dust{scale:4,color:0} 164.44 73.51 109.48 0 0.5 0.3 1 3 normal @a[scores={vc=14},team=14_brown]
-particle minecraft:dust{scale:4,color:0} 164.44 73.51 111.48 0 0.5 0.3 1 3 normal @a[scores={vc=14},team=14_brown]
-particle minecraft:dust{scale:4,color:0} 170.52 76.50 106.49 0.3 0.5 0 1 3 normal @a[scores={vc=14},team=14_brown]
+particle minecraft:dust{scale:4,color:0} 9136.5 69.5 5082.5 0.3 0.75 0 1 3 normal @a[scores={vc=13},team=13_gray]
+
+# Brown
+particle minecraft:dust{scale:4,color:0} 9130.0 70 5074.5 0 0.5 0.5 1 3 normal @a[scores={vc=14},team=14_brown]
+particle minecraft:dust{scale:4,color:0} 9129.5 70 5074.0 0.3 0.5 0 1 3 normal @a[scores={vc=14},team=14_brown]
 
 # Black
-particle minecraft:dust{scale:4,color:0} 151.49 73.99 112.81 0.3 0.5 0 1 3 normal @a[scores={vc=15},team=15_black]
-particle minecraft:dust{scale:4,color:0} 156.49 74.59 113.50 0.3 0.5 0 1 2 normal @a[scores={vc=15},team=15_black]
+particle minecraft:dust{scale:4,color:0} 9131.5 71.5 5062.5 0 0.75 0.3 1 3 normal @a[scores={vc=15},team=15_black]
