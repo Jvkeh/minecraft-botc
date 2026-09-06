@@ -16,7 +16,7 @@ execute if predicate ct:vc/houses/gray_house run return run function ct:voicecha
 execute if predicate ct:vc/houses/brown_house run return run function ct:voicechat/houses/brown_house
 execute if predicate ct:vc/houses/black_house run return run function ct:voicechat/houses/black_house
 
-execute positioned 9150 70 5017 if predicate ct:vc/town/carousel run return run function ct:voicechat/town/carousel
+execute positioned 9146 70 5018 if predicate ct:vc/town/carousel run return run function ct:voicechat/town/carousel
 execute positioned 9211 72 5080 if predicate ct:vc/town/maypole run return run function ct:voicechat/town/maypole
 execute if predicate ct:vc/town/clocktoss run return run function ct:voicechat/town/clocktoss
 execute if predicate ct:vc/town/bigtop run return run function ct:voicechat/town/bigtop
