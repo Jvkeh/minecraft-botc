@@ -23,7 +23,7 @@ persistentgroup remove "Clocktoss"
 persistentgroup remove "Big Top"
 persistentgroup remove "Poppin Corn"
 persistentgroup remove "Fortune Tent"
-# persistentgroup remove "Jester Head"
+persistentgroup remove "Jester Head"
 
 persistentgroup remove "Town Square"
 
@@ -52,7 +52,7 @@ persistentgroup add "Clocktoss" isolated false ct
 persistentgroup add "Big Top" isolated false ct
 persistentgroup add "Poppin Corn" isolated false ct
 persistentgroup add "Fortune Tent" isolated false ct
-# persistentgroup add "Jester Head" isolated false ct
+persistentgroup add "Jester Head" isolated false ct
 persistentgroup add "Town Square" open false ct
 
 persistentgroup add "Night Chat" isolated false ct
