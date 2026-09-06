@@ -1,6 +1,5 @@
-## non-predicate adding to beet and wheat fields is a temporary measure
-execute at @s if block ~ -64 ~ minecraft:dark_oak_planks run return run function ct:voicechat/beet_field
-execute at @s if block ~ -64 ~ minecraft:oak_planks run return run function ct:voicechat/wheat_field
+## non-predicate adding to cave is a temporary measure
+execute at @s if block ~ -64 ~ minecraft:oak_planks if entity @s[y=77, dy=-15] run return run function ct:voicechat/town/cave
 
 # actual leave management:
 execute if score phase game_data matches 4 if entity @s[tag=universal_vc] run return fail
