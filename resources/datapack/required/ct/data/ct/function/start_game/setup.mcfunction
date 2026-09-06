@@ -30,68 +30,68 @@ team join 02_orange @r[team=,tag=!storyteller,tag=!spectator]
 team join 03_yellow @r[team=,tag=!storyteller,tag=!spectator]
 team join 04_lime @r[team=,tag=!storyteller,tag=!spectator]
 team join 05_green @r[team=,tag=!storyteller,tag=!spectator]
-team join 06_mint @r[team=,tag=!storyteller,tag=!spectator]
-team join 07_cyan @r[team=,tag=!storyteller,tag=!spectator]
+team join 06_cyan @r[team=,tag=!storyteller,tag=!spectator]
+team join 07_light_blue @r[team=,tag=!storyteller,tag=!spectator]
 team join 08_blue @r[team=,tag=!storyteller,tag=!spectator]
-team join 09_navy @r[team=,tag=!storyteller,tag=!spectator]
-team join 10_purple @r[team=,tag=!storyteller,tag=!spectator]
-team join 11_magenta @r[team=,tag=!storyteller,tag=!spectator]
-team join 12_lavender @r[team=,tag=!storyteller,tag=!spectator]
-team join 13_white @r[team=,tag=!storyteller,tag=!spectator]
-team join 14_gray @r[team=,tag=!storyteller,tag=!spectator]
+team join 09_purple @r[team=,tag=!storyteller,tag=!spectator]
+team join 10_magenta @r[team=,tag=!storyteller,tag=!spectator]
+team join 11_pink @r[team=,tag=!storyteller,tag=!spectator]
+team join 12_light_gray @r[team=,tag=!storyteller,tag=!spectator]
+team join 13_gray @r[team=,tag=!storyteller,tag=!spectator]
+team join 14_brown @r[team=,tag=!storyteller,tag=!spectator]
 team join 15_black @r[team=,tag=!storyteller,tag=!spectator]
 
 function ct:util/color_names
 
-data modify block 121 72 68 front_text.messages[1] set value {"selector":"@a[team=01_red]"}
-data modify block 120 72 65 front_text.messages[1] set value {"selector":"@a[team=02_orange]"}
-data modify block 120 72 62 front_text.messages[1] set value {"selector":"@a[team=03_yellow]"}
-data modify block 121 72 59 front_text.messages[1] set value {"selector":"@a[team=04_lime]"}
-data modify block 122 72 58 front_text.messages[1] set value {"selector":"@a[team=05_green]"}
-data modify block 125 72 57 front_text.messages[1] set value {"selector":"@a[team=06_mint]"}
-data modify block 128 72 57 front_text.messages[1] set value {"selector":"@a[team=07_cyan]"}
-data modify block 131 72 58 front_text.messages[1] set value {"selector":"@a[team=08_blue]"}
-data modify block 132 72 59 front_text.messages[1] set value {"selector":"@a[team=09_navy]"}
-data modify block 133 72 62 front_text.messages[1] set value {"selector":"@a[team=10_purple]"}
-data modify block 133 72 65 front_text.messages[1] set value {"selector":"@a[team=11_magenta]"}
-data modify block 132 72 68 front_text.messages[1] set value {"selector":"@a[team=12_lavender]"}
-data modify block 131 72 69 front_text.messages[1] set value {"selector":"@a[team=13_white]"}
-data modify block 128 72 70 front_text.messages[1] set value {"selector":"@a[team=14_gray]"}
-data modify block 125 72 70 front_text.messages[1] set value {"selector":"@a[team=15_black]"}
+data modify block 9166 71 5045 front_text.messages[1] set value {"selector":"@a[team=01_red]","color":"#B02E26"}
+data modify block 9170 71 5044 front_text.messages[1] set value {"selector":"@a[team=02_orange]","color":"#F9801D"}
+data modify block 9174 71 5044 front_text.messages[1] set value {"selector":"@a[team=03_yellow]","color":"#FED83D"}
+data modify block 9178 71 5045 front_text.messages[1] set value {"selector":"@a[team=04_lime]","color":"#80C71F"}
+data modify block 9180 71 5047 front_text.messages[1] set value {"selector":"@a[team=05_green]","color":"#5E7C16"}
+data modify block 9181 71 5051 front_text.messages[1] set value {"selector":"@a[team=06_cyan]","color":"#169C9C"}
+data modify block 9181 71 5055 front_text.messages[1] set value {"selector":"@a[team=07_light_blue]","color":"#3AB3DA"}
+data modify block 9180 71 5059 front_text.messages[1] set value {"selector":"@a[team=08_blue]","color":"#3C44AA"}
+data modify block 9178 71 5061 front_text.messages[1] set value {"selector":"@a[team=09_purple]","color":"#8932B8"}
+data modify block 9174 71 5062 front_text.messages[1] set value {"selector":"@a[team=10_magenta]","color":"#C74EBD"}
+data modify block 9170 71 5062 front_text.messages[1] set value {"selector":"@a[team=11_pink]","color":"#F38BAA"}
+data modify block 9166 71 5061 front_text.messages[1] set value {"selector":"@a[team=12_light_gray]","color":"#9D9D97"}
+data modify block 9164 71 5059 front_text.messages[1] set value {"selector":"@a[team=13_gray]","color":"#474F52"}
+data modify block 9163 71 5055 front_text.messages[1] set value {"selector":"@a[team=14_brown]","color":"#835432"}
+data modify block 9163 71 5051 front_text.messages[1] set value {"selector":"@a[team=15_black]","color":"#1D1D21"}
 
 data remove storage ct:players players
 
-execute if data block 121 72 68 front_text.messages[1].text run data modify storage ct:players players.p1 set from block 121 72 68 front_text.messages[1].hover_event.name
-execute if data block 120 72 65 front_text.messages[1].text run data modify storage ct:players players.p2 set from block 120 72 65 front_text.messages[1].hover_event.name
-execute if data block 120 72 62 front_text.messages[1].text run data modify storage ct:players players.p3 set from block 120 72 62 front_text.messages[1].hover_event.name
-execute if data block 121 72 59 front_text.messages[1].text run data modify storage ct:players players.p4 set from block 121 72 59 front_text.messages[1].hover_event.name
-execute if data block 122 72 58 front_text.messages[1].text run data modify storage ct:players players.p5 set from block 122 72 58 front_text.messages[1].hover_event.name
-execute if data block 125 72 57 front_text.messages[1].text run data modify storage ct:players players.p6 set from block 125 72 57 front_text.messages[1].hover_event.name
-execute if data block 128 72 57 front_text.messages[1].text run data modify storage ct:players players.p7 set from block 128 72 57 front_text.messages[1].hover_event.name
-execute if data block 131 72 58 front_text.messages[1].text run data modify storage ct:players players.p8 set from block 131 72 58 front_text.messages[1].hover_event.name
-execute if data block 132 72 59 front_text.messages[1].text run data modify storage ct:players players.p9 set from block 132 72 59 front_text.messages[1].hover_event.name
-execute if data block 133 72 62 front_text.messages[1].text run data modify storage ct:players players.p10 set from block 133 72 62 front_text.messages[1].hover_event.name
-execute if data block 133 72 65 front_text.messages[1].text run data modify storage ct:players players.p11 set from block 133 72 65 front_text.messages[1].hover_event.name
-execute if data block 132 72 68 front_text.messages[1].text run data modify storage ct:players players.p12 set from block 132 72 68 front_text.messages[1].hover_event.name
-execute if data block 131 72 69 front_text.messages[1].text run data modify storage ct:players players.p13 set from block 131 72 69 front_text.messages[1].hover_event.name
-execute if data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set from block 128 72 70 front_text.messages[1].hover_event.name
-execute if data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set from block 125 72 70 front_text.messages[1].hover_event.name
+execute if data block 9166 71 5045 front_text.messages[1].text run data modify storage ct:players players.p1 set from block 9166 71 5045 front_text.messages[1].hover_event.name
+execute if data block 9170 71 5044 front_text.messages[1].text run data modify storage ct:players players.p2 set from block 9170 71 5044 front_text.messages[1].hover_event.name
+execute if data block 9174 71 5044 front_text.messages[1].text run data modify storage ct:players players.p3 set from block 9174 71 5044 front_text.messages[1].hover_event.name
+execute if data block 9178 71 5045 front_text.messages[1].text run data modify storage ct:players players.p4 set from block 9178 71 5045 front_text.messages[1].hover_event.name
+execute if data block 9180 71 5047 front_text.messages[1].text run data modify storage ct:players players.p5 set from block 9180 71 5047 front_text.messages[1].hover_event.name
+execute if data block 9181 71 5051 front_text.messages[1].text run data modify storage ct:players players.p6 set from block 9181 71 5051 front_text.messages[1].hover_event.name
+execute if data block 9181 71 5055 front_text.messages[1].text run data modify storage ct:players players.p7 set from block 9181 71 5055 front_text.messages[1].hover_event.name
+execute if data block 9180 71 5059 front_text.messages[1].text run data modify storage ct:players players.p8 set from block 9180 71 5059 front_text.messages[1].hover_event.name
+execute if data block 9178 71 5061 front_text.messages[1].text run data modify storage ct:players players.p9 set from block 9178 71 5061 front_text.messages[1].hover_event.name
+execute if data block 9174 71 5062 front_text.messages[1].text run data modify storage ct:players players.p10 set from block 9174 71 5062 front_text.messages[1].hover_event.name
+execute if data block 9170 71 5062 front_text.messages[1].text run data modify storage ct:players players.p11 set from block 9170 71 5062 front_text.messages[1].hover_event.name
+execute if data block 9166 71 5061 front_text.messages[1].text run data modify storage ct:players players.p12 set from block 9166 71 5061 front_text.messages[1].hover_event.name
+execute if data block 9164 71 5059 front_text.messages[1].text run data modify storage ct:players players.p13 set from block 9164 71 5059 front_text.messages[1].hover_event.name
+execute if data block 9163 71 5055 front_text.messages[1].text run data modify storage ct:players players.p14 set from block 9163 71 5055 front_text.messages[1].hover_event.name
+execute if data block 9163 71 5051 front_text.messages[1].text run data modify storage ct:players players.p15 set from block 9163 71 5051 front_text.messages[1].hover_event.name
 
-execute unless data block 121 72 68 front_text.messages[1].text run data modify storage ct:players players.p1 set value "Nobody!"
-execute unless data block 120 72 65 front_text.messages[1].text run data modify storage ct:players players.p2 set value "Nobody!"
-execute unless data block 120 72 62 front_text.messages[1].text run data modify storage ct:players players.p3 set value "Nobody!"
-execute unless data block 121 72 59 front_text.messages[1].text run data modify storage ct:players players.p4 set value "Nobody!"
-execute unless data block 122 72 58 front_text.messages[1].text run data modify storage ct:players players.p5 set value "Nobody!"
-execute unless data block 125 72 57 front_text.messages[1].text run data modify storage ct:players players.p6 set value "Nobody!"
-execute unless data block 128 72 57 front_text.messages[1].text run data modify storage ct:players players.p7 set value "Nobody!"
-execute unless data block 131 72 58 front_text.messages[1].text run data modify storage ct:players players.p8 set value "Nobody!"
-execute unless data block 132 72 59 front_text.messages[1].text run data modify storage ct:players players.p9 set value "Nobody!"
-execute unless data block 133 72 62 front_text.messages[1].text run data modify storage ct:players players.p10 set value "Nobody!"
-execute unless data block 133 72 65 front_text.messages[1].text run data modify storage ct:players players.p11 set value "Nobody!"
-execute unless data block 132 72 68 front_text.messages[1].text run data modify storage ct:players players.p12 set value "Nobody!"
-execute unless data block 131 72 69 front_text.messages[1].text run data modify storage ct:players players.p13 set value "Nobody!"
-execute unless data block 128 72 70 front_text.messages[1].text run data modify storage ct:players players.p14 set value "Nobody!"
-execute unless data block 125 72 70 front_text.messages[1].text run data modify storage ct:players players.p15 set value "Nobody!"
+execute unless data block 9166 71 5045 front_text.messages[1].text run data modify storage ct:players players.p1 set value "Nobody!"
+execute unless data block 9170 71 5044 front_text.messages[1].text run data modify storage ct:players players.p2 set value "Nobody!"
+execute unless data block 9174 71 5044 front_text.messages[1].text run data modify storage ct:players players.p3 set value "Nobody!"
+execute unless data block 9178 71 5045 front_text.messages[1].text run data modify storage ct:players players.p4 set value "Nobody!"
+execute unless data block 9180 71 5047 front_text.messages[1].text run data modify storage ct:players players.p5 set value "Nobody!"
+execute unless data block 9181 71 5051 front_text.messages[1].text run data modify storage ct:players players.p6 set value "Nobody!"
+execute unless data block 9181 71 5055 front_text.messages[1].text run data modify storage ct:players players.p7 set value "Nobody!"
+execute unless data block 9180 71 5059 front_text.messages[1].text run data modify storage ct:players players.p8 set value "Nobody!"
+execute unless data block 9178 71 5061 front_text.messages[1].text run data modify storage ct:players players.p9 set value "Nobody!"
+execute unless data block 9174 71 5062 front_text.messages[1].text run data modify storage ct:players players.p10 set value "Nobody!"
+execute unless data block 9170 71 5062 front_text.messages[1].text run data modify storage ct:players players.p11 set value "Nobody!"
+execute unless data block 9166 71 5061 front_text.messages[1].text run data modify storage ct:players players.p12 set value "Nobody!"
+execute unless data block 9164 71 5059 front_text.messages[1].text run data modify storage ct:players players.p13 set value "Nobody!"
+execute unless data block 9163 71 5055 front_text.messages[1].text run data modify storage ct:players players.p14 set value "Nobody!"
+execute unless data block 9163 71 5051 front_text.messages[1].text run data modify storage ct:players players.p15 set value "Nobody!"
 
 data modify entity @e[tag=house_head,limit=1,scores={house_id=1}] item.components.minecraft:profile.name set from storage ct:players players.p1
 data modify entity @e[tag=house_head,limit=1,scores={house_id=2}] item.components.minecraft:profile.name set from storage ct:players players.p2
@@ -119,15 +119,15 @@ scoreboard players set @a[team=02_orange] id 2
 scoreboard players set @a[team=03_yellow] id 3
 scoreboard players set @a[team=04_lime] id 4
 scoreboard players set @a[team=05_green] id 5
-scoreboard players set @a[team=06_mint] id 6
-scoreboard players set @a[team=07_cyan] id 7
+scoreboard players set @a[team=06_cyan] id 6
+scoreboard players set @a[team=07_light_blue] id 7
 scoreboard players set @a[team=08_blue] id 8
-scoreboard players set @a[team=09_navy] id 9
-scoreboard players set @a[team=10_purple] id 10
-scoreboard players set @a[team=11_magenta] id 11
-scoreboard players set @a[team=12_lavender] id 12
-scoreboard players set @a[team=13_white] id 13
-scoreboard players set @a[team=14_gray] id 14
+scoreboard players set @a[team=09_purple] id 9
+scoreboard players set @a[team=10_magenta] id 10
+scoreboard players set @a[team=11_pink] id 11
+scoreboard players set @a[team=12_light_gray] id 12
+scoreboard players set @a[team=13_gray] id 13
+scoreboard players set @a[team=14_brown] id 14
 scoreboard players set @a[team=15_black] id 15
 
 # execute if score birthday_mode settings matches 1 run item replace entity @a[team=01_red] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_red"]},minecraft:equippable={slot:"head"},minecraft:item_name="Red Party Hat"]
@@ -135,13 +135,13 @@ scoreboard players set @a[team=15_black] id 15
 # execute if score birthday_mode settings matches 1 run item replace entity @a[team=03_yellow] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_yellow"]},minecraft:equippable={slot:"head"},minecraft:item_name="Yellow Party Hat"]
 # execute if score birthday_mode settings matches 1 run item replace entity @a[team=04_lime] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_lime"]},minecraft:equippable={slot:"head"},minecraft:item_name="Lime Party Hat"]
 # execute if score birthday_mode settings matches 1 run item replace entity @a[team=05_green] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Blue Party Hat"]
-# execute if score birthday_mode settings matches 1 run item replace entity @a[team=06_mint] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_purple"]},minecraft:equippable={slot:"head"},minecraft:item_name="Purple Party Hat"]
-# execute if score birthday_mode settings matches 1 run item replace entity @a[team=07_cyan] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_white"]},minecraft:equippable={slot:"head"},minecraft:item_name="White Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=06_cyan] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_purple"]},minecraft:equippable={slot:"head"},minecraft:item_name="Purple Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=07_light_blue] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_white"]},minecraft:equippable={slot:"head"},minecraft:item_name="White Party Hat"]
 # execute if score birthday_mode settings matches 1 run item replace entity @a[team=08_blue] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
-# execute if score birthday_mode settings matches 1 run item replace entity @a[team=09_navy] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_green"]},minecraft:equippable={slot:"head"},minecraft:item_name="Green Party Hat"]
-# execute if score birthday_mode settings matches 1 run item replace entity @a[team=10_purple] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_light_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Light Blue Party Hat"]
-# execute if score birthday_mode settings matches 1 run item replace entity @a[team=11_magenta] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_pink"]},minecraft:equippable={slot:"head"},minecraft:item_name="Pink Party Hat"]
-# execute if score birthday_mode settings matches 1 run item replace entity @a[team=12_lavender] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_brown"]},minecraft:equippable={slot:"head"},minecraft:item_name="Brown Party Hat"]# 
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=09_purple] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_green"]},minecraft:equippable={slot:"head"},minecraft:item_name="Green Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=10_magenta] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_light_blue"]},minecraft:equippable={slot:"head"},minecraft:item_name="Light Blue Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=11_pink] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_pink"]},minecraft:equippable={slot:"head"},minecraft:item_name="Pink Party Hat"]
+# execute if score birthday_mode settings matches 1 run item replace entity @a[team=12_light_gray] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_brown"]},minecraft:equippable={slot:"head"},minecraft:item_name="Brown Party Hat"]# 
 
 # execute if score birthday_mode settings matches 1 run item replace entity @a[tag=storyteller] armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["party_hat_gray"]},minecraft:equippable={slot:"head"},minecraft:item_name="Gray Party Hat"]
 # execute if score birthday_mode settings matches 1 run item replace entity Zinneko armor.head with minecraft:carved_pumpkin[minecraft:custom_model_data={strings:["cake_hat"]},minecraft:equippable={slot:"head"},minecraft:item_name="Cake Hat"]

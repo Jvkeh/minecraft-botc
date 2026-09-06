@@ -47,15 +47,15 @@ team modify 02_orange suffix {"text":""}
 team modify 03_yellow suffix {"text":""}
 team modify 04_lime suffix {"text":""}
 team modify 05_green suffix {"text":""}
-team modify 06_mint suffix {"text":""}
-team modify 07_cyan suffix {"text":""}
+team modify 06_cyan suffix {"text":""}
+team modify 07_light_blue suffix {"text":""}
 team modify 08_blue suffix {"text":""}
-team modify 09_navy suffix {"text":""}
-team modify 10_purple suffix {"text":""}
-team modify 11_magenta suffix {"text":""}
-team modify 12_lavender suffix {"text":""}
-team modify 13_white suffix {"text":""}
-team modify 14_gray suffix {"text":""}
+team modify 09_purple suffix {"text":""}
+team modify 10_magenta suffix {"text":""}
+team modify 11_pink suffix {"text":""}
+team modify 12_light_gray suffix {"text":""}
+team modify 13_gray suffix {"text":""}
+team modify 14_brown suffix {"text":""}
 team modify 15_black suffix {"text":""}
 
 team modify 99_storyteller nametagVisibility always
@@ -64,36 +64,36 @@ team modify 02_orange nametagVisibility always
 team modify 03_yellow nametagVisibility always
 team modify 04_lime nametagVisibility always
 team modify 05_green nametagVisibility always
-team modify 06_mint nametagVisibility always
-team modify 07_cyan nametagVisibility always
+team modify 06_cyan nametagVisibility always
+team modify 07_light_blue nametagVisibility always
 team modify 08_blue nametagVisibility always
-team modify 09_navy nametagVisibility always
-team modify 10_purple nametagVisibility always
-team modify 11_magenta nametagVisibility always
-team modify 12_lavender nametagVisibility always
-team modify 13_white nametagVisibility always
-team modify 14_gray nametagVisibility always
+team modify 09_purple nametagVisibility always
+team modify 10_magenta nametagVisibility always
+team modify 11_pink nametagVisibility always
+team modify 12_light_gray nametagVisibility always
+team modify 13_gray nametagVisibility always
+team modify 14_brown nametagVisibility always
 team modify 15_black nametagVisibility always
 team modify 00_spectator nametagVisibility always
 
 function ct:util/color_prefixes
 function ct:util/reset_in_roles
 
-data modify block 121 72 68 front_text.messages[1] set value {"selector":"@a[team=01_red]"}
-data modify block 120 72 65 front_text.messages[1] set value {"selector":"@a[team=02_orange]"}
-data modify block 120 72 62 front_text.messages[1] set value {"selector":"@a[team=03_yellow]"}
-data modify block 121 72 59 front_text.messages[1] set value {"selector":"@a[team=04_lime]"}
-data modify block 122 72 58 front_text.messages[1] set value {"selector":"@a[team=05_green]"}
-data modify block 125 72 57 front_text.messages[1] set value {"selector":"@a[team=06_mint]"}
-data modify block 128 72 57 front_text.messages[1] set value {"selector":"@a[team=07_cyan]"}
-data modify block 131 72 58 front_text.messages[1] set value {"selector":"@a[team=08_blue]"}
-data modify block 132 72 59 front_text.messages[1] set value {"selector":"@a[team=09_navy]"}
-data modify block 133 72 62 front_text.messages[1] set value {"selector":"@a[team=10_purple]"}
-data modify block 133 72 65 front_text.messages[1] set value {"selector":"@a[team=11_magenta]"}
-data modify block 132 72 68 front_text.messages[1] set value {"selector":"@a[team=12_lavender]"}
-data modify block 131 72 69 front_text.messages[1] set value {"selector":"@a[team=13_white]"}
-data modify block 128 72 70 front_text.messages[1] set value {"selector":"@a[team=14_gray]"}
-data modify block 125 72 70 front_text.messages[1] set value {"selector":"@a[team=15_black]"}
+data modify block 9166 71 5045 front_text.messages[1] set value {"selector":"@a[team=01_red]","color":"#B02E26"}
+data modify block 9170 71 5044 front_text.messages[1] set value {"selector":"@a[team=02_orange]","color":"#F9801D"}
+data modify block 9174 71 5044 front_text.messages[1] set value {"selector":"@a[team=03_yellow]","color":"#FED83D"}
+data modify block 9178 71 5045 front_text.messages[1] set value {"selector":"@a[team=04_lime]","color":"#80C71F"}
+data modify block 9180 71 5047 front_text.messages[1] set value {"selector":"@a[team=05_green]","color":"#5E7C16"}
+data modify block 9181 71 5051 front_text.messages[1] set value {"selector":"@a[team=06_cyan]","color":"#169C9C"}
+data modify block 9181 71 5055 front_text.messages[1] set value {"selector":"@a[team=07_light_blue]","color":"#3AB3DA"}
+data modify block 9180 71 5059 front_text.messages[1] set value {"selector":"@a[team=08_blue]","color":"#3C44AA"}
+data modify block 9178 71 5061 front_text.messages[1] set value {"selector":"@a[team=09_purple]","color":"#8932B8"}
+data modify block 9174 71 5062 front_text.messages[1] set value {"selector":"@a[team=10_magenta]","color":"#C74EBD"}
+data modify block 9170 71 5062 front_text.messages[1] set value {"selector":"@a[team=11_pink]","color":"#F38BAA"}
+data modify block 9166 71 5061 front_text.messages[1] set value {"selector":"@a[team=12_light_gray]","color":"#9D9D97"}
+data modify block 9164 71 5059 front_text.messages[1] set value {"selector":"@a[team=13_gray]","color":"#474F52"}
+data modify block 9163 71 5055 front_text.messages[1] set value {"selector":"@a[team=14_brown]","color":"#835432"}
+data modify block 9163 71 5051 front_text.messages[1] set value {"selector":"@a[team=15_black]","color":"#1D1D21"}
 execute as @e[type=minecraft:item_display,tag=house_head] run data modify entity @s view_range set value 0
 execute as @e[type=minecraft:text_display,tag=home_label] run data modify entity @s view_range set value 0
 

@@ -30,15 +30,15 @@ team add 02_orange
 team add 03_yellow
 team add 04_lime
 team add 05_green
-team add 06_mint
-team add 07_cyan
+team add 06_cyan
+team add 07_light_blue
 team add 08_blue
-team add 09_navy
-team add 10_purple
-team add 11_magenta
-team add 12_lavender
-team add 13_white
-team add 14_gray
+team add 09_purple
+team add 10_magenta
+team add 11_pink
+team add 12_light_gray
+team add 13_gray
+team add 14_brown
 team add 15_black
 
 team modify 99_storyteller collisionRule never
@@ -47,15 +47,15 @@ team modify 02_orange collisionRule never
 team modify 03_yellow collisionRule never
 team modify 04_lime collisionRule never
 team modify 05_green collisionRule never
-team modify 06_mint collisionRule never
-team modify 07_cyan collisionRule never
+team modify 06_cyan collisionRule never
+team modify 07_light_blue collisionRule never
 team modify 08_blue collisionRule never
-team modify 09_navy collisionRule never
-team modify 10_purple collisionRule never
-team modify 11_magenta collisionRule never
-team modify 12_lavender collisionRule never
-team modify 13_white collisionRule never
-team modify 14_gray collisionRule never
+team modify 09_purple collisionRule never
+team modify 10_magenta collisionRule never
+team modify 11_pink collisionRule never
+team modify 12_light_gray collisionRule never
+team modify 13_gray collisionRule never
+team modify 14_brown collisionRule never
 team modify 15_black collisionRule never
 team modify 00_spectator prefix {"text":"👁 ","color":"gray"}
 team modify 99_storyteller prefix {"text":"✎ ","color":"gray"}
@@ -68,15 +68,15 @@ team modify 02_orange nametagVisibility never
 team modify 03_yellow nametagVisibility never
 team modify 04_lime nametagVisibility never
 team modify 05_green nametagVisibility never
-team modify 06_mint nametagVisibility never
-team modify 07_cyan nametagVisibility never
+team modify 06_cyan nametagVisibility never
+team modify 07_light_blue nametagVisibility never
 team modify 08_blue nametagVisibility never
-team modify 09_navy nametagVisibility never
-team modify 10_purple nametagVisibility never
-team modify 11_magenta nametagVisibility never
-team modify 12_lavender nametagVisibility never
-team modify 13_white nametagVisibility never
-team modify 14_gray nametagVisibility never
+team modify 09_purple nametagVisibility never
+team modify 10_magenta nametagVisibility never
+team modify 11_pink nametagVisibility never
+team modify 12_light_gray nametagVisibility never
+team modify 13_gray nametagVisibility never
+team modify 14_brown nametagVisibility never
 team modify 15_black nametagVisibility never
 team modify 00_spectator nametagVisibility never
 

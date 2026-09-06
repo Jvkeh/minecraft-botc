@@ -18,15 +18,15 @@ team modify 02_orange nametagVisibility always
 team modify 03_yellow nametagVisibility always
 team modify 04_lime nametagVisibility always
 team modify 05_green nametagVisibility always
-team modify 06_mint nametagVisibility always
-team modify 07_cyan nametagVisibility always
+team modify 06_cyan nametagVisibility always
+team modify 07_light_blue nametagVisibility always
 team modify 08_blue nametagVisibility always
-team modify 09_navy nametagVisibility always
-team modify 10_purple nametagVisibility always
-team modify 11_magenta nametagVisibility always
-team modify 12_lavender nametagVisibility always
-team modify 13_white nametagVisibility always
-team modify 14_gray nametagVisibility always
+team modify 09_purple nametagVisibility always
+team modify 10_magenta nametagVisibility always
+team modify 11_pink nametagVisibility always
+team modify 12_light_gray nametagVisibility always
+team modify 13_gray nametagVisibility always
+team modify 14_brown nametagVisibility always
 team modify 15_black nametagVisibility always
 team modify 00_spectator nametagVisibility always
 

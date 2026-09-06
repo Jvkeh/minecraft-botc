@@ -75,19 +75,7 @@ config/fancymenu/user_variables.db
 
 /saves/seed1
 /saves/test
-/saves/world/playerdata
-/saves/world/poi
-/saves/world/stats
-saves/world/data/command_storage_ct.dat
-saves/world/data/Mansion_index.dat
-saves/world/data/Mineshaft_index.dat
-saves/world/data/Monument_index.dat
-saves/world/data/raids.dat
-saves/world/data/random_sequences.dat
-saves/world/data/Stronghold_index.dat
-saves/world/data/Temple_index.dat
-saves/world/data/Village_index.dat
-saves/world/advancements
+/saves/world
 
 saves/Olly's Carnival/playerdata
 saves/Olly's Carnival/poi

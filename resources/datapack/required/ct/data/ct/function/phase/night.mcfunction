@@ -23,15 +23,15 @@ team modify 02_orange nametagVisibility never
 team modify 03_yellow nametagVisibility never
 team modify 04_lime nametagVisibility never
 team modify 05_green nametagVisibility never
-team modify 06_mint nametagVisibility never
-team modify 07_cyan nametagVisibility never
+team modify 06_cyan nametagVisibility never
+team modify 07_light_blue nametagVisibility never
 team modify 08_blue nametagVisibility never
-team modify 09_navy nametagVisibility never
-team modify 10_purple nametagVisibility never
-team modify 11_magenta nametagVisibility never
-team modify 12_lavender nametagVisibility never
-team modify 13_white nametagVisibility never
-team modify 14_gray nametagVisibility never
+team modify 09_purple nametagVisibility never
+team modify 10_magenta nametagVisibility never
+team modify 11_pink nametagVisibility never
+team modify 12_light_gray nametagVisibility never
+team modify 13_gray nametagVisibility never
+team modify 14_brown nametagVisibility never
 team modify 15_black nametagVisibility never
 team modify 00_spectator nametagVisibility never
 

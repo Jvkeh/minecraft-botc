@@ -1,18 +1,18 @@
 execute if entity @s[tag=!storyteller] run return run function ct:error/not_storyteller
 execute if score phase game_data matches 0 run return run function ct:error/game_not_active
 
-tp @a[team=01_red] 120.33 72.50 68.44 241.44 0
-tp @a[team=02_orange] 119.36 72.50 65.40 257.59 0
-tp @a[team=03_yellow] 119.33 72.50 62.54 281.36 0
-tp @a[team=04_lime] 120.51 72.50 59.37 301.08 0
-tp @a[team=05_green] 122.48 72.50 57.47 328.49 0
-tp @a[team=06_mint] 125.49 72.50 56.30 347.96 0
-tp @a[team=07_cyan] 128.58 72.50 56.30 370.41 0
-tp @a[team=08_blue] 131.58 72.50 57.41 393.68 0
-tp @a[team=09_navy] 133.70 72.50 59.55 416.96 0
-tp @a[team=10_purple] 134.63 72.50 62.67 439.65 0
-tp @a[team=11_magenta] 134.70 72.50 65.44 461.60 0
-tp @a[team=12_lavender] 133.70 72.50 68.49 482.81 0
-tp @a[team=13_white] 131.52 72.50 70.70 505.51 0
-tp @a[team=14_gray] 128.61 72.50 71.70 528.45 0
-tp @a[team=15_black] 125.68 72.50 71.54 549.33 0
+tp @a[team=01_red] 9166 71.5 5044 -33.7 0
+tp @a[team=02_orange] 9170 71.5 5043 -11.3 0
+tp @a[team=03_yellow] 9174 71.5 5043 11.3 0
+tp @a[team=04_lime] 9178 71.5 5044 33.7 0
+tp @a[team=05_green] 9181 71.5 5047 56.3 0
+tp @a[team=06_cyan] 9182 71.5 5051 78.7 0
+tp @a[team=07_light_blue] 9182 71.5 5055 101.3 0
+tp @a[team=08_blue] 9181 71.5 5059 123.7 0
+tp @a[team=09_purple] 9178 71.5 5062 146.3 0
+tp @a[team=10_magenta] 9174 71.5 5063 168.7 0
+tp @a[team=11_pink] 9170 71.5 5063 -168.7 0
+tp @a[team=12_light_gray] 9166 71.5 5062 -146.3 0
+tp @a[team=13_gray] 9163 71.5 5059 -123.7 0
+tp @a[team=14_brown] 9162 71.5 5055 -101.3 0
+tp @a[team=15_black] 9162 71.5 5051 -78.7 0

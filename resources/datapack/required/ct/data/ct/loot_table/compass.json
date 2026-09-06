@@ -181,7 +181,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "06_mint"
+                        "team": "06_cyan"
                       }
                     }
                   ]
@@ -211,7 +211,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "07_cyan"
+                        "team": "07_light_blue"
                       }
                     }
                   ]
@@ -271,7 +271,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "09_navy"
+                        "team": "09_purple"
                       }
                     }
                   ]
@@ -301,7 +301,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "10_purple"
+                        "team": "10_magenta"
                       }
                     }
                   ]
@@ -331,7 +331,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "12_lavender"
+                        "team": "12_light_gray"
                       }
                     }
                   ]
@@ -361,7 +361,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "11_magenta"
+                        "team": "11_pink"
                       }
                     }
                   ]
@@ -391,7 +391,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "13_white"
+                        "team": "13_gray"
                       }
                     }
                   ]
@@ -421,7 +421,7 @@
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
-                        "team": "14_gray"
+                        "team": "14_brown"
                       }
                     }
                   ]

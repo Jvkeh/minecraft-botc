@@ -21,7 +21,7 @@ clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["star
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_yes"]}]
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_no"]}]
 clear @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={strings:["voting_ghost"]}]
-tp @s[tag=spectator] 122 72 70 -145 0
+tp @s[tag=spectator] 9172 70.5 5053 180 0
 gamemode adventure @s[tag=!storyteller]
 team leave @s[team=00_spectator]
 effect clear @s minecraft:blindness
