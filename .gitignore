@@ -70,13 +70,14 @@ config/yawp-logging.toml
 config/yawp-region-defaults.toml
 config/voicechat-client
 config/simplemacro
-/saves/seed1
-/saves/world/playerdata
 config/fancymenu/user_variables.db
+/.mixin.out
+
+/saves/seed1
+/saves/test
+/saves/world/playerdata
 /saves/world/poi
 /saves/world/stats
-/.mixin.out
-/saves/test
 saves/world/data/command_storage_ct.dat
 saves/world/data/Mansion_index.dat
 saves/world/data/Mineshaft_index.dat
@@ -86,13 +87,35 @@ saves/world/data/random_sequences.dat
 saves/world/data/Stronghold_index.dat
 saves/world/data/Temple_index.dat
 saves/world/data/Village_index.dat
+saves/world/advancements
+
+saves/Olly's Carnival/playerdata
+saves/Olly's Carnival/poi
+saves/Olly's Carnival/stats
+saves/Olly's Carnival/data/command_storage_ct.dat
+saves/Olly's Carnival/data/Mansion_index.dat
+saves/Olly's Carnival/data/Mineshaft_index.dat
+saves/Olly's Carnival/data/Monument_index.dat
+saves/Olly's Carnival/data/raids.dat
+saves/Olly's Carnival/data/random_sequences.dat
+saves/Olly's Carnival/data/Stronghold_index.dat
+saves/Olly's Carnival/data/Temple_index.dat
+saves/Olly's Carnival/data/Village_index.dat
+saves/Olly's Carnival/advancements
+
+
 config/cardinal-components-api.properties
 /config/polymer
 config/slurs_filter.txt
 /polymer
-config/fancymenu/ui_themes/cherry_blossom.json
-config/fancymenu/ui_themes/cozy_campfire.json
 config/lingua_bib.json
 config/gpu_booster_config.json
-/saves/world/advancements
+config/rinku/rinku.properties
+
 .vscode/
+rinku-libraries/
+icon.png
+config/fancymenu/ui_themes/
+
+resources/datapack/required/ct/commands.json
+resources/datapack/required/ct/spyglass.json

@@ -2,7 +2,7 @@ type = user_variables
 
 variable {
   name = p5_alive
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -50,7 +50,7 @@ variable {
 
 variable {
   name = current_day
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -74,7 +74,7 @@ variable {
 
 variable {
   name = dev
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 3
+  value = 0
   reset_on_launch = false
 }
 
@@ -626,7 +626,7 @@ variable {
 
 variable {
   name = last_nom
-  value = axrelius
+  value = none
   reset_on_launch = false
 }
 
@@ -1118,7 +1118,7 @@ variable {
 
 variable {
   name = minion_count
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 13:34
+  value = 22:36
   reset_on_launch = false
 }
 
@@ -1880,7 +1880,7 @@ variable {
 
 variable {
   name = player_1
-  value = emmarkus
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1898,13 +1898,13 @@ variable {
 
 variable {
   name = player_5
-  value = Sir_Winn
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = axrelius
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1916,13 +1916,13 @@ variable {
 
 variable {
   name = player_3
-  value = Shanl0k
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Xx_HIkar1_xX
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -2030,7 +2030,7 @@ variable {
 
 variable {
   name = town_count
-  value = 3
+  value = 9
   reset_on_launch = false
 }
 
@@ -2090,7 +2090,7 @@ variable {
 
 variable {
   name = game_active
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2210,7 +2210,7 @@ variable {
 
 variable {
   name = player_count
-  value = 0
+  value = 15
   reset_on_launch = false
 }
 
@@ -2336,7 +2336,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 13
+  value = 0
   reset_on_launch = false
 }
 
@@ -2498,7 +2498,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 0
+  value = 2
   reset_on_launch = false
 }
 
@@ -2606,7 +2606,7 @@ variable {
 
 variable {
   name = phase
-  value = 3
+  value = 0
   reset_on_launch = false
 }
 
@@ -2642,7 +2642,7 @@ variable {
 
 variable {
   name = p2_alive
-  value = false
+  value = true
   reset_on_launch = false
 }
 

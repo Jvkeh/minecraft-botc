@@ -172,6 +172,17 @@
       {
         "when": {
           "strings": [
+            "house_brown"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/brown"
+        }
+      },      
+      {
+        "when": {
+          "strings": [
             "house_cyan"
           ]
         },
@@ -205,12 +216,23 @@
       {
         "when": {
           "strings": [
-            "house_lavender"
+            "house_light_blue"
           ]
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/house/lavender"
+          "model": "minecraft:item/house/light_blue"
+        }
+      },
+      {
+        "when": {
+          "strings": [
+            "house_light_gray"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/light_gray"
         }
       },
       {
@@ -238,28 +260,6 @@
       {
         "when": {
           "strings": [
-            "house_mint"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/house/mint"
-        }
-      },
-      {
-        "when": {
-          "strings": [
-            "house_navy"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/house/navy"
-        }
-      },
-      {
-        "when": {
-          "strings": [
             "house_orange"
           ]
         },
@@ -268,6 +268,17 @@
           "model": "minecraft:item/house/orange"
         }
       },
+      {
+        "when": {
+          "strings": [
+            "house_pink"
+          ]
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/house/pink"
+        }
+      },      
       {
         "when": {
           "strings": [
@@ -288,17 +299,6 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/house/red"
-        }
-      },
-      {
-        "when": {
-          "strings": [
-            "house_white"
-          ]
-        },
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/house/white"
         }
       },
       {

@@ -57,6 +57,3 @@ net.minecraft.class_8219 {
 de.maxhenkel.voicechat.gui.group.GroupScreen {
 }
 
-de.maxhenkel.voicechat.gui.VoiceChatScreen {
-}
-
