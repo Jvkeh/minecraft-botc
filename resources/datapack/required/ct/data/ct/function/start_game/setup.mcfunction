@@ -61,37 +61,37 @@ data modify block 9163 71 5051 front_text.messages[1] set value {"selector":"@a[
 
 data remove storage ct:players players
 
-execute if data block 9166 71 5045 front_text.messages[1].text run data modify storage ct:players players.p1 set from block 9166 71 5045 front_text.messages[1].hover_event.name
-execute if data block 9170 71 5044 front_text.messages[1].text run data modify storage ct:players players.p2 set from block 9170 71 5044 front_text.messages[1].hover_event.name
-execute if data block 9174 71 5044 front_text.messages[1].text run data modify storage ct:players players.p3 set from block 9174 71 5044 front_text.messages[1].hover_event.name
-execute if data block 9178 71 5045 front_text.messages[1].text run data modify storage ct:players players.p4 set from block 9178 71 5045 front_text.messages[1].hover_event.name
-execute if data block 9180 71 5047 front_text.messages[1].text run data modify storage ct:players players.p5 set from block 9180 71 5047 front_text.messages[1].hover_event.name
-execute if data block 9181 71 5051 front_text.messages[1].text run data modify storage ct:players players.p6 set from block 9181 71 5051 front_text.messages[1].hover_event.name
-execute if data block 9181 71 5055 front_text.messages[1].text run data modify storage ct:players players.p7 set from block 9181 71 5055 front_text.messages[1].hover_event.name
-execute if data block 9180 71 5059 front_text.messages[1].text run data modify storage ct:players players.p8 set from block 9180 71 5059 front_text.messages[1].hover_event.name
-execute if data block 9178 71 5061 front_text.messages[1].text run data modify storage ct:players players.p9 set from block 9178 71 5061 front_text.messages[1].hover_event.name
-execute if data block 9174 71 5062 front_text.messages[1].text run data modify storage ct:players players.p10 set from block 9174 71 5062 front_text.messages[1].hover_event.name
-execute if data block 9170 71 5062 front_text.messages[1].text run data modify storage ct:players players.p11 set from block 9170 71 5062 front_text.messages[1].hover_event.name
-execute if data block 9166 71 5061 front_text.messages[1].text run data modify storage ct:players players.p12 set from block 9166 71 5061 front_text.messages[1].hover_event.name
-execute if data block 9164 71 5059 front_text.messages[1].text run data modify storage ct:players players.p13 set from block 9164 71 5059 front_text.messages[1].hover_event.name
-execute if data block 9163 71 5055 front_text.messages[1].text run data modify storage ct:players players.p14 set from block 9163 71 5055 front_text.messages[1].hover_event.name
-execute if data block 9163 71 5051 front_text.messages[1].text run data modify storage ct:players players.p15 set from block 9163 71 5051 front_text.messages[1].hover_event.name
+execute if data block 9166 71 5045 front_text.messages[1].extra run data modify storage ct:players players.p1 set from block 9166 71 5045 front_text.messages[1].hover_event.name
+execute if data block 9170 71 5044 front_text.messages[1].extra run data modify storage ct:players players.p2 set from block 9170 71 5044 front_text.messages[1].hover_event.name
+execute if data block 9174 71 5044 front_text.messages[1].extra run data modify storage ct:players players.p3 set from block 9174 71 5044 front_text.messages[1].hover_event.name
+execute if data block 9178 71 5045 front_text.messages[1].extra run data modify storage ct:players players.p4 set from block 9178 71 5045 front_text.messages[1].hover_event.name
+execute if data block 9180 71 5047 front_text.messages[1].extra run data modify storage ct:players players.p5 set from block 9180 71 5047 front_text.messages[1].hover_event.name
+execute if data block 9181 71 5051 front_text.messages[1].extra run data modify storage ct:players players.p6 set from block 9181 71 5051 front_text.messages[1].hover_event.name
+execute if data block 9181 71 5055 front_text.messages[1].extra run data modify storage ct:players players.p7 set from block 9181 71 5055 front_text.messages[1].hover_event.name
+execute if data block 9180 71 5059 front_text.messages[1].extra run data modify storage ct:players players.p8 set from block 9180 71 5059 front_text.messages[1].hover_event.name
+execute if data block 9178 71 5061 front_text.messages[1].extra run data modify storage ct:players players.p9 set from block 9178 71 5061 front_text.messages[1].hover_event.name
+execute if data block 9174 71 5062 front_text.messages[1].extra run data modify storage ct:players players.p10 set from block 9174 71 5062 front_text.messages[1].hover_event.name
+execute if data block 9170 71 5062 front_text.messages[1].extra run data modify storage ct:players players.p11 set from block 9170 71 5062 front_text.messages[1].hover_event.name
+execute if data block 9166 71 5061 front_text.messages[1].extra run data modify storage ct:players players.p12 set from block 9166 71 5061 front_text.messages[1].hover_event.name
+execute if data block 9164 71 5059 front_text.messages[1].extra run data modify storage ct:players players.p13 set from block 9164 71 5059 front_text.messages[1].hover_event.name
+execute if data block 9163 71 5055 front_text.messages[1].extra run data modify storage ct:players players.p14 set from block 9163 71 5055 front_text.messages[1].hover_event.name
+execute if data block 9163 71 5051 front_text.messages[1].extra run data modify storage ct:players players.p15 set from block 9163 71 5051 front_text.messages[1].hover_event.name
 
-execute unless data block 9166 71 5045 front_text.messages[1].text run data modify storage ct:players players.p1 set value "Nobody!"
-execute unless data block 9170 71 5044 front_text.messages[1].text run data modify storage ct:players players.p2 set value "Nobody!"
-execute unless data block 9174 71 5044 front_text.messages[1].text run data modify storage ct:players players.p3 set value "Nobody!"
-execute unless data block 9178 71 5045 front_text.messages[1].text run data modify storage ct:players players.p4 set value "Nobody!"
-execute unless data block 9180 71 5047 front_text.messages[1].text run data modify storage ct:players players.p5 set value "Nobody!"
-execute unless data block 9181 71 5051 front_text.messages[1].text run data modify storage ct:players players.p6 set value "Nobody!"
-execute unless data block 9181 71 5055 front_text.messages[1].text run data modify storage ct:players players.p7 set value "Nobody!"
-execute unless data block 9180 71 5059 front_text.messages[1].text run data modify storage ct:players players.p8 set value "Nobody!"
-execute unless data block 9178 71 5061 front_text.messages[1].text run data modify storage ct:players players.p9 set value "Nobody!"
-execute unless data block 9174 71 5062 front_text.messages[1].text run data modify storage ct:players players.p10 set value "Nobody!"
-execute unless data block 9170 71 5062 front_text.messages[1].text run data modify storage ct:players players.p11 set value "Nobody!"
-execute unless data block 9166 71 5061 front_text.messages[1].text run data modify storage ct:players players.p12 set value "Nobody!"
-execute unless data block 9164 71 5059 front_text.messages[1].text run data modify storage ct:players players.p13 set value "Nobody!"
-execute unless data block 9163 71 5055 front_text.messages[1].text run data modify storage ct:players players.p14 set value "Nobody!"
-execute unless data block 9163 71 5051 front_text.messages[1].text run data modify storage ct:players players.p15 set value "Nobody!"
+execute unless data block 9166 71 5045 front_text.messages[1].extra run data modify storage ct:players players.p1 set value "Nobody!"
+execute unless data block 9170 71 5044 front_text.messages[1].extra run data modify storage ct:players players.p2 set value "Nobody!"
+execute unless data block 9174 71 5044 front_text.messages[1].extra run data modify storage ct:players players.p3 set value "Nobody!"
+execute unless data block 9178 71 5045 front_text.messages[1].extra run data modify storage ct:players players.p4 set value "Nobody!"
+execute unless data block 9180 71 5047 front_text.messages[1].extra run data modify storage ct:players players.p5 set value "Nobody!"
+execute unless data block 9181 71 5051 front_text.messages[1].extra run data modify storage ct:players players.p6 set value "Nobody!"
+execute unless data block 9181 71 5055 front_text.messages[1].extra run data modify storage ct:players players.p7 set value "Nobody!"
+execute unless data block 9180 71 5059 front_text.messages[1].extra run data modify storage ct:players players.p8 set value "Nobody!"
+execute unless data block 9178 71 5061 front_text.messages[1].extra run data modify storage ct:players players.p9 set value "Nobody!"
+execute unless data block 9174 71 5062 front_text.messages[1].extra run data modify storage ct:players players.p10 set value "Nobody!"
+execute unless data block 9170 71 5062 front_text.messages[1].extra run data modify storage ct:players players.p11 set value "Nobody!"
+execute unless data block 9166 71 5061 front_text.messages[1].extra run data modify storage ct:players players.p12 set value "Nobody!"
+execute unless data block 9164 71 5059 front_text.messages[1].extra run data modify storage ct:players players.p13 set value "Nobody!"
+execute unless data block 9163 71 5055 front_text.messages[1].extra run data modify storage ct:players players.p14 set value "Nobody!"
+execute unless data block 9163 71 5051 front_text.messages[1].extra run data modify storage ct:players players.p15 set value "Nobody!"
 
 data modify entity @e[tag=house_head,limit=1,scores={house_id=1}] item.components.minecraft:profile.name set from storage ct:players players.p1
 data modify entity @e[tag=house_head,limit=1,scores={house_id=2}] item.components.minecraft:profile.name set from storage ct:players players.p2

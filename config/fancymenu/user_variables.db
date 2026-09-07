@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = alive_players
-  value = 15
+  value = 5
   reset_on_launch = false
 }
 
@@ -164,13 +164,13 @@ variable {
 
 variable {
   name = player_15
-  value = Steve
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_13
-  value = Ari
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -188,7 +188,7 @@ variable {
 
 variable {
   name = player_14
-  value = Shane
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -338,7 +338,7 @@ variable {
 
 variable {
   name = player_11
-  value = Makena
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = player_12
-  value = Zack
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -368,7 +368,7 @@ variable {
 
 variable {
   name = player_10
-  value = Celeste
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1118,7 +1118,7 @@ variable {
 
 variable {
   name = minion_count
-  value = 3
+  value = 1
   reset_on_launch = false
 }
 
@@ -1196,7 +1196,7 @@ variable {
 
 variable {
   name = day_start
-  value = 20:18
+  value = 21:52
   reset_on_launch = false
 }
 
@@ -1880,7 +1880,7 @@ variable {
 
 variable {
   name = player_1
-  value = Emma
+  value = Abraxyn
   reset_on_launch = false
 }
 
@@ -1898,13 +1898,13 @@ variable {
 
 variable {
   name = player_5
-  value = anya
+  value = emmarkus
   reset_on_launch = false
 }
 
 variable {
   name = player_4
-  value = Olivia
+  value = axrelius
   reset_on_launch = false
 }
 
@@ -1916,19 +1916,19 @@ variable {
 
 variable {
   name = player_3
-  value = Selina
+  value = Allie_Cat
   reset_on_launch = false
 }
 
 variable {
   name = player_2
-  value = Alex
+  value = Sybillian
   reset_on_launch = false
 }
 
 variable {
   name = player_9
-  value = efe
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -1940,19 +1940,19 @@ variable {
 
 variable {
   name = player_8
-  value = Sunny
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_7
-  value = Will
+  value = Nobody!
   reset_on_launch = false
 }
 
 variable {
   name = player_6
-  value = Kai
+  value = Nobody!
   reset_on_launch = false
 }
 
@@ -2030,7 +2030,7 @@ variable {
 
 variable {
   name = town_count
-  value = 9
+  value = 3
   reset_on_launch = false
 }
 
@@ -2210,7 +2210,7 @@ variable {
 
 variable {
   name = player_count
-  value = 0
+  value = 5
   reset_on_launch = false
 }
 
@@ -2300,7 +2300,7 @@ variable {
 
 variable {
   name = random_hint
-  value = 11
+  value = 7
   reset_on_launch = false
 }
 
@@ -2336,7 +2336,7 @@ variable {
 
 variable {
   name = stored_player_count
-  value = 15
+  value = 5
   reset_on_launch = false
 }
 
@@ -2498,7 +2498,7 @@ variable {
 
 variable {
   name = outsider_count
-  value = 2
+  value = 0
   reset_on_launch = false
 }
 
