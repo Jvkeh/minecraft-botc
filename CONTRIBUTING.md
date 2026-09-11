@@ -9,6 +9,6 @@ Check out the Issues page to either report a new bug or see if one's already ope
 Not all issues are bugs! An ultimate goal of this pack is 1:1 parity with the in-person board game, so if you find that there is a parity issue, reporting it is a huge help. This doesn't just mean missing features; for instance, in the past there was an issue where you could loosely extrapolate where the Storyteller was at night by hearing footsteps and doors opening. This isn't exactly a bug, but it is a trait that is inconsistent with the IRL game, and as such was categorized as a Parity issue.
 
 ## Writing Code
-You can check out the Issues page on this repository to see a list of things that need added or changed.
+You can check out the Issues page on this repository to see a list of things that need added or changed. If an issue is not already closed or assigned to someone, you can reasonably assume that it's still in need of fixing! Please target pull requests to the upcoming version branch instead of main.
 
 As of right now, I am only accepting pull requests to resolve bug reports, not implementations of new features except as required to fix a bug. This policy is due to the personal "passion project" nature of this pack, and may change in the future.
