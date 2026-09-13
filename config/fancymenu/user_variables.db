@@ -944,7 +944,7 @@ variable {
 
 variable {
   name = storyteller
-  value = true
+  value = false
   reset_on_launch = false
 }
 
@@ -2198,7 +2198,7 @@ variable {
 
 variable {
   name = player_count
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 

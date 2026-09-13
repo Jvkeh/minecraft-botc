@@ -4,174 +4,174 @@
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "f600e1f4-f914-4d91-a051-c4001bf522b9"
+    "id": "83c1baa8-2e44-4f24-983a-61bfcadd2f90"
   },
   {
     "name": "Orange House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "68aece4d-2071-4356-9450-142351320924"
+    "id": "baec16fb-90f5-43ba-b68b-7edcf6297972"
   },
   {
     "name": "Yellow House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "8a0421f0-bda8-4de5-9694-839929b44ab0"
+    "id": "327c9bc4-a732-4e2e-8ed7-8b43312f4f5d"
   },
   {
     "name": "Lime House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "23476b48-b11f-4074-9edd-811fbebf40b8"
+    "id": "c60d8f9f-a94d-40eb-98b6-e741bbd51a89"
   },
   {
     "name": "Green House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "963eefdc-1005-4dec-b7b2-28cc73606ef7"
+    "id": "1a4b18fd-9876-485a-ace6-236bb245adf2"
   },
   {
     "name": "Mint House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "5f142397-107c-4ee0-a478-287ea240a21f"
+    "id": "876f1187-f3c3-449e-9b43-09b2feb6d229"
   },
   {
     "name": "Cyan House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "da298aae-6d07-429c-85d9-2458dcd39178"
+    "id": "8b9adcfd-55b6-4583-aead-a3d36a31cc16"
   },
   {
     "name": "Blue House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "042f8cb8-cce3-41fd-99d4-244741713dcc"
+    "id": "2e134605-067f-4c07-a0b0-b1459f967ddf"
   },
   {
     "name": "Navy House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "9ad16916-0e0e-43bc-b348-3cc3f0e2a384"
+    "id": "d862b5c7-d4ae-434b-b531-57a8dbc10902"
   },
   {
     "name": "Purple House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "ffaa42b5-5fb1-4038-9057-6706f996924f"
+    "id": "2e6c44b3-ca3b-4361-8613-3c81b87ef717"
   },
   {
     "name": "Lavender House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "a71b0a23-4d73-4b99-bb89-497c071e7b94"
+    "id": "6aa4e87b-c358-4e8c-b11a-3ffec6171db3"
   },
   {
     "name": "Magenta House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "e30dc52c-f67a-4f5d-811b-67b48369a16a"
+    "id": "3a0784f7-3824-4e4b-bc7c-a97404bf4690"
   },
   {
     "name": "White House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "45f01493-11ae-4303-a1be-667ffeedce35"
+    "id": "ab5ec08c-b75d-4d24-bfe6-f098751cca53"
   },
   {
     "name": "Gray House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "325a4cc6-7908-4d46-a3be-94d6c486fcc6"
+    "id": "142d59b5-b4e4-4a98-ab48-72d2b64ddaf9"
   },
   {
     "name": "Black House",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": true,
-    "id": "d50d475f-fbcd-4bc5-b6e7-ab83aa7e4ce7"
+    "id": "f92de026-088c-4f28-a43b-3714d1da94ed"
   },
   {
     "name": "Beet Field",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "05066b92-313f-4c56-8361-cd5ff46648da"
+    "id": "21e6def0-7676-461b-a96a-67e3915f7f99"
   },
   {
     "name": "Wheat Field",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "28865d48-deba-43b7-8f04-70821dc1bd6f"
+    "id": "38a31e78-282c-49e3-a166-2d847efb61c8"
   },
   {
     "name": "Church of Miku",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "89801302-009b-4f4b-b4ec-e05bdda2bd76"
+    "id": "f83eef76-56b6-4d57-be39-5128982b818b"
   },
   {
     "name": "Graveyard",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "eb4e97bc-8af5-4faa-ba97-2977d3d841b1"
+    "id": "473f6e7b-b06b-4182-a1cb-213f5fe42f71"
   },
   {
     "name": "Inn",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "1448fef7-6035-499b-b6d7-36e418cd455e"
+    "id": "36245186-1109-4233-96a9-4ccb1dc6d5de"
   },
   {
     "name": "Greenhouse",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "4e416273-7dea-44c9-99b7-3856f83df200"
+    "id": "ef56db8c-88cf-4d02-9118-e4cb75767843"
   },
   {
     "name": "Bakery",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "5d8a2b69-d4db-426b-b296-96872677a6bd"
+    "id": "851e3f77-babc-4a38-a6d3-3e01d01cfd93"
   },
   {
     "name": "Storyteller Den",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "ae1e9129-885b-4f61-bad8-06d7b73be844"
+    "id": "c8d6fcab-38eb-4236-a6be-2480f0711a24"
   },
   {
     "name": "Town Square",
     "password": "ct",
     "type": "OPEN",
     "hidden": false,
-    "id": "efefe320-a6f5-446b-a450-6de73838324a"
+    "id": "1479e799-0e78-4551-b411-f7e712c54d85"
   },
   {
     "name": "Night Chat",
     "password": "ct",
     "type": "ISOLATED",
     "hidden": false,
-    "id": "772fc38f-4545-4e4f-a5b3-af14d41f3784"
+    "id": "20265fb2-d108-4b48-b6c9-0373b6584cdf"
   }
 ]
